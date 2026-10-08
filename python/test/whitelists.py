@@ -757,6 +757,8 @@ JOURNAL_OWNER_CHANGED = {
 	"0028-4289": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # New Blackfriars
 	"1741-2005": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # New Blackfriars (electronic)
 	"2690-442X": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Skin Health and Disease
+	"0021-8499": ["WARC Limited", "Informa UK Limited"], # Journal of Advertising Research 
+	"1740-1909": ["WARC Limited", "Informa UK Limited"], # Journal of Advertising Research (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1350,6 +1352,10 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0730-6679", # Advances in Polymer Technology, Gold OA since 2019
     "1590-4261", # Annals of Microbiology, Gold OA since 2020
     "0365-0340", # Archives of Agronomy and Soil Science, Gold OA since 2024
+    "1465-6493", # Perspektiven der Wirtschaftspolitik, S2O since 2025
+    "2053-4477", # Journal of the American Philosophical Association, Gold OA since 2025
+    "0021-8553", # Journal of African Law, Gold OA since 2026
+    "0954-5867", # Cambridge Opera Journal, Gold OA since 2025
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts

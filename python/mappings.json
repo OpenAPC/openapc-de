@@ -55,7 +55,8 @@
       },
       "1661-8726": {
         "publisher": {
-          "2016": "Springer Nature"
+          "2016": "Springer Nature",
+          "2017": "Springer Nature"
         }
       },
       "2699-9293": {
@@ -128,7 +129,8 @@
       },
       "2161-2234": {
         "publisher": {
-          "2019": "Wiley-Blackwell"
+          "2019": "Wiley-Blackwell",
+          "2020": "Wiley-Blackwell"
         }
       },
       "2399-2050": {
@@ -141,12 +143,15 @@
           "2017": "Springer Nature",
           "2018": "Springer Nature",
           "2019": "Springer Nature",
-          "2022": "Springer Nature"
+          "2022": "Springer Nature",
+          "2020": "Springer Nature"
         }
       },
       "0957-8765": {
         "publisher": {
-          "2023": "Springer Nature"
+          "2023": "Springer Nature",
+          "2018": "Springer Nature",
+          "2019": "Springer Nature"
         }
       },
       "1560-4292": {
@@ -158,7 +163,8 @@
       "2199-6784": {
         "publisher": {
           "2017": "Springer Nature",
-          "2019": "Springer Nature"
+          "2019": "Springer Nature",
+          "2023": "Springer Nature"
         }
       },
       "0167-2681": {
@@ -264,7 +270,8 @@
       },
       "1560-2745": {
         "publisher": {
-          "2020": "Springer Nature"
+          "2020": "Springer Nature",
+          "2016": "Springer Nature"
         }
       },
       "2193-9438": {
@@ -352,6 +359,61 @@
         "publisher": {
           "2023": "Wiley-Blackwell",
           "2025": "Wiley-Blackwell"
+        }
+      },
+      "1744-4292": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "0012-9682": {
+        "publisher": {
+          "2021": "Wiley-Blackwell"
+        }
+      },
+      "1833-3672": {
+        "is_hybrid": {
+          "2025": "TRUE"
+        }
+      },
+      "1471-5201": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "2628-5452": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2055-4877": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2054-1058": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2192-4376": {
+        "publisher": {
+          "2018": "Springer Nature"
+        }
+      },
+      "0025-5572": {
+        "publisher": {
+          "2025": "Cambridge University Press (CUP)"
+        }
+      },
+      "0268-4160": {
+        "publisher": {
+          "2025": "Cambridge University Press (CUP)"
+        }
+      },
+      "0307-8833": {
+        "publisher": {
+          "2023": "Cambridge University Press (CUP)"
         }
       }
     },
@@ -1105,7 +1167,9 @@
     "Educational technology research and development": "Educational Technology Research and Development",
     "Elt Journal": "ELT Journal",
     "Social Cognitive And Affective Neuroscience": "Social Cognitive and Affective Neuroscience",
-    "East European Politics and Societies": "East European Politics and Societies: and Cultures"
+    "East European Politics and Societies": "East European Politics and Societies: and Cultures",
+    "Rendiconti del Circolo Matematico di Palermo Series 2": "Rendiconti del Circolo Matematico di Palermo (1952 -)",
+    "Molecular Therapy Oncolytics": "Molecular Therapy - Oncolytics"
   },
   "COLUMN_NAMES": {
     "institution": [
