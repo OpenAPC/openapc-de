@@ -759,6 +759,8 @@ JOURNAL_OWNER_CHANGED = {
 	"2690-442X": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Skin Health and Disease
 	"0021-8499": ["WARC Limited", "Informa UK Limited"], # Journal of Advertising Research 
 	"1740-1909": ["WARC Limited", "Informa UK Limited"], # Journal of Advertising Research (electronic)
+	"2380-8985": ["Informa UK Limited", "Oxford University Press (OUP)"], # Annals of the International Communication Association 
+	"2380-8977": ["Informa UK Limited", "Oxford University Press (OUP)"], # Annals of the International Communication Association (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1356,6 +1358,10 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2053-4477", # Journal of the American Philosophical Association, Gold OA since 2025
     "0021-8553", # Journal of African Law, Gold OA since 2026
     "0954-5867", # Cambridge Opera Journal, Gold OA since 2025
+    "0301-4460", # Annals of Human Biology, Gold OA since 2025
+    "0029-6473", # Nursing Forum, Gold OA since 2023
+    "2196-680X", # Historische Zeitschrift, S2O since 2025
+    "0921-4771", # Probus, S2O since 2025
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts

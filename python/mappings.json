@@ -201,12 +201,15 @@
       },
       "2691-3704": {
         "is_hybrid": {
-          "2022": "FALSE"
+          "2022": "FALSE",
+          "2021": "FALSE"
         }
       },
       "0964-0282": {
         "publisher": {
-          "2019": "Wiley-Blackwell"
+          "2019": "Wiley-Blackwell",
+          "2020": "Wiley-Blackwell",
+          "2021": "Wiley-Blackwell"
         }
       },
       "0012-2017": {
@@ -297,7 +300,8 @@
       },
       "2573-9522": {
         "is_hybrid": {
-          "2025": "FALSE"
+          "2025": "FALSE",
+          "2023": "FALSE"
         }
       },
       "0275-5947": {
@@ -322,7 +326,9 @@
       },
       "1680-4333": {
         "publisher": {
-          "2021": "Springer Nature"
+          "2021": "Springer Nature",
+          "2023": "Springer Nature",
+          "2025": "Springer Nature"
         }
       },
       "1467-6370": {
@@ -414,6 +420,56 @@
       "0307-8833": {
         "publisher": {
           "2023": "Cambridge University Press (CUP)"
+        }
+      },
+      "2694-2453": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1942-2466": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1356-3289": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "2042-3896": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "1363-254X": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "0008-8994": {
+        "publisher": {
+          "2021": "Wiley-Blackwell"
+        }
+      },
+      "2047-3087": {
+        "publisher": {
+          "2022": "Wiley-Blackwell"
+        }
+      },
+      "0075-4102": {
+        "is_hybrid": {
+          "2025": "FALSE"
+        }
+      },
+      "2328-9503": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2050-0904": {
+        "is_hybrid": {
+          "2022": "FALSE"
         }
       }
     },
@@ -1169,7 +1225,11 @@
     "Social Cognitive And Affective Neuroscience": "Social Cognitive and Affective Neuroscience",
     "East European Politics and Societies": "East European Politics and Societies: and Cultures",
     "Rendiconti del Circolo Matematico di Palermo Series 2": "Rendiconti del Circolo Matematico di Palermo (1952 -)",
-    "Molecular Therapy Oncolytics": "Molecular Therapy - Oncolytics"
+    "Molecular Therapy Oncolytics": "Molecular Therapy - Oncolytics",
+    "European Journal Of International Law": "European Journal of International Law",
+    "GENETICS": "Genetics",
+    "The Journals of Gerontology, Series B: Psychological Sciences and Social Sciences": "The Journals of Gerontology Series B: Psychological Sciences and Social Sciences",
+    "Integrative And Comparative Biology": "Integrative and Comparative Biology"
   },
   "COLUMN_NAMES": {
     "institution": [
