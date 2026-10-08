@@ -151,7 +151,8 @@
       },
       "1560-4292": {
         "publisher": {
-          "2023": "Springer Nature"
+          "2023": "Springer Nature",
+          "2021": "Springer Nature"
         }
       },
       "2199-6784": {
@@ -210,6 +211,70 @@
       "1750-8592": {
         "publisher": {
           "2023": "Wiley-Blackwell"
+        }
+      },
+      "1088-1980": {
+        "publisher": {
+          "2020": "Wiley-Blackwell",
+          "2021": "Wiley-Blackwell",
+          "2025": "Wiley-Blackwell"
+        }
+      },
+      "1056-8190": {
+        "publisher": {
+          "2023": "Wiley-Blackwell"
+        }
+      },
+      "1757-4676": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1998-0124": {
+        "publisher": {
+          "2018": "Springer Nature",
+          "2020": "Springer Nature"
+        }
+      },
+      "2196-4386": {
+        "publisher": {
+          "2018": "Springer Nature",
+          "2023": "Springer Nature"
+        }
+      },
+      "2352-4928": {
+        "is_hybrid": {
+          "2025": "TRUE"
+        }
+      },
+      "1751-7915": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1093-9687": {
+        "publisher": {
+          "2020": "Wiley-Blackwell"
+        }
+      },
+      "1560-2745": {
+        "publisher": {
+          "2020": "Springer Nature"
+        }
+      },
+      "2193-9438": {
+        "publisher": {
+          "2018": "Springer Nature"
+        }
+      },
+      "1751-8644": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "0022-0418": {
+        "is_hybrid": {
+          "2022": "TRUE"
         }
       }
     },
@@ -955,7 +1020,11 @@
     "Voluntas: International Journal of Voluntary and Nonprofit Organizations": "VOLUNTAS: International Journal of Voluntary and Nonprofit Organizations",
     "Applied Catalysis B: Environment and Energy": "Applied Catalysis B: Environmental",
     "Limnologica": "Limnologica - Ecology and Management of Inland Waters",
-    "Studies in History and Philosophy of Science": "Studies in History and Philosophy of Science Part A"
+    "Studies in History and Philosophy of Science": "Studies in History and Philosophy of Science Part A",
+    "EMBO Reports": "EMBO reports",
+    "Europhysics Letters": "EPL (Europhysics Letters)",
+    "Proceedings in Applied Mathematics and Mechanics": "PAMM",
+    "Statistical Analysis and Data Mining: An ASA Data Science Journal": "Statistical Analysis and Data Mining: The ASA Data Science Journal"
   },
   "COLUMN_NAMES": {
     "institution": [
