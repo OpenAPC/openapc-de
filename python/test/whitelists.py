@@ -1348,6 +1348,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2366-0325", # Zeitschrift für Soziologie, S2O OA since 2022
     "2055-6837", # European Heart Journal - Cardiovascular Pharmacotherapy, Gold OA since 2025
     "0730-6679", # Advances in Polymer Technology, Gold OA since 2019
+    "1590-4261", # Annals of Microbiology, Gold OA since 2020
+    "0365-0340", # Archives of Agronomy and Soil Science, Gold OA since 2024
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts

@@ -205,7 +205,8 @@
       },
       "0012-2017": {
         "publisher": {
-          "2018": "Wiley-Blackwell"
+          "2018": "Wiley-Blackwell",
+          "2019": "Wiley-Blackwell"
         }
       },
       "1750-8592": {
@@ -217,7 +218,10 @@
         "publisher": {
           "2020": "Wiley-Blackwell",
           "2021": "Wiley-Blackwell",
-          "2025": "Wiley-Blackwell"
+          "2025": "Wiley-Blackwell",
+          "2022": "Wiley-Blackwell",
+          "2023": "Wiley-Blackwell",
+          "2018": "Wiley-Blackwell"
         }
       },
       "1056-8190": {
@@ -254,7 +258,8 @@
       },
       "1093-9687": {
         "publisher": {
-          "2020": "Wiley-Blackwell"
+          "2020": "Wiley-Blackwell",
+          "2023": "Wiley-Blackwell"
         }
       },
       "1560-2745": {
@@ -275,6 +280,78 @@
       "0022-0418": {
         "is_hybrid": {
           "2022": "TRUE"
+        }
+      },
+      "2475-1421": {
+        "is_hybrid": {
+          "2022": "FALSE",
+          "2025": "FALSE"
+        }
+      },
+      "2573-9522": {
+        "is_hybrid": {
+          "2025": "FALSE"
+        }
+      },
+      "0275-5947": {
+        "publisher": {
+          "2018": "Wiley-Blackwell"
+        }
+      },
+      "1940-3372": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1903-220X": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "0266-8254": {
+        "publisher": {
+          "2018": "Wiley-Blackwell"
+        }
+      },
+      "1680-4333": {
+        "publisher": {
+          "2021": "Springer Nature"
+        }
+      },
+      "1467-6370": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "0368-492X": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "2198-3844": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2150-8925": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "0020-5346": {
+        "publisher": {
+          "2019": "Springer Nature"
+        }
+      },
+      "1126-3504": {
+        "publisher": {
+          "2025": "Informa UK Limited"
+        }
+      },
+      "2047-8844": {
+        "publisher": {
+          "2023": "Wiley-Blackwell",
+          "2025": "Wiley-Blackwell"
         }
       }
     },
@@ -1024,7 +1101,11 @@
     "EMBO Reports": "EMBO reports",
     "Europhysics Letters": "EPL (Europhysics Letters)",
     "Proceedings in Applied Mathematics and Mechanics": "PAMM",
-    "Statistical Analysis and Data Mining: An ASA Data Science Journal": "Statistical Analysis and Data Mining: The ASA Data Science Journal"
+    "Statistical Analysis and Data Mining: An ASA Data Science Journal": "Statistical Analysis and Data Mining: The ASA Data Science Journal",
+    "Educational technology research and development": "Educational Technology Research and Development",
+    "Elt Journal": "ELT Journal",
+    "Social Cognitive And Affective Neuroscience": "Social Cognitive and Affective Neuroscience",
+    "East European Politics and Societies": "East European Politics and Societies: and Cultures"
   },
   "COLUMN_NAMES": {
     "institution": [
