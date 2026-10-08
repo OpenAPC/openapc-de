@@ -570,21 +570,37 @@ class DOAJAnalysis(TempFileHandling):
         super().__init__("DOAJ", "csv", url="https://doaj.org/csv", temp_file_dir=temp_file_dir, max_mdays=max_mdays)
         self.doaj_issn_map = {}
         self.doaj_eissn_map = {}
-        
+
         doaj_csv_file = self.prepare_file(force_update, make_backup, verbose)
 
         handle = open(doaj_csv_file, "r")
         reader = csv.DictReader(handle)
         for line in reader:
-            journal_title = line["Journal title"]
             issn = line["Journal ISSN (print version)"]
             eissn = line["Journal EISSN (online version)"]
+            doaj_data = {
+                "journal_title": line["Journal title"],
+                "publisher" :line["Publisher"],
+                "other_org": line["Other organisation"],
+                "oa_since": line["When did the journal start to publish all content using an open license?"],
+                "added": line["Added on Date"],
+                "updated": line["Last updated Date"],
+                "mirror": line["Mirror Journal"],
+                "s20": line["Subscribe to Open"]
+            }
             if issn:
-                self.doaj_issn_map[issn] = journal_title
+                self.doaj_issn_map[issn] = doaj_data
             if eissn:
-                self.doaj_eissn_map[eissn] = journal_title
+                self.doaj_eissn_map[eissn] = doaj_data
 
     def lookup(self, any_issn):
+        if any_issn in self.doaj_issn_map:
+            return self.doaj_issn_map[any_issn]["journal_title"]
+        elif any_issn in self.doaj_eissn_map:
+            return self.doaj_eissn_map[any_issn]["journal_title"]
+        return None
+
+    def get_metadata(self, any_issn):
         if any_issn in self.doaj_issn_map:
             return self.doaj_issn_map[any_issn]
         elif any_issn in self.doaj_eissn_map:
