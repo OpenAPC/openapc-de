@@ -1366,6 +1366,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0921-4771", # Probus, S2O since 2025
     "1386-4157", # Experimental Economics, Gold OA since 2025
     "2366-0392", # Zeitschrift für Rechtssoziologie, S2O since 2025
+    "0021-2237", # Israel Law Review, Gold OA since 2025
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts

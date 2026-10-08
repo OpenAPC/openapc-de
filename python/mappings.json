@@ -152,7 +152,10 @@
         "publisher": {
           "2023": "Springer Nature",
           "2018": "Springer Nature",
-          "2019": "Springer Nature"
+          "2019": "Springer Nature",
+          "2016": "Springer Nature",
+          "2020": "Springer Nature",
+          "2021": "Springer Nature"
         }
       },
       "1560-4292": {
@@ -232,7 +235,8 @@
           "2025": "Wiley-Blackwell",
           "2022": "Wiley-Blackwell",
           "2023": "Wiley-Blackwell",
-          "2018": "Wiley-Blackwell"
+          "2018": "Wiley-Blackwell",
+          "2019": "Wiley-Blackwell"
         }
       },
       "1056-8190": {
@@ -562,6 +566,34 @@
       "1467-2987": {
         "is_hybrid": {
           "2025": "TRUE"
+        }
+      },
+      "1751-7311": {
+        "publisher": {
+          "2020": "Cambridge University Press (CUP)"
+        }
+      },
+      "1939-1676": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        },
+        "publisher": {
+          "2022": "Wiley-Blackwell"
+        }
+      },
+      "2044-1398": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "2059-5891": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "1757-7802": {
+        "publisher": {
+          "2019": "Wiley-Blackwell"
         }
       }
     },
