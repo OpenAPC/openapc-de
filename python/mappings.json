@@ -56,7 +56,8 @@
       "1661-8726": {
         "publisher": {
           "2016": "Springer Nature",
-          "2017": "Springer Nature"
+          "2017": "Springer Nature",
+          "2018": "Springer Nature"
         }
       },
       "2699-9293": {
@@ -164,7 +165,8 @@
         "publisher": {
           "2017": "Springer Nature",
           "2019": "Springer Nature",
-          "2023": "Springer Nature"
+          "2023": "Springer Nature",
+          "2016": "Springer Nature"
         }
       },
       "0167-2681": {
@@ -252,7 +254,8 @@
       "2196-4386": {
         "publisher": {
           "2018": "Springer Nature",
-          "2023": "Springer Nature"
+          "2023": "Springer Nature",
+          "2022": "Springer Nature"
         }
       },
       "2352-4928": {
@@ -470,6 +473,26 @@
       "2050-0904": {
         "is_hybrid": {
           "2022": "FALSE"
+        }
+      },
+      "2045-8827": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2324-9269": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "0004-069X": {
+        "publisher": {
+          "2017": "Springer Nature"
+        }
+      },
+      "0936-5931": {
+        "publisher": {
+          "2017": "Springer Nature"
         }
       }
     },
