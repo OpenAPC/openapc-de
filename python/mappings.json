@@ -1,4 +1,10 @@
 {
+  "CONTEXTUAL_MAPPINGS": {
+    "issn": {},
+    "issn_print": {},
+    "issn_electronic": {},
+    "issn_l": {}
+  },
   "PUBLISHER_MAPPINGS": {
     "The Optical Society": "Optical Society of America (OSA)",
     "Impact Journals": "Impact Journals LLC",
