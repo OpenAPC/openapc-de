@@ -271,7 +271,8 @@
       "1093-9687": {
         "publisher": {
           "2020": "Wiley-Blackwell",
-          "2023": "Wiley-Blackwell"
+          "2023": "Wiley-Blackwell",
+          "2025": "Wiley-Blackwell"
         }
       },
       "1560-2745": {
@@ -367,7 +368,10 @@
       "2047-8844": {
         "publisher": {
           "2023": "Wiley-Blackwell",
-          "2025": "Wiley-Blackwell"
+          "2025": "Wiley-Blackwell",
+          "2018": "Wiley-Blackwell",
+          "2019": "Wiley-Blackwell",
+          "2020": "Wiley-Blackwell"
         }
       },
       "1744-4292": {
@@ -493,6 +497,71 @@
       "0936-5931": {
         "publisher": {
           "2017": "Springer Nature"
+        }
+      },
+      "1878-5352": {
+        "publisher": {
+          "2022": "Elsevier BV"
+        }
+      },
+      "2666-061X": {
+        "publisher": {
+          "2022": "Elsevier BV"
+        }
+      },
+      "0954-5794": {
+        "is_hybrid": {
+          "2025": "TRUE"
+        }
+      },
+      "1464-6668": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "1061-0421": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "1366-5626": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "1754-2731": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "0933-7407": {
+        "is_hybrid": {
+          "2025": "TRUE"
+        }
+      },
+      "2396-9873": {
+        "publisher": {
+          "2023": "SAGE Publications"
+        }
+      },
+      "2366-6129": {
+        "publisher": {
+          "2017": "Springer Fachmedien Wiesbaden GmbH"
+        }
+      },
+      "0957-8234": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "2053-1095": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1467-2987": {
+        "is_hybrid": {
+          "2025": "TRUE"
         }
       }
     },
@@ -1252,7 +1321,13 @@
     "European Journal Of International Law": "European Journal of International Law",
     "GENETICS": "Genetics",
     "The Journals of Gerontology, Series B: Psychological Sciences and Social Sciences": "The Journals of Gerontology Series B: Psychological Sciences and Social Sciences",
-    "Integrative And Comparative Biology": "Integrative and Comparative Biology"
+    "Integrative And Comparative Biology": "Integrative and Comparative Biology",
+    "Molecular Therapy Nucleic Acids": "Molecular Therapy - Nucleic Acids",
+    "SLEEP": "Sleep",
+    "SLEEPJ": "Sleep",
+    "Language and Literature: International Journal of Stylistics": "Language and Literature",
+    "Sage Open": "SAGE Open",
+    "International Journal for Lesson and Learning Studies": "International Journal for Lesson & Learning Studies"
   },
   "COLUMN_NAMES": {
     "institution": [

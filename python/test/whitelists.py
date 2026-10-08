@@ -761,6 +761,8 @@ JOURNAL_OWNER_CHANGED = {
 	"1740-1909": ["WARC Limited", "Informa UK Limited"], # Journal of Advertising Research (electronic)
 	"2380-8985": ["Informa UK Limited", "Oxford University Press (OUP)"], # Annals of the International Communication Association 
 	"2380-8977": ["Informa UK Limited", "Oxford University Press (OUP)"], # Annals of the International Communication Association (electronic)
+	"1386-4157": ["Springer Nature", "Cambridge University Press (CUP)"], # Experimental Economics 
+	"1573-6938": ["Springer Nature", "Cambridge University Press (CUP)"], # Experimental Economics (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1362,6 +1364,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0029-6473", # Nursing Forum, Gold OA since 2023
     "2196-680X", # Historische Zeitschrift, S2O since 2025
     "0921-4771", # Probus, S2O since 2025
+    "1386-4157", # Experimental Economics, Gold OA since 2025
+    "2366-0392", # Zeitschrift für Rechtssoziologie, S2O since 2025
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
