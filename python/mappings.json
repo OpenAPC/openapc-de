@@ -125,6 +125,92 @@
         "is_hybrid": {
           "2022": "FALSE"
         }
+      },
+      "2161-2234": {
+        "publisher": {
+          "2019": "Wiley-Blackwell"
+        }
+      },
+      "2399-2050": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1386-4157": {
+        "publisher": {
+          "2017": "Springer Nature",
+          "2018": "Springer Nature",
+          "2019": "Springer Nature",
+          "2022": "Springer Nature"
+        }
+      },
+      "0957-8765": {
+        "publisher": {
+          "2023": "Springer Nature"
+        }
+      },
+      "1560-4292": {
+        "publisher": {
+          "2023": "Springer Nature"
+        }
+      },
+      "2199-6784": {
+        "publisher": {
+          "2017": "Springer Nature",
+          "2019": "Springer Nature"
+        }
+      },
+      "0167-2681": {
+        "is_hybrid": {
+          "2021": "TRUE"
+        }
+      },
+      "2694-2461": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2694-250X": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2694-2496": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2694-247X": {
+        "is_hybrid": {
+          "2021": "FALSE",
+          "2022": "FALSE"
+        }
+      },
+      "2694-2445": {
+        "is_hybrid": {
+          "2021": "FALSE",
+          "2022": "FALSE"
+        }
+      },
+      "2691-3704": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "0964-0282": {
+        "publisher": {
+          "2019": "Wiley-Blackwell"
+        }
+      },
+      "0012-2017": {
+        "publisher": {
+          "2018": "Wiley-Blackwell"
+        }
+      },
+      "1750-8592": {
+        "publisher": {
+          "2023": "Wiley-Blackwell"
+        }
       }
     },
     "issn_print": {},
@@ -864,7 +950,12 @@
     "British Journal of Radiology": "The British Journal of Radiology",
     "Journal of the Royal Statistical Society Series A: Statistics in Society": "Journal of the Royal Statistical Society: Series A (Statistics in Society)",
     "Operations Research Forum": "SN Operations Research Forum",
-    "Partial Differential Equations and Applications": "SN Partial Differential Equations and Applications"
+    "Partial Differential Equations and Applications": "SN Partial Differential Equations and Applications",
+    "WIREs RNA": "Wiley Interdisciplinary Reviews: RNA",
+    "Voluntas: International Journal of Voluntary and Nonprofit Organizations": "VOLUNTAS: International Journal of Voluntary and Nonprofit Organizations",
+    "Applied Catalysis B: Environment and Energy": "Applied Catalysis B: Environmental",
+    "Limnologica": "Limnologica - Ecology and Management of Inland Waters",
+    "Studies in History and Philosophy of Science": "Studies in History and Philosophy of Science Part A"
   },
   "COLUMN_NAMES": {
     "institution": [
