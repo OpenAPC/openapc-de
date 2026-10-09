@@ -763,6 +763,10 @@ JOURNAL_OWNER_CHANGED = {
 	"2380-8977": ["Informa UK Limited", "Oxford University Press (OUP)"], # Annals of the International Communication Association (electronic)
 	"1386-4157": ["Springer Nature", "Cambridge University Press (CUP)"], # Experimental Economics 
 	"1573-6938": ["Springer Nature", "Cambridge University Press (CUP)"], # Experimental Economics (electronic)
+	"0025-5572": ["Informa UK Limited", "Cambridge University Press (CUP)"], # The Mathematical Gazette
+	"2056-6328": ["Informa UK Limited", "Cambridge University Press (CUP)"], # The Mathematical Gazette (electronic)
+	"0887-5367": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # Hypatia
+	"1527-2001": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # Hypatia (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
