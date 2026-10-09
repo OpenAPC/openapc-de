@@ -1,534 +1,180 @@
 {
+  "AGREEMENT_PUBLISHER_MAP": {
+    "Acoustical Society of America (ASA)": "AIP Publishing",
+    "American Association of Physics Teachers (AAPT)": "AIP Publishing",
+    "American Dairy Science Association": "Elsevier BV",
+    "American Educational Research Association (AERA)": "SAGE Publications",
+    "American Geophysical Union (AGU)": "Wiley-Blackwell",
+    "American Psychological Association (APA)": "Elsevier BV",
+    "American Vacuum Society": "AIP Publishing",
+    "Antiquity Publications": "Cambridge University Press (CUP)",
+    "British Institute of Radiology": "Wiley-Blackwell",
+    "Canadian Mathematical Society": "Cambridge University Press (CUP)",
+    "EMBO": "Wiley-Blackwell",
+    "F1000 Research, Ltd.": "Informa UK Limited",
+    "Institute of Mathematics, Czech Academy of Sciences": "Springer Nature",
+    "Institution of Engineering and Technology (IET)": "Wiley-Blackwell",
+    "International Union of Crystallography (IUCr)": "Wiley-Blackwell",
+    "Laser Institute of America": "AIP Publishing",
+    "Mineralogical Society": "Cambridge University Press (CUP)",
+    "National Inquiry Services Center (NISC)": "Informa UK Limited",
+    "Nature Publishing Group": "Springer Nature",
+    "Royal College of Psychiatrists": "Cambridge University Press (CUP)",
+    "Springer Fachmedien Wiesbaden GmbH": "Springer Nature",
+    "The Electrochemical Society": "IOP Publishing",
+    "The Endocrine Society": "Oxford University Press (OUP)"
+  },
+  "COLUMN_NAMES": {
+    "agreement": [
+      "agreement",
+      "contract_primary_identifier"
+    ],
+    "backlist_oa": [
+      "backlist_oa"
+    ],
+    "book_title": [
+      "book_title"
+    ],
+    "colour charge": [
+      "colour charge",
+      "colour_charge",
+      "color charge",
+      "color_charge"
+    ],
+    "cover charge": [
+      "cover charge",
+      "cover_charge"
+    ],
+    "doaj": [
+      "doaj"
+    ],
+    "doi": [
+      "doi"
+    ],
+    "euro": [
+      "apc",
+      "kosten",
+      "cost",
+      "euro",
+      "eur"
+    ],
+    "group_id": [
+      "group_id",
+      "contract_group_id"
+    ],
+    "indexed_in_crossref": [
+      "indexed_in_crossref"
+    ],
+    "institution": [
+      "institution",
+      "institution_name"
+    ],
+    "is_hybrid": [
+      "is_hybrid",
+      "is hybrid",
+      "hybrid"
+    ],
+    "isbn": [
+      "isbn"
+    ],
+    "isbn_electronic": [
+      "isbn_electronic"
+    ],
+    "isbn_print": [
+      "isbn_print"
+    ],
+    "issn": [
+      "issn",
+      "issn.1",
+      "issn0"
+    ],
+    "issn_electronic": [
+      "issn_electronic"
+    ],
+    "issn_l": [
+      "issn_l"
+    ],
+    "issn_print": [
+      "issn_print"
+    ],
+    "journal_full_title": [
+      "journal_full_title",
+      "journal",
+      "journal title",
+      "journal full title",
+      "journaltitle",
+      "journal_title"
+    ],
+    "license_ref": [
+      "licence",
+      "license",
+      "license_ref"
+    ],
+    "opt_out": [
+      "opt_out",
+      "opt-out"
+    ],
+    "other": [
+      "other"
+    ],
+    "page charge": [
+      "page charge",
+      "page_charge"
+    ],
+    "payment fee": [
+      "payment fee",
+      "payment_fee"
+    ],
+    "period": [
+      "period",
+      "jahr"
+    ],
+    "permission": [
+      "permission"
+    ],
+    "pmcid": [
+      "pmcid",
+      "pubmed central (pmc) id"
+    ],
+    "pmid": [
+      "pmid",
+      "pubmed id"
+    ],
+    "publisher": [
+      "publisher",
+      "PublisherName"
+    ],
+    "reprint": [
+      "reprint"
+    ],
+    "submission fee": [
+      "submission fee",
+      "submission_fee"
+    ],
+    "url": [
+      "url"
+    ],
+    "ut": [
+      "ut"
+    ]
+  },
   "CONTEXTUAL_MAPPINGS": {
     "issn": {
-      "1388-9842": {
-        "publisher": {
-          "2020": "Wiley-Blackwell",
-          "2021": "Wiley-Blackwell",
-          "2023": "Wiley-Blackwell",
-          "2018": "Wiley-Blackwell"
-        }
-      },
-      "2471-254X": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "2688-6146": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "2642-3561": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "1527-6465": {
-        "publisher": {
-          "2018": "Wiley-Blackwell",
-          "2020": "Wiley-Blackwell"
-        }
-      },
-      "2210-2612": {
-        "publisher": {
-          "2021": "Elsevier BV"
-        }
-      },
-      "0896-4327": {
-        "is_hybrid": {
-          "2018": "FALSE"
-        }
-      },
-      "0934-0874": {
-        "publisher": {
-          "2018": "Wiley-Blackwell"
-        },
-        "doaj": {
-          "2020": "FALSE",
-          "2019": "FALSE",
-          "2021": "FALSE"
-        }
-      },
-      "2047-9980": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        },
-        "publisher": {
-          "2022": "Wiley-Blackwell"
-        }
-      },
-      "1661-8726": {
-        "publisher": {
-          "2016": "Springer Nature",
-          "2017": "Springer Nature",
-          "2018": "Springer Nature"
-        },
+      "0001-6268": {
         "doaj": {
           "2016": "FALSE",
           "2017": "FALSE",
-          "2018": "FALSE"
-        }
-      },
-      "2699-9293": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "2699-9412": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "2045-7634": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "2045-7022": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "2001-1326": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "2045-7758": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "2055-5822": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        },
-        "publisher": {
-          "2022": "Wiley-Blackwell"
-        }
-      },
-      "2698-5977": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "2470-9239": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "2190-5991": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "2001-3078": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "2378-2242": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "2191-1363": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "2161-2234": {
-        "publisher": {
-          "2019": "Wiley-Blackwell",
-          "2020": "Wiley-Blackwell"
-        }
-      },
-      "2399-2050": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "1386-4157": {
-        "publisher": {
-          "2017": "Springer Nature",
-          "2018": "Springer Nature",
-          "2019": "Springer Nature",
-          "2022": "Springer Nature",
-          "2020": "Springer Nature"
-        }
-      },
-      "0957-8765": {
-        "publisher": {
-          "2023": "Springer Nature",
-          "2018": "Springer Nature",
-          "2019": "Springer Nature",
-          "2016": "Springer Nature",
-          "2020": "Springer Nature",
-          "2021": "Springer Nature"
-        }
-      },
-      "1560-4292": {
-        "publisher": {
-          "2023": "Springer Nature",
-          "2021": "Springer Nature"
-        }
-      },
-      "2199-6784": {
-        "publisher": {
-          "2017": "Springer Nature",
-          "2019": "Springer Nature",
-          "2023": "Springer Nature",
-          "2016": "Springer Nature"
-        }
-      },
-      "0167-2681": {
-        "is_hybrid": {
-          "2021": "TRUE"
-        }
-      },
-      "2694-2461": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "2694-250X": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "2694-2496": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "2694-247X": {
-        "is_hybrid": {
-          "2021": "FALSE",
-          "2022": "FALSE"
-        }
-      },
-      "2694-2445": {
-        "is_hybrid": {
-          "2021": "FALSE",
-          "2022": "FALSE"
-        }
-      },
-      "2691-3704": {
-        "is_hybrid": {
-          "2022": "FALSE",
-          "2021": "FALSE"
-        }
-      },
-      "0964-0282": {
-        "publisher": {
-          "2019": "Wiley-Blackwell",
-          "2020": "Wiley-Blackwell",
-          "2021": "Wiley-Blackwell"
-        },
-        "doaj": {
+          "2018": "FALSE",
           "2019": "FALSE",
           "2020": "FALSE",
           "2021": "FALSE"
         }
       },
-      "0012-2017": {
-        "publisher": {
-          "2018": "Wiley-Blackwell",
-          "2019": "Wiley-Blackwell"
-        },
-        "doaj": {
-          "2018": "FALSE",
-          "2019": "FALSE"
-        }
-      },
-      "1750-8592": {
-        "publisher": {
-          "2023": "Wiley-Blackwell"
-        }
-      },
-      "1088-1980": {
-        "publisher": {
-          "2020": "Wiley-Blackwell",
-          "2021": "Wiley-Blackwell",
-          "2025": "Wiley-Blackwell",
-          "2022": "Wiley-Blackwell",
-          "2023": "Wiley-Blackwell",
-          "2018": "Wiley-Blackwell",
-          "2019": "Wiley-Blackwell"
-        }
-      },
-      "1056-8190": {
-        "publisher": {
-          "2023": "Wiley-Blackwell"
-        },
-        "doaj": {
-          "2023": "FALSE"
-        }
-      },
-      "1757-4676": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "1998-0124": {
-        "publisher": {
-          "2018": "Springer Nature",
-          "2020": "Springer Nature"
-        },
+      "0001-6349": {
         "doaj": {
           "2018": "FALSE",
           "2020": "FALSE"
-        }
-      },
-      "2196-4386": {
-        "publisher": {
-          "2018": "Springer Nature",
-          "2023": "Springer Nature",
-          "2022": "Springer Nature"
-        }
-      },
-      "2352-4928": {
-        "is_hybrid": {
-          "2025": "TRUE"
-        }
-      },
-      "1751-7915": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "1093-9687": {
-        "publisher": {
-          "2020": "Wiley-Blackwell",
-          "2023": "Wiley-Blackwell",
-          "2025": "Wiley-Blackwell"
-        }
-      },
-      "1560-2745": {
-        "publisher": {
-          "2020": "Springer Nature",
-          "2016": "Springer Nature"
-        }
-      },
-      "2193-9438": {
-        "publisher": {
-          "2018": "Springer Nature"
         },
-        "doaj": {
-          "2018": "FALSE"
-        }
-      },
-      "1751-8644": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "0022-0418": {
-        "is_hybrid": {
-          "2022": "TRUE"
-        }
-      },
-      "2475-1421": {
-        "is_hybrid": {
-          "2022": "FALSE",
-          "2025": "FALSE"
-        }
-      },
-      "2573-9522": {
-        "is_hybrid": {
-          "2025": "FALSE",
-          "2023": "FALSE"
-        }
-      },
-      "0275-5947": {
-        "publisher": {
-          "2018": "Wiley-Blackwell"
-        }
-      },
-      "1940-3372": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "1903-220X": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "0266-8254": {
-        "publisher": {
-          "2018": "Wiley-Blackwell"
-        }
-      },
-      "1680-4333": {
-        "publisher": {
-          "2021": "Springer Nature",
-          "2023": "Springer Nature",
-          "2025": "Springer Nature"
-        },
-        "doaj": {
-          "2025": "FALSE",
-          "2021": "FALSE",
-          "2023": "FALSE"
-        }
-      },
-      "1467-6370": {
-        "is_hybrid": {
-          "2022": "TRUE"
-        }
-      },
-      "0368-492X": {
-        "is_hybrid": {
-          "2022": "TRUE"
-        }
-      },
-      "2198-3844": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "2150-8925": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "0020-5346": {
-        "publisher": {
-          "2019": "Springer Nature"
-        },
-        "doaj": {
-          "2019": "FALSE"
-        }
-      },
-      "1126-3504": {
-        "publisher": {
-          "2025": "Informa UK Limited"
-        }
-      },
-      "2047-8844": {
-        "publisher": {
-          "2023": "Wiley-Blackwell",
-          "2025": "Wiley-Blackwell",
-          "2018": "Wiley-Blackwell",
-          "2019": "Wiley-Blackwell",
-          "2020": "Wiley-Blackwell"
-        }
-      },
-      "1744-4292": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "0012-9682": {
-        "publisher": {
-          "2021": "Wiley-Blackwell"
-        }
-      },
-      "1833-3672": {
-        "is_hybrid": {
-          "2025": "TRUE"
-        }
-      },
-      "1471-5201": {
-        "is_hybrid": {
-          "2022": "TRUE"
-        }
-      },
-      "2628-5452": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "2055-4877": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "2054-1058": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "2192-4376": {
-        "publisher": {
-          "2018": "Springer Nature"
-        },
-        "doaj": {
-          "2018": "FALSE"
-        }
-      },
-      "0025-5572": {
-        "publisher": {
-          "2025": "Cambridge University Press (CUP)"
-        }
-      },
-      "0268-4160": {
-        "publisher": {
-          "2025": "Cambridge University Press (CUP)"
-        }
-      },
-      "0307-8833": {
-        "publisher": {
-          "2023": "Cambridge University Press (CUP)"
-        }
-      },
-      "2694-2453": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "1942-2466": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "1356-3289": {
-        "is_hybrid": {
-          "2022": "TRUE"
-        }
-      },
-      "2042-3896": {
-        "is_hybrid": {
-          "2022": "TRUE"
-        }
-      },
-      "1363-254X": {
-        "is_hybrid": {
-          "2022": "TRUE"
-        }
-      },
-      "0008-8994": {
-        "publisher": {
-          "2021": "Wiley-Blackwell"
-        }
-      },
-      "2047-3087": {
-        "publisher": {
-          "2022": "Wiley-Blackwell"
-        }
-      },
-      "0075-4102": {
-        "is_hybrid": {
-          "2025": "FALSE"
-        }
-      },
-      "2328-9503": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "2050-0904": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "2045-8827": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "2324-9269": {
         "is_hybrid": {
           "2022": "FALSE"
         }
@@ -538,154 +184,109 @@
           "2017": "Springer Nature"
         }
       },
-      "0936-5931": {
-        "publisher": {
-          "2017": "Springer Nature"
-        }
-      },
-      "1878-5352": {
-        "publisher": {
-          "2022": "Elsevier BV"
-        }
-      },
-      "2666-061X": {
-        "publisher": {
-          "2022": "Elsevier BV"
-        }
-      },
-      "0954-5794": {
-        "is_hybrid": {
-          "2025": "TRUE"
-        }
-      },
-      "1464-6668": {
-        "is_hybrid": {
-          "2022": "TRUE"
-        }
-      },
-      "1061-0421": {
-        "is_hybrid": {
-          "2022": "TRUE"
-        }
-      },
-      "1366-5626": {
-        "is_hybrid": {
-          "2022": "TRUE"
-        }
-      },
-      "1754-2731": {
-        "is_hybrid": {
-          "2022": "TRUE"
-        }
-      },
-      "0933-7407": {
-        "is_hybrid": {
-          "2025": "TRUE"
-        }
-      },
-      "2396-9873": {
-        "publisher": {
-          "2023": "SAGE Publications"
-        }
-      },
-      "2366-6129": {
-        "publisher": {
-          "2017": "Springer Fachmedien Wiesbaden GmbH"
-        }
-      },
-      "0957-8234": {
-        "is_hybrid": {
-          "2022": "TRUE"
-        }
-      },
-      "2053-1095": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "1467-2987": {
-        "is_hybrid": {
-          "2025": "TRUE"
-        }
-      },
-      "1751-7311": {
-        "publisher": {
-          "2020": "Cambridge University Press (CUP)"
-        },
+      "0007-1234": {
         "doaj": {
-          "2020": "FALSE"
+          "2023": "FALSE"
         }
       },
-      "1939-1676": {
-        "is_hybrid": {
-          "2022": "FALSE"
+      "0008-8994": {
+        "publisher": {
+          "2021": "Wiley-Blackwell"
+        }
+      },
+      "0012-2017": {
+        "doaj": {
+          "2018": "FALSE",
+          "2019": "FALSE"
         },
         "publisher": {
-          "2022": "Wiley-Blackwell"
-        }
-      },
-      "2044-1398": {
-        "is_hybrid": {
-          "2022": "TRUE"
-        }
-      },
-      "2059-5891": {
-        "is_hybrid": {
-          "2022": "TRUE"
-        }
-      },
-      "1757-7802": {
-        "publisher": {
+          "2018": "Wiley-Blackwell",
           "2019": "Wiley-Blackwell"
         }
       },
-      "0175-7598": {
-        "doaj": {
-          "2022": "FALSE",
-          "2016": "FALSE",
-          "2017": "FALSE",
-          "2018": "FALSE",
-          "2019": "FALSE",
-          "2020": "FALSE",
-          "2023": "FALSE",
-          "2021": "FALSE"
+      "0012-9682": {
+        "publisher": {
+          "2021": "Wiley-Blackwell"
         }
       },
-      "1871-4757": {
+      "0013-5194": {
         "is_hybrid": {
-          "2025": "FALSE"
-        },
-        "doaj": {
-          "2018": "FALSE",
-          "2017": "FALSE",
-          "2019": "FALSE"
+          "2022": "FALSE"
         }
       },
       "0017-257X": {
         "doaj": {
-          "2022": "FALSE",
           "2020": "FALSE",
           "2021": "FALSE",
+          "2022": "FALSE",
           "2023": "FALSE"
         }
       },
-      "0922-1565": {
+      "0020-5346": {
         "doaj": {
+          "2019": "FALSE"
+        },
+        "publisher": {
+          "2019": "Springer Nature"
+        }
+      },
+      "0021-9320": {
+        "doaj": {
+          "2021": "FALSE",
+          "2022": "FALSE",
           "2023": "FALSE"
         }
       },
-      "2045-3817": {
-        "doaj": {
-          "2023": "FALSE",
-          "2020": "FALSE"
+      "0022-0418": {
+        "is_hybrid": {
+          "2022": "TRUE"
         }
       },
-      "1286-4560": {
+      "0023-6438": {
         "doaj": {
-          "2017": "FALSE",
-          "2019": "FALSE",
+          "2021": "FALSE"
+        }
+      },
+      "0025-5572": {
+        "publisher": {
+          "2025": "Cambridge University Press (CUP)"
+        }
+      },
+      "0031-1820": {
+        "doaj": {
+          "2020": "FALSE",
+          "2021": "FALSE"
+        }
+      },
+      "0043-1397": {
+        "doaj": {
           "2018": "FALSE",
-          "2016": "FALSE"
+          "2019": "FALSE",
+          "2020": "FALSE",
+          "2021": "FALSE",
+          "2022": "FALSE",
+          "2023": "FALSE"
+        }
+      },
+      "0044-2585": {
+        "doaj": {
+          "2016": "FALSE",
+          "2017": "FALSE",
+          "2022": "FALSE"
+        }
+      },
+      "0075-4102": {
+        "is_hybrid": {
+          "2025": "FALSE"
+        }
+      },
+      "0094-8276": {
+        "doaj": {
+          "2018": "FALSE",
+          "2019": "FALSE",
+          "2020": "FALSE",
+          "2021": "FALSE",
+          "2022": "FALSE"
         }
       },
       "0142-0615": {
@@ -694,241 +295,373 @@
           "2022": "FALSE"
         }
       },
-      "0939-4451": {
+      "0143-814X": {
         "doaj": {
-          "2021": "FALSE",
-          "2020": "FALSE",
-          "2022": "FALSE",
-          "2019": "FALSE",
-          "2016": "FALSE",
-          "2017": "FALSE",
-          "2018": "FALSE"
+          "2020": "FALSE"
         }
       },
-      "0957-4530": {
+      "0167-2681": {
+        "is_hybrid": {
+          "2021": "TRUE"
+        }
+      },
+      "0171-5216": {
         "doaj": {
+          "2016": "FALSE",
           "2018": "FALSE",
+          "2019": "FALSE",
+          "2020": "FALSE",
+          "2021": "FALSE",
+          "2022": "FALSE",
+          "2023": "FALSE"
+        }
+      },
+      "0175-7598": {
+        "doaj": {
+          "2016": "FALSE",
           "2017": "FALSE",
-          "2016": "FALSE"
+          "2018": "FALSE",
+          "2019": "FALSE",
+          "2020": "FALSE",
+          "2021": "FALSE",
+          "2022": "FALSE",
+          "2023": "FALSE"
         }
       },
       "0261-4189": {
         "doaj": {
           "2018": "FALSE",
-          "2023": "FALSE",
+          "2019": "FALSE",
+          "2020": "FALSE",
+          "2021": "FALSE",
+          "2022": "FALSE",
+          "2023": "FALSE"
+        }
+      },
+      "0266-4623": {
+        "doaj": {
+          "2020": "FALSE",
+          "2021": "FALSE"
+        }
+      },
+      "0266-8254": {
+        "publisher": {
+          "2018": "Wiley-Blackwell"
+        }
+      },
+      "0268-4160": {
+        "publisher": {
+          "2025": "Cambridge University Press (CUP)"
+        }
+      },
+      "0269-8463": {
+        "doaj": {
+          "2018": "FALSE",
           "2019": "FALSE",
           "2020": "FALSE",
           "2021": "FALSE",
           "2022": "FALSE"
         }
       },
-      "1469-221X": {
+      "0275-5947": {
+        "publisher": {
+          "2018": "Wiley-Blackwell"
+        }
+      },
+      "0304-4130": {
         "doaj": {
+          "2018": "FALSE",
+          "2019": "FALSE",
           "2021": "FALSE",
+          "2022": "FALSE",
+          "2023": "FALSE",
+          "2025": "FALSE"
+        }
+      },
+      "0307-8833": {
+        "publisher": {
+          "2023": "Cambridge University Press (CUP)"
+        }
+      },
+      "0340-7004": {
+        "doaj": {
+          "2016": "FALSE",
           "2018": "FALSE",
           "2019": "FALSE",
           "2020": "FALSE",
-          "2022": "FALSE",
+          "2021": "FALSE",
           "2023": "FALSE"
+        }
+      },
+      "0341-2687": {
+        "doaj": {
+          "2016": "FALSE",
+          "2020": "FALSE"
         }
       },
       "0363-907X": {
         "doaj": {
-          "2021": "FALSE",
+          "2019": "FALSE",
+          "2021": "FALSE"
+        }
+      },
+      "0368-492X": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "0378-3820": {
+        "doaj": {
+          "2022": "FALSE"
+        }
+      },
+      "0730-6679": {
+        "doaj": {
+          "2018": "FALSE"
+        }
+      },
+      "0896-4327": {
+        "is_hybrid": {
+          "2018": "FALSE"
+        }
+      },
+      "0906-7590": {
+        "doaj": {
           "2019": "FALSE"
         }
       },
-      "0939-5555": {
-        "is_hybrid": {
-          "2016": "FALSE"
-        },
+      "0908-8857": {
         "doaj": {
-          "2017": "FALSE",
-          "2021": "FALSE",
           "2018": "FALSE",
-          "2022": "FALSE",
-          "2020": "FALSE",
           "2019": "FALSE",
+          "2020": "FALSE"
+        }
+      },
+      "0922-1565": {
+        "doaj": {
           "2023": "FALSE"
         }
       },
-      "1432-0584": {
-        "is_hybrid": {
-          "2025": "FALSE"
+      "0928-0987": {
+        "doaj": {
+          "2021": "FALSE"
         }
       },
       "0932-0067": {
         "doaj": {
-          "2020": "FALSE",
-          "2018": "FALSE",
-          "2019": "FALSE",
           "2016": "FALSE",
           "2017": "FALSE",
+          "2018": "FALSE",
+          "2019": "FALSE",
+          "2020": "FALSE",
           "2021": "FALSE"
         }
       },
-      "1432-0711": {
+      "0933-7407": {
+        "is_hybrid": {
+          "2025": "TRUE"
+        }
+      },
+      "0934-0874": {
         "doaj": {
-          "2023": "FALSE",
+          "2019": "FALSE",
+          "2020": "FALSE",
+          "2021": "FALSE"
+        },
+        "publisher": {
+          "2018": "Wiley-Blackwell"
+        }
+      },
+      "0936-5931": {
+        "publisher": {
+          "2017": "Springer Nature"
+        }
+      },
+      "0939-4451": {
+        "doaj": {
+          "2016": "FALSE",
+          "2017": "FALSE",
+          "2018": "FALSE",
+          "2019": "FALSE",
+          "2020": "FALSE",
           "2021": "FALSE",
           "2022": "FALSE"
-        },
-        "is_hybrid": {
-          "2025": "FALSE"
         }
       },
-      "0171-5216": {
+      "0939-5555": {
         "doaj": {
+          "2017": "FALSE",
+          "2018": "FALSE",
+          "2019": "FALSE",
+          "2020": "FALSE",
           "2021": "FALSE",
           "2022": "FALSE",
-          "2023": "FALSE",
-          "2019": "FALSE",
-          "2016": "FALSE",
-          "2020": "FALSE",
-          "2018": "FALSE"
-        }
-      },
-      "0001-6268": {
-        "doaj": {
-          "2018": "FALSE",
-          "2020": "FALSE",
-          "2021": "FALSE",
-          "2017": "FALSE",
-          "2019": "FALSE",
+          "2023": "FALSE"
+        },
+        "is_hybrid": {
           "2016": "FALSE"
         }
       },
       "0942-0940": {
         "doaj": {
-          "2023": "FALSE",
-          "2022": "FALSE"
+          "2022": "FALSE",
+          "2023": "FALSE"
         },
         "is_hybrid": {
           "2025": "FALSE"
         }
       },
-      "1878-7479": {
-        "doaj": {
-          "2020": "FALSE",
-          "2021": "FALSE",
-          "2018": "FALSE",
-          "2019": "FALSE",
-          "2016": "FALSE",
-          "2022": "FALSE"
-        }
-      },
-      "1396-0296": {
+      "0947-5745": {
         "doaj": {
           "2018": "FALSE",
-          "2020": "FALSE",
-          "2022": "FALSE"
-        }
-      },
-      "1351-5101": {
-        "doaj": {
-          "2020": "FALSE",
-          "2021": "FALSE",
-          "2022": "FALSE",
-          "2018": "FALSE",
-          "2023": "FALSE",
-          "2019": "FALSE"
-        }
-      },
-      "1359-4338": {
-        "doaj": {
-          "2023": "FALSE",
-          "2020": "FALSE",
-          "2021": "FALSE"
-        }
-      },
-      "2523-3963": {
-        "doaj": {
-          "2019": "FALSE",
-          "2018": "FALSE",
-          "2020": "FALSE"
-        }
-      },
-      "1574-9541": {
-        "doaj": {
-          "2023": "FALSE"
-        }
-      },
-      "0043-1397": {
-        "doaj": {
-          "2018": "FALSE",
-          "2020": "FALSE",
-          "2021": "FALSE",
-          "2019": "FALSE",
-          "2022": "FALSE",
-          "2023": "FALSE"
-        }
-      },
-      "0094-8276": {
-        "doaj": {
-          "2021": "FALSE",
-          "2022": "FALSE",
-          "2018": "FALSE",
-          "2019": "FALSE",
-          "2020": "FALSE"
-        }
-      },
-      "2041-210X": {
-        "doaj": {
-          "2022": "FALSE",
           "2019": "FALSE",
           "2020": "FALSE",
           "2021": "FALSE"
         }
       },
-      "1366-9516": {
+      "0950-5423": {
+        "doaj": {
+          "2020": "FALSE",
+          "2021": "FALSE",
+          "2022": "FALSE"
+        }
+      },
+      "0954-5794": {
         "is_hybrid": {
-          "2022": "FALSE"
+          "2025": "TRUE"
         }
       },
-      "2196-0216": {
+      "0956-7925": {
         "doaj": {
-          "2019": "FALSE",
-          "2021": "FALSE",
-          "2018": "FALSE",
-          "2020": "FALSE"
+          "2020": "FALSE",
+          "2022": "FALSE",
+          "2023": "FALSE"
         }
       },
-      "1618-0240": {
+      "0957-4530": {
         "doaj": {
-          "2019": "FALSE",
+          "2016": "FALSE",
+          "2017": "FALSE",
           "2018": "FALSE"
         }
       },
-      "1420-682X": {
+      "0957-8234": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "0957-8765": {
+        "publisher": {
+          "2016": "Springer Nature",
+          "2018": "Springer Nature",
+          "2019": "Springer Nature",
+          "2020": "Springer Nature",
+          "2021": "Springer Nature",
+          "2023": "Springer Nature"
+        }
+      },
+      "0958-0670": {
         "doaj": {
-          "2019": "FALSE",
-          "2017": "FALSE",
-          "2016": "FALSE",
-          "2018": "FALSE",
+          "2020": "FALSE",
           "2021": "FALSE",
           "2022": "FALSE"
         }
       },
-      "0044-2585": {
+      "0960-2585": {
+        "doaj": {
+          "2022": "FALSE"
+        }
+      },
+      "0964-0282": {
+        "doaj": {
+          "2019": "FALSE",
+          "2020": "FALSE",
+          "2021": "FALSE"
+        },
+        "publisher": {
+          "2019": "Wiley-Blackwell",
+          "2020": "Wiley-Blackwell",
+          "2021": "Wiley-Blackwell"
+        }
+      },
+      "1015-6305": {
+        "doaj": {
+          "2018": "FALSE"
+        },
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1049-8931": {
+        "doaj": {
+          "2019": "FALSE"
+        }
+      },
+      "1049-9644": {
+        "doaj": {
+          "2021": "FALSE",
+          "2022": "FALSE"
+        }
+      },
+      "1056-8190": {
+        "doaj": {
+          "2023": "FALSE"
+        },
+        "publisher": {
+          "2023": "Wiley-Blackwell"
+        }
+      },
+      "1061-0421": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "1065-9471": {
+        "doaj": {
+          "2018": "FALSE"
+        },
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1075-122X": {
+        "doaj": {
+          "2020": "FALSE"
+        }
+      },
+      "1083-7159": {
+        "doaj": {
+          "2019": "FALSE",
+          "2020": "FALSE"
+        }
+      },
+      "1088-1980": {
+        "publisher": {
+          "2018": "Wiley-Blackwell",
+          "2019": "Wiley-Blackwell",
+          "2020": "Wiley-Blackwell",
+          "2021": "Wiley-Blackwell",
+          "2022": "Wiley-Blackwell",
+          "2023": "Wiley-Blackwell",
+          "2025": "Wiley-Blackwell"
+        }
+      },
+      "1093-9687": {
+        "publisher": {
+          "2020": "Wiley-Blackwell",
+          "2023": "Wiley-Blackwell",
+          "2025": "Wiley-Blackwell"
+        }
+      },
+      "1124-4909": {
         "doaj": {
           "2017": "FALSE",
-          "2016": "FALSE",
-          "2022": "FALSE"
+          "2018": "FALSE"
         }
       },
-      "0013-5194": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "1572-1000": {
-        "doaj": {
-          "2022": "FALSE"
-        }
-      },
-      "1880-4276": {
-        "is_hybrid": {
-          "2022": "FALSE"
+      "1126-3504": {
+        "publisher": {
+          "2025": "Informa UK Limited"
         }
       },
       "1219-4956": {
@@ -940,44 +673,113 @@
           "2020": "FALSE"
         }
       },
-      "1368-5031": {
+      "1286-4560": {
         "doaj": {
-          "2021": "FALSE",
-          "2019": "FALSE",
-          "2020": "FALSE"
-        }
-      },
-      "1742-4801": {
-        "doaj": {
+          "2016": "FALSE",
+          "2017": "FALSE",
           "2018": "FALSE",
           "2019": "FALSE"
-        },
-        "is_hybrid": {
-          "2022": "FALSE"
         }
       },
-      "1083-7159": {
+      "1351-5101": {
+        "doaj": {
+          "2018": "FALSE",
+          "2019": "FALSE",
+          "2020": "FALSE",
+          "2021": "FALSE",
+          "2022": "FALSE",
+          "2023": "FALSE"
+        }
+      },
+      "1355-557X": {
         "doaj": {
           "2019": "FALSE",
           "2020": "FALSE"
         }
       },
-      "1574-7891": {
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "1065-9471": {
+      "1355-6215": {
         "doaj": {
-          "2018": "FALSE"
-        },
-        "is_hybrid": {
+          "2020": "FALSE",
+          "2021": "FALSE",
           "2022": "FALSE"
         }
       },
-      "1478-1239": {
+      "1355-8145": {
         "doaj": {
           "2019": "FALSE"
+        }
+      },
+      "1356-3289": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "1359-4338": {
+        "doaj": {
+          "2020": "FALSE",
+          "2021": "FALSE",
+          "2023": "FALSE"
+        }
+      },
+      "1363-254X": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "1366-5626": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "1366-9516": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1368-5031": {
+        "doaj": {
+          "2019": "FALSE",
+          "2020": "FALSE",
+          "2021": "FALSE"
+        }
+      },
+      "1368-9800": {
+        "doaj": {
+          "2020": "FALSE"
+        }
+      },
+      "1386-4157": {
+        "publisher": {
+          "2017": "Springer Nature",
+          "2018": "Springer Nature",
+          "2019": "Springer Nature",
+          "2020": "Springer Nature",
+          "2022": "Springer Nature"
+        }
+      },
+      "1388-9842": {
+        "publisher": {
+          "2018": "Wiley-Blackwell",
+          "2020": "Wiley-Blackwell",
+          "2021": "Wiley-Blackwell",
+          "2023": "Wiley-Blackwell"
+        }
+      },
+      "1396-0296": {
+        "doaj": {
+          "2018": "FALSE",
+          "2020": "FALSE",
+          "2022": "FALSE"
+        }
+      },
+      "1420-682X": {
+        "doaj": {
+          "2016": "FALSE",
+          "2017": "FALSE",
+          "2018": "FALSE",
+          "2019": "FALSE",
+          "2021": "FALSE",
+          "2022": "FALSE"
         }
       },
       "1420-9071": {
@@ -985,14 +787,24 @@
           "2025": "FALSE"
         }
       },
-      "0340-7004": {
+      "1432-0584": {
+        "is_hybrid": {
+          "2025": "FALSE"
+        }
+      },
+      "1432-0614": {
+        "is_hybrid": {
+          "2025": "FALSE"
+        }
+      },
+      "1432-0711": {
         "doaj": {
-          "2016": "FALSE",
-          "2020": "FALSE",
           "2021": "FALSE",
-          "2023": "FALSE",
-          "2019": "FALSE",
-          "2018": "FALSE"
+          "2022": "FALSE",
+          "2023": "FALSE"
+        },
+        "is_hybrid": {
+          "2025": "FALSE"
         }
       },
       "1432-1335": {
@@ -1005,67 +817,24 @@
           "2025": "FALSE"
         }
       },
-      "1355-8145": {
+      "1435-0211": {
         "doaj": {
-          "2019": "FALSE"
+          "2018": "FALSE"
         }
       },
-      "1590-1262": {
-        "is_hybrid": {
-          "2023": "FALSE"
-        },
+      "1435-9448": {
         "doaj": {
-          "2021": "FALSE"
-        }
-      },
-      "0266-4623": {
-        "doaj": {
-          "2020": "FALSE",
-          "2021": "FALSE"
-        }
-      },
-      "1368-9800": {
-        "doaj": {
-          "2020": "FALSE"
-        }
-      },
-      "0001-6349": {
-        "doaj": {
+          "2016": "FALSE",
+          "2017": "FALSE",
           "2018": "FALSE",
-          "2020": "FALSE"
-        },
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "1015-6305": {
-        "doaj": {
-          "2018": "FALSE"
-        },
-        "is_hybrid": {
-          "2022": "FALSE"
-        }
-      },
-      "1752-6981": {
-        "doaj": {
-          "2018": "FALSE"
-        }
-      },
-      "1075-122X": {
-        "doaj": {
-          "2020": "FALSE"
-        }
-      },
-      "0958-0670": {
-        "doaj": {
           "2020": "FALSE",
           "2021": "FALSE",
           "2022": "FALSE"
         }
       },
-      "0730-6679": {
-        "doaj": {
-          "2018": "FALSE"
+      "1435-9456": {
+        "is_hybrid": {
+          "2025": "FALSE"
         }
       },
       "1438-7492": {
@@ -1074,59 +843,77 @@
           "2019": "FALSE"
         }
       },
-      "2577-6576": {
+      "1439-1791": {
         "doaj": {
-          "2019": "FALSE"
+          "2021": "FALSE"
         }
       },
-      "2516-8401": {
+      "1445-5781": {
         "is_hybrid": {
           "2022": "FALSE"
         }
       },
-      "2196-7350": {
+      "1462-5814": {
         "doaj": {
+          "2018": "FALSE"
+        }
+      },
+      "1464-6668": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "1467-2987": {
+        "is_hybrid": {
+          "2025": "TRUE"
+        }
+      },
+      "1467-6370": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "1467-7644": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1469-221X": {
+        "doaj": {
+          "2018": "FALSE",
           "2019": "FALSE",
           "2020": "FALSE",
           "2021": "FALSE",
           "2022": "FALSE",
-          "2018": "FALSE"
+          "2023": "FALSE"
         }
       },
-      "2199-160X": {
+      "1469-3569": {
         "doaj": {
           "2020": "FALSE",
-          "2021": "FALSE",
-          "2022": "FALSE",
-          "2018": "FALSE"
+          "2023": "FALSE"
         }
       },
-      "1545-2255": {
+      "1471-5201": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "1474-9718": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1476-5535": {
         "doaj": {
+          "2016": "FALSE",
           "2019": "FALSE",
           "2020": "FALSE"
         }
       },
-      "0341-2687": {
+      "1478-1239": {
         "doaj": {
-          "2020": "FALSE",
-          "2016": "FALSE"
-        }
-      },
-      "1049-9644": {
-        "doaj": {
-          "2021": "FALSE",
-          "2022": "FALSE"
-        }
-      },
-      "0928-0987": {
-        "doaj": {
-          "2021": "FALSE"
-        }
-      },
-      "1570-8268": {
-        "doaj": {
-          "2021": "FALSE"
+          "2019": "FALSE"
         }
       },
       "1525-2027": {
@@ -1139,43 +926,443 @@
           "2022": "FALSE"
         }
       },
-      "0269-8463": {
+      "1527-6465": {
+        "publisher": {
+          "2018": "Wiley-Blackwell",
+          "2020": "Wiley-Blackwell"
+        }
+      },
+      "1545-2255": {
         "doaj": {
-          "2021": "FALSE",
-          "2018": "FALSE",
-          "2020": "FALSE",
           "2019": "FALSE",
+          "2020": "FALSE"
+        }
+      },
+      "1560-2745": {
+        "publisher": {
+          "2016": "Springer Nature",
+          "2020": "Springer Nature"
+        }
+      },
+      "1560-4292": {
+        "publisher": {
+          "2021": "Springer Nature",
+          "2023": "Springer Nature"
+        }
+      },
+      "1570-8268": {
+        "doaj": {
+          "2021": "FALSE"
+        }
+      },
+      "1572-1000": {
+        "doaj": {
           "2022": "FALSE"
         }
       },
-      "0304-4130": {
-        "doaj": {
-          "2018": "FALSE",
-          "2021": "FALSE",
-          "2022": "FALSE",
-          "2019": "FALSE",
-          "2023": "FALSE",
-          "2025": "FALSE"
-        }
-      },
-      "1474-9718": {
+      "1574-7891": {
         "is_hybrid": {
           "2022": "FALSE"
         }
       },
-      "1355-6215": {
+      "1574-9541": {
+        "doaj": {
+          "2023": "FALSE"
+        }
+      },
+      "1590-1262": {
+        "doaj": {
+          "2021": "FALSE"
+        },
+        "is_hybrid": {
+          "2023": "FALSE"
+        }
+      },
+      "1590-4261": {
+        "doaj": {
+          "2019": "FALSE"
+        }
+      },
+      "1598-2408": {
+        "doaj": {
+          "2021": "FALSE"
+        }
+      },
+      "1600-5775": {
+        "doaj": {
+          "2019": "FALSE"
+        },
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1618-0240": {
+        "doaj": {
+          "2018": "FALSE",
+          "2019": "FALSE"
+        }
+      },
+      "1661-8726": {
+        "doaj": {
+          "2016": "FALSE",
+          "2017": "FALSE",
+          "2018": "FALSE"
+        },
+        "publisher": {
+          "2016": "Springer Nature",
+          "2017": "Springer Nature",
+          "2018": "Springer Nature"
+        }
+      },
+      "1680-4333": {
+        "doaj": {
+          "2021": "FALSE",
+          "2023": "FALSE",
+          "2025": "FALSE"
+        },
+        "publisher": {
+          "2021": "Springer Nature",
+          "2023": "Springer Nature",
+          "2025": "Springer Nature"
+        }
+      },
+      "1740-8695": {
+        "doaj": {
+          "2019": "FALSE"
+        }
+      },
+      "1742-4801": {
+        "doaj": {
+          "2018": "FALSE",
+          "2019": "FALSE"
+        },
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1744-1331": {
+        "doaj": {
+          "2023": "FALSE"
+        }
+      },
+      "1744-4292": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1750-8592": {
+        "publisher": {
+          "2023": "Wiley-Blackwell"
+        }
+      },
+      "1751-7311": {
+        "doaj": {
+          "2020": "FALSE"
+        },
+        "publisher": {
+          "2020": "Cambridge University Press (CUP)"
+        }
+      },
+      "1751-7915": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1751-8644": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1751-8687": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1752-6981": {
+        "doaj": {
+          "2018": "FALSE"
+        }
+      },
+      "1753-318X": {
+        "doaj": {
+          "2018": "FALSE"
+        }
+      },
+      "1754-2731": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "1755-7739": {
         "doaj": {
           "2020": "FALSE",
           "2021": "FALSE",
           "2022": "FALSE"
         }
       },
-      "0906-7590": {
+      "1757-4676": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1757-7802": {
+        "publisher": {
+          "2019": "Wiley-Blackwell"
+        }
+      },
+      "1833-3672": {
+        "is_hybrid": {
+          "2025": "TRUE"
+        }
+      },
+      "1866-9808": {
+        "doaj": {
+          "2022": "FALSE"
+        }
+      },
+      "1867-299X": {
+        "doaj": {
+          "2023": "FALSE"
+        }
+      },
+      "1869-4179": {
+        "doaj": {
+          "2016": "FALSE",
+          "2017": "FALSE"
+        }
+      },
+      "1871-4757": {
+        "doaj": {
+          "2017": "FALSE",
+          "2018": "FALSE",
+          "2019": "FALSE"
+        },
+        "is_hybrid": {
+          "2025": "FALSE"
+        }
+      },
+      "1874-785X": {
+        "doaj": {
+          "2017": "FALSE",
+          "2018": "FALSE",
+          "2022": "FALSE"
+        }
+      },
+      "1878-5352": {
+        "publisher": {
+          "2022": "Elsevier BV"
+        }
+      },
+      "1878-7479": {
+        "doaj": {
+          "2016": "FALSE",
+          "2018": "FALSE",
+          "2019": "FALSE",
+          "2020": "FALSE",
+          "2021": "FALSE",
+          "2022": "FALSE"
+        }
+      },
+      "1880-4276": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1903-220X": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1939-1676": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        },
+        "publisher": {
+          "2022": "Wiley-Blackwell"
+        }
+      },
+      "1940-3372": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1942-2466": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1998-0124": {
+        "doaj": {
+          "2018": "FALSE",
+          "2020": "FALSE"
+        },
+        "publisher": {
+          "2018": "Springer Nature",
+          "2020": "Springer Nature"
+        }
+      },
+      "2001-1326": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2001-3078": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2041-210X": {
+        "doaj": {
+          "2019": "FALSE",
+          "2020": "FALSE",
+          "2021": "FALSE",
+          "2022": "FALSE"
+        }
+      },
+      "2042-3896": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "2042-6747": {
         "doaj": {
           "2019": "FALSE"
         }
       },
-      "0947-5745": {
+      "2044-1398": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "2045-3817": {
+        "doaj": {
+          "2020": "FALSE",
+          "2023": "FALSE"
+        }
+      },
+      "2045-7022": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2045-7634": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2045-7758": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2045-8827": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2047-3087": {
+        "publisher": {
+          "2022": "Wiley-Blackwell"
+        }
+      },
+      "2047-8844": {
+        "publisher": {
+          "2018": "Wiley-Blackwell",
+          "2019": "Wiley-Blackwell",
+          "2020": "Wiley-Blackwell",
+          "2023": "Wiley-Blackwell",
+          "2025": "Wiley-Blackwell"
+        }
+      },
+      "2047-9980": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        },
+        "publisher": {
+          "2022": "Wiley-Blackwell"
+        }
+      },
+      "2049-8470": {
+        "doaj": {
+          "2023": "FALSE"
+        }
+      },
+      "2050-0904": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2052-2630": {
+        "doaj": {
+          "2022": "FALSE"
+        }
+      },
+      "2053-1095": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2054-1058": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2055-4877": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2055-5822": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        },
+        "publisher": {
+          "2022": "Wiley-Blackwell"
+        }
+      },
+      "2059-5891": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "2150-8925": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2161-2234": {
+        "publisher": {
+          "2019": "Wiley-Blackwell",
+          "2020": "Wiley-Blackwell"
+        }
+      },
+      "2190-5991": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2191-1363": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2192-4376": {
+        "doaj": {
+          "2018": "FALSE"
+        },
+        "publisher": {
+          "2018": "Springer Nature"
+        }
+      },
+      "2193-9438": {
+        "doaj": {
+          "2018": "FALSE"
+        },
+        "publisher": {
+          "2018": "Springer Nature"
+        }
+      },
+      "2196-0216": {
         "doaj": {
           "2018": "FALSE",
           "2019": "FALSE",
@@ -1183,14 +1370,61 @@
           "2021": "FALSE"
         }
       },
-      "1467-7644": {
+      "2196-4386": {
+        "publisher": {
+          "2018": "Springer Nature",
+          "2022": "Springer Nature",
+          "2023": "Springer Nature"
+        }
+      },
+      "2196-7350": {
+        "doaj": {
+          "2018": "FALSE",
+          "2019": "FALSE",
+          "2020": "FALSE",
+          "2021": "FALSE",
+          "2022": "FALSE"
+        }
+      },
+      "2198-3844": {
         "is_hybrid": {
           "2022": "FALSE"
         }
       },
-      "1432-0614": {
+      "2199-160X": {
+        "doaj": {
+          "2018": "FALSE",
+          "2020": "FALSE",
+          "2021": "FALSE",
+          "2022": "FALSE"
+        }
+      },
+      "2199-6784": {
+        "publisher": {
+          "2016": "Springer Nature",
+          "2017": "Springer Nature",
+          "2019": "Springer Nature",
+          "2023": "Springer Nature"
+        }
+      },
+      "2210-2612": {
+        "publisher": {
+          "2021": "Elsevier BV"
+        }
+      },
+      "2324-9269": {
         "is_hybrid": {
-          "2025": "FALSE"
+          "2022": "FALSE"
+        }
+      },
+      "2328-9503": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2352-4928": {
+        "is_hybrid": {
+          "2025": "TRUE"
         }
       },
       "2365-5127": {
@@ -1210,108 +1444,52 @@
           "2025": "FALSE"
         }
       },
-      "1751-8687": {
+      "2366-6129": {
+        "publisher": {
+          "2017": "Springer Fachmedien Wiesbaden GmbH"
+        }
+      },
+      "2378-2242": {
         "is_hybrid": {
           "2022": "FALSE"
         }
       },
-      "1600-5775": {
-        "doaj": {
-          "2019": "FALSE"
-        },
+      "2396-9873": {
+        "publisher": {
+          "2023": "SAGE Publications"
+        }
+      },
+      "2399-2050": {
         "is_hybrid": {
           "2022": "FALSE"
         }
       },
-      "1476-5535": {
-        "doaj": {
-          "2016": "FALSE",
-          "2020": "FALSE",
-          "2019": "FALSE"
-        }
-      },
-      "0378-3820": {
-        "doaj": {
+      "2470-9239": {
+        "is_hybrid": {
           "2022": "FALSE"
         }
       },
-      "0956-7925": {
-        "doaj": {
-          "2023": "FALSE",
-          "2020": "FALSE",
+      "2471-254X": {
+        "is_hybrid": {
           "2022": "FALSE"
         }
       },
-      "0950-5423": {
-        "doaj": {
-          "2021": "FALSE",
-          "2020": "FALSE",
+      "2475-1421": {
+        "is_hybrid": {
+          "2022": "FALSE",
+          "2025": "FALSE"
+        }
+      },
+      "2516-8401": {
+        "is_hybrid": {
           "2022": "FALSE"
         }
       },
-      "1435-0211": {
+      "2523-3963": {
         "doaj": {
-          "2018": "FALSE"
-        }
-      },
-      "1869-4179": {
-        "doaj": {
-          "2017": "FALSE",
-          "2016": "FALSE"
-        }
-      },
-      "1590-4261": {
-        "doaj": {
-          "2019": "FALSE"
-        }
-      },
-      "0023-6438": {
-        "doaj": {
-          "2021": "FALSE"
-        }
-      },
-      "2589-2347": {
-        "doaj": {
-          "2022": "FALSE"
-        }
-      },
-      "1355-557X": {
-        "doaj": {
+          "2018": "FALSE",
           "2019": "FALSE",
           "2020": "FALSE"
-        }
-      },
-      "1462-5814": {
-        "doaj": {
-          "2018": "FALSE"
-        }
-      },
-      "0908-8857": {
-        "doaj": {
-          "2018": "FALSE",
-          "2020": "FALSE",
-          "2019": "FALSE"
-        }
-      },
-      "1866-9808": {
-        "doaj": {
-          "2022": "FALSE"
-        }
-      },
-      "1753-318X": {
-        "doaj": {
-          "2018": "FALSE"
-        }
-      },
-      "1049-8931": {
-        "doaj": {
-          "2019": "FALSE"
-        }
-      },
-      "1124-4909": {
-        "doaj": {
-          "2018": "FALSE",
-          "2017": "FALSE"
         }
       },
       "2573-8488": {
@@ -1319,1024 +1497,133 @@
           "2020": "FALSE"
         }
       },
-      "1469-3569": {
-        "doaj": {
-          "2023": "FALSE",
-          "2020": "FALSE"
-        }
-      },
-      "1755-7739": {
-        "doaj": {
-          "2020": "FALSE",
-          "2022": "FALSE",
-          "2021": "FALSE"
-        }
-      },
-      "1435-9448": {
-        "doaj": {
-          "2016": "FALSE",
-          "2020": "FALSE",
-          "2022": "FALSE",
-          "2017": "FALSE",
-          "2018": "FALSE",
-          "2021": "FALSE"
-        }
-      },
-      "1435-9456": {
+      "2573-9522": {
         "is_hybrid": {
+          "2023": "FALSE",
           "2025": "FALSE"
         }
       },
-      "1874-785X": {
-        "doaj": {
-          "2018": "FALSE",
-          "2022": "FALSE",
-          "2017": "FALSE"
-        }
-      },
-      "1439-1791": {
-        "doaj": {
-          "2021": "FALSE"
-        }
-      },
-      "1598-2408": {
-        "doaj": {
-          "2021": "FALSE"
-        }
-      },
-      "2049-8470": {
-        "doaj": {
-          "2023": "FALSE"
-        }
-      },
-      "0007-1234": {
-        "doaj": {
-          "2023": "FALSE"
-        }
-      },
-      "0021-9320": {
-        "doaj": {
-          "2021": "FALSE",
-          "2022": "FALSE",
-          "2023": "FALSE"
-        }
-      },
-      "0031-1820": {
-        "doaj": {
-          "2020": "FALSE",
-          "2021": "FALSE"
-        }
-      },
-      "0143-814X": {
-        "doaj": {
-          "2020": "FALSE"
-        }
-      },
-      "1744-1331": {
-        "doaj": {
-          "2023": "FALSE"
-        }
-      },
-      "2052-2630": {
-        "doaj": {
-          "2022": "FALSE"
-        }
-      },
-      "1740-8695": {
+      "2577-6576": {
         "doaj": {
           "2019": "FALSE"
         }
       },
-      "1867-299X": {
-        "doaj": {
-          "2023": "FALSE"
-        }
-      },
-      "0960-2585": {
+      "2589-2347": {
         "doaj": {
           "2022": "FALSE"
         }
       },
-      "1445-5781": {
+      "2628-5452": {
         "is_hybrid": {
           "2022": "FALSE"
         }
       },
-      "2042-6747": {
-        "doaj": {
-          "2019": "FALSE"
+      "2642-3561": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2666-061X": {
+        "publisher": {
+          "2022": "Elsevier BV"
+        }
+      },
+      "2688-6146": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2691-3704": {
+        "is_hybrid": {
+          "2021": "FALSE",
+          "2022": "FALSE"
+        }
+      },
+      "2694-2445": {
+        "is_hybrid": {
+          "2021": "FALSE",
+          "2022": "FALSE"
+        }
+      },
+      "2694-2453": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2694-2461": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2694-247X": {
+        "is_hybrid": {
+          "2021": "FALSE",
+          "2022": "FALSE"
+        }
+      },
+      "2694-2496": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2694-250X": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2698-5977": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2699-9293": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2699-9412": {
+        "is_hybrid": {
+          "2022": "FALSE"
         }
       }
     },
-    "issn_print": {},
     "issn_electronic": {},
-    "issn_l": {}
+    "issn_l": {},
+    "issn_print": {}
   },
-  "PUBLISHER_MAPPINGS": {
-    "The Optical Society": "Optical Society of America (OSA)",
-    "Impact Journals": "Impact Journals LLC",
-    "American Society for Biochemistry &amp; Molecular Biology (ASBMB)": "American Society for Biochemistry & Molecular Biology (ASBMB)",
-    "Institute of Electrical and Electronics Engineers (IEEE)": "Institute of Electrical & Electronics Engineers (IEEE)",
-    "Cold Spring Harbor Laboratory": "Cold Spring Harbor Laboratory Press",
-    "Institute of Electrical &amp; Electronics Engineers (IEEE)": "Institute of Electrical & Electronics Engineers (IEEE)",
-    "Hindawi Limited": "Hindawi Publishing Corporation",
-    "Oxford University Press": "Oxford University Press (OUP)",
-    "Wiley": "Wiley-Blackwell",
-    "Bioscientifica": "BioScientifica",
-    "Springer Nature America, Inc": "Springer Nature",
-    "Springer Science and Business Media LLC": "Springer Nature",
-    "Springer Fachmedien Wiesbaden GmbH": "Springer Nature",
-    "F1000 ( Faculty of 1000 Ltd)": "F1000 Research, Ltd.",
-    "F1000 Research Ltd": "F1000 Research, Ltd.",
-    "Scientific and Academic Publishing": "Scientific & Academic Publishing",
-    "Science and Education Publishing Co., Ltd.": "Science and Education Publishing",
-    "Horizon Research Publishing Co., Ltd.": "Horizon Research Publishing",
-    "Osterreichische Akademie der Wissenschaften": "Österreichische Akademie der Wissenschaften",
-    "Element d.o.o.": "Ele-Math",
-    "Element": "Ele-Math",
-    "Institute of Physiology of the Czech Academy of Sciences": "Academia Scientiarum Bohemoslovaca",
-    "Future Science Ltd": "Future Science, LTD",
-    "Edinburgh University Global Health Society": "International Global Health Society",
-    "Scientific Research Publishing, Inc,": "Scientific Research Publishing, Inc.",
-    "CMA Joule Inc.": "Joule Inc.",
-    "Academic Conferences and Publishing International Limited": "Academic Conferences International Ltd",
-    "Modestum Publishing Ltd": "Modestum Limited",
-    "Verlag irena regener": "Berlin Regener Publishing House",
-    "DE GRUYTER": "De Gruyter",
-    "DE GRUYTER SAUR": "De Gruyter",
-    "De Gruyter Oldenbourg": "De Gruyter",
-    "De Gruyter Mouton": "De Gruyter",
-    "De Gruyter Saur": "De Gruyter",
-    "WALTER DE GRUYTER": "De Gruyter",
-    "Verlag Walter de Gruyter GmbH": "De Gruyter",
-    "Walter de Gruyter – K. G. Saur": "De Gruyter",
-    "BRILL": "Brill",
-    "Brill | Nijhoff": "Brill",
-    "Peter Lang UK": "Peter Lang",
-    "Peter Lang D": "Peter Lang",
-    "PETER LANG LTD International Academic Publishers": "Peter Lang",
-    "Intellect Books": "Intellect",
-    "Intellect Ltd": "Intellect",
-    "Bloomsbury Academic": "Bloomsbury Publishing",
-    "Bloomsbury Publishing Plc": "Bloomsbury Publishing",
-    "T&T Clark": "Bloomsbury Publishing",
-    "Bloomsbury T & T Clark": "Bloomsbury Publishing",
-    "Bloomsbury T&T Clark": "Bloomsbury Publishing",
-    "Bloomsbury Visual Arts": "Bloomsbury Publishing",
-    "Bloomsbury Publishing Inc": "Bloomsbury Publishing",
-    "Continuum International Publishing Group": "Bloomsbury Publishing",
-    "University of Hawai'i / Hawai‘i Press": "University of Hawaii Press",
-    "University of Hawai'i Press": "University of Hawaii Press",
-    "Tectum – ein Verlag in der Nomos Verlagsgesellschaft": "Tectum Wissenschaftsverlag",
-    "Amsterdam university Press": "Amsterdam University Press",
-    "NUS Press Pte Ltd": "NUS Press",
-    "The Ohio State University Press": "Ohio State University Press",
-    "University of Ottawa Press / Les Presses de l’Université d’Ottawa": "University of Ottawa Press",
-    "Verlag der österreichischen Akademie der Wissenschaften": "Verlag der Österreichischen Akademie der Wissenschaften",
-    "VERLAG DER ÖSTERREICHISCHEN AKADEMIE DER WISSENSCHAFTEN (ÖAW)": "Verlag der Österreichischen Akademie der Wissenschaften",
-    "Policy Press": "The Policy Press",
-    "transcript-Verlag": "transcript Verlag",
-    "Transcript Verlag": "transcript Verlag",
-    "Böhlau Verlag": "Böhlau",
-    "BÖHLAU VERLAG": "Böhlau",
-    "Hollitzer Verlag": "Hollitzer",
-    "Verlag Holzhausen GmbH": "Holzhausen",
-    "Verlag Holzhausen": "Holzhausen",
-    "VERLAG TURIA UND KANT ": "Turia und Kant",
-    "WAXMANN VERLAG": "Waxmann Verlag",
-    "Waxmann Verlag GmbH": "Waxmann Verlag",
-    "Waxmann": "Waxmann Verlag",
-    "WALLSTEIN VERLAG": "Wallstein Verlag",
-    "Nomos Verlagsgesellschaft mbH & Co.- KG": "Nomos Verlagsgesellschaft mbH & Co. KG",
-    "edition text + kritik im Richard Boorberg Verlag": "edition text + kritik",
-    "Springer Nature Switzerland": "Springer International Publishing",
-    "Schüren Verlag": "Schüren Verlag GmbH"
+  "ESAC_COUNTRY_MAPPINGS": {
+    "Austria": "AUT",
+    "Germany": "DEU"
   },
-  "JOURNAL_MAPPINGS": {
-    "PLoS ONE": "PLOS ONE",
-    "PLOS One": "PLOS ONE",
-    "Phys. Chem. Chem. Phys.": "Physical Chemistry Chemical Physics",
-    "J. Mater. Chem. A": "Journal of Materials Chemistry A",
-    "J. Mater. Chem. B": "Journal of Materials Chemistry B",
-    "PLoS Pathogens": "PLOS Pathogens",
-    "PLoS Genetics": "PLOS Genetics",
-    "PLoS Biology": "PLOS Biology",
-    "PLoS Computational Biology": "PLOS Computational Biology",
-    "PLoS Neglected Tropical Diseases": "PLOS Neglected Tropical Diseases",
-    "Oncotarget": "OncoTarget",
-    "Journal of Lipid Research": "The Journal of Lipid Research",
-    "Plastic and Reconstructive Surgery Global Open": "Plastic and Reconstructive Surgery - Global Open",
-    "RSC Adv.": "RSC Advances",
-    "Zeitschrift für die neutestamentliche Wissenschaft": "Zeitschrift für die Neutestamentliche Wissenschaft und die Kunde der älteren Kirche",
-    "Chem. Soc. Rev.": "Chemical Society Reviews",
-    "Journal of Elections, Public Opinion and Parties": "Journal of Elections, Public Opinion & Parties",
-    "Scientific Repor.": "Scientific Reports",
-    "PAIN": "Pain",
-    "G3&amp;#58; Genes|Genomes|Genetics": "G3: Genes|Genomes|Genetics",
-    "G3 Genes|Genomes|Genetics": "G3: Genes|Genomes|Genetics",
-    "Transactions of the Royal Society of Tropical Medicine and Hygiene": "Transactions of The Royal Society of Tropical Medicine and Hygiene",
-    "Org. Biomol. Chem.": "Organic & Biomolecular Chemistry",
-    "PLoS Medicine": "PLOS Medicine",
-    "AJP: Heart and Circulatory Physiology": "American Journal of Physiology - Heart and Circulatory Physiology",
-    "Naturwissenschaften": "The Science of Nature",
-    "Dalton Trans.": "Dalton Transactions",
-    "Chem. Sci.": "Chemical Science",
-    "J. Anal. At. Spectrom.": "Journal of Analytical Atomic Spectrometry",
-    "Geospatial health": "Geospatial Health",
-    "Journal of the European Optical Society-Rapid Publications": "Journal of the European Optical Society: Rapid Publications",
-    "J. Mater. Chem. C": "Journal of Materials Chemistry C",
-    "Chem. Commun.": "Chemical Communications",
-    "Cognition and Emotion": "Cognition & Emotion",
-    "Catal. Sci. Technol.": "Catalysis Science & Technology",
-    "Journal of Epidemiology & Community Health": "Journal of Epidemiology and Community Health",
-    "JRSM": "Journal of the Royal Society of Medicine",
-    "Green Chem.": "Green Chemistry",
-    "Stochastics and  Partial Differential Equations: Analysis and Computations": "Stochastics and Partial Differential Equations: Analysis and Computations",
-    "Journal of Mass Communication & Journalism": "Journal of Mass Communication and Journalism",
-    "Journal of Child and Adolescent Behavior": "Journal of Child and Adolescent Behaviour",
-    "Journal of Otolaryngology - Head and Neck Surgery": "Journal of Otolaryngology - Head & Neck Surgery",
-    "manuscripta mathematica": "Manuscripta Mathematica",
-    "CPT Pharmacometrics Syst. Pharmacol.": "CPT: Pharmacometrics & Systems Pharmacology",
-    "Taal en tongval": "Taal en Tongval",
-    "Notfall +  Rettungsmedizin": "Notfall + Rettungsmedizin",
-    "The Journal of Neuroscience": "Journal of Neuroscience",
-    "British Editorial Society of Bone &amp; Joint Surgery": "British Editorial Society of Bone & Joint Surgery",
-    "Proceedings of the Royal Society A: Mathematical, Physical and Engineering Science": "Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences",
-    "The FEBS Journal": "FEBS Journal",
-    "PLANT PHYSIOLOGY": "Plant Physiology",
-    "IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control": "IEEE Transactions on Ultrasonics, Ferroelectrics and Frequency Control",
-    "Cellular and Molecular Gastroenterology and Hepatology": "CMGH Cellular and Molecular Gastroenterology and Hepatology",
-    "Tellus B: Chemical and Physical Meteorology": "Tellus B",
-    "Natural Hazards and Earth System Science": "Natural Hazards and Earth System Sciences",
-    "interactive Journal of Medical Research": "Interactive Journal of Medical Research",
-    "EP Europace": "Europace",
-    "Prostate Cancer and Prostatic Disease": "Prostate Cancer and Prostatic Diseases",
-    "CARTILAGE": "Cartilage",
-    "Annals of Clinical Biochemistry": "Annals of Clinical Biochemistry: An international journal of biochemistry and laboratory medicine",
-    "JNCI: Journal of the National Cancer Institute": "JNCI Journal of the National Cancer Institute",
-    "Journal of the National Cancer Institute": "JNCI Journal of the National Cancer Institute",
-    "European Heart Journal – Cardiovascular Imaging": "European Heart Journal - Cardiovascular Imaging",
-    "Transplantation": "Transplantation Journal",
-    "SHOCK": "Shock",
-    "Endocrine-Related Cancer": "Endocrine Related Cancer",
-    "The American Journal of Tropical Medicine and Hygiene": "American Journal of Tropical Medicine and Hygiene",
-    "American Journal of Physiology - Endocrinology And Metabolism": "AJP: Endocrinology and Metabolism",
-    "Neurology - Neuroimmunology Neuroinflammation": "Neurology: Neuroimmunology & Neuroinflammation",
-    "eneuro": "eNeuro",
-    "The Journal of Experimental Biology": "Journal of Experimental Biology",
-    "The Plant Cell Online": "The Plant Cell",
-    "Journal of Agricultural, Biological, and Environmental Statistics": "Journal of Agricultural, Biological and Environmental Statistics",
-    "PalZ": "Paläontologische Zeitschrift",
-    "Lighting Research and Technology": "Lighting Research & Technology",
-    "The Journal of Infectious Diseases": "Journal of Infectious Diseases",
-    "Planning Practice and Research": "Planning Practice & Research",
-    "Learning and Individual Differences": "Learning & Individual Differences",
-    "Water Science and Technology": "Water Science & Technology",
-    "Antimicrobial Resistance & Infection Control": "Antimicrobial Resistance and Infection Control",
-    "European Journal of Public Health": "The European Journal of Public Health",
-    "Journal of Vacuum Science & Technology B, Nanotechnology and Microelectronics: Materials, Processing, Measurement, and Phenomena": "Journal of Vacuum Science & Technology B: Microelectronics and Nanometer Structures",
-    "Briefings In Bioinformatics": "Briefings in Bioinformatics",
-    "Notes and Records: the Royal Society journal of the history of science": "Notes and Records of the Royal Society",
-    "Journal Of Logic And Computation": "Journal of Logic and Computation",
-    "Health:: An Interdisciplinary Journal for the Social Study of Health, Illness and Medicine": "Health: An Interdisciplinary Journal for the Social Study of Health, Illness and Medicine",
-    "INTERNATIONAL JOURNAL OF SYSTEMATIC AND EVOLUTIONARY MICROBIOLOGY": "International Journal of Systematic and Evolutionary Microbiology",
-    "Protein Engineering Design and Selection": "Protein Engineering, Design and Selection",
-    "The Journals of Gerontology: Series A": "The Journals of Gerontology Series A: Biological Sciences and Medical Sciences",
-    "MHR: Basic science of reproductive medicine": "Molecular Human Reproduction",
-    "Research on Language and Social Interaction": "Research on Language & Social Interaction",
-    "Psychology and Sexuality": "Psychology & Sexuality",
-    "BJA: British Journal of Anaesthesia": "British Journal of Anaesthesia",
-    "Journal of Development Studies": "The Journal of Development Studies",
-    "Tellus A: Dynamic Meteorology and Oceanography": "Tellus A",
-    "International journal of methods in psychiatric research": "International Journal of Methods in Psychiatric Research",
-    "Polym. Chem.": "Polymer Chemistry",
-    "ISME Journal": "The ISME Journal",
-    "Interface": "Journal of The Royal Society Interface",
-    "Medical Engineering and Physics": "Medical Engineering & Physics",
-    "Forensic Science, Medicine, and Pathology": "Forensic Science, Medicine and Pathology",
-    "Lab Chip": "Lab on a Chip",
-    "Mater. Horiz.": "Materials Horizons",
-    "AoB PLANTS": "AoB Plants",
-    "Elem Sci Anth": "Elementa: Science of the Anthropocene",
-    "Cell Death & Disease": "Cell Death and Disease",
-    "Scandinavian Journal of Work, Environment & Health": "Scandinavian Journal of Work Environment and Health",
-    "The Bone & Joint Journal": "Bone & Joint Journal",
-    "British Journal of Psychiatry": "The British Journal of Psychiatry",
-    "American Journal of Physiology-Heart and Circulatory Physiology": "American Journal of Physiology - Heart and Circulatory Physiology",
-    "American Journal of Physiology-Endocrinology and Metabolism": "AJP: Endocrinology and Metabolism",
-    "Milbank Quarterly": "The Milbank Quarterly",
-    "Faraday Discuss.": "Faraday Discussions",
-    "Journal of Management and Governance": "Journal of Management & Governance",
-    "Journal für Verbraucherschutz und Lebensmittelsicherheit": "Journal of Consumer Protection and Food Safety",
-    "Nanoscale Horiz.": "Nanoscale Horizons",
-    "BeitrÃ¤ge zur Algebra und Geometrie / Contributions to Algebra and Geometry": "Beiträge zur Algebra und Geometrie / Contributions to Algebra and Geometry",
-    "Energy Environ. Sci.": "Energy & Environmental Science",
-    "Raumforschung und Raumordnung |  Spatial Research and Planning": "Raumforschung und Raumordnung",
-    "Mol. BioSyst.": "Molecular BioSystems",
-    "Physics in Medicine & Biology": "Physics in Medicine and Biology",
-    "Anal. Methods": "Analytical Methods",
-    "The American Journal of Clinical Nutrition": "American Journal of Clinical Nutrition",
-    "International Journal of Clinical and Experimental Pathology ": "International Journal of Clinical and Experimental Pathology",
-    "Forestry": "Forestry: An International Journal of Forest Research",
-    "BJPsych Open": "British Journal of Psychiatry Open",
-    "JOURNAL OF FORENSIC SCIENCE & CRIMINOLOGY": "Journal of Forensic Science & Criminology",
-    "New J. Chem.": "New Journal of Chemistry",
-    "The British Journal of Criminology": "British Journal of Criminology",
-    "Journal of Alzheimer's disease": "Journal of Alzheimer's Disease",
-    "Cell Death & Differentiation": "Cell Death and Differentiation",
-    "Nat. Prod. Rep.": "Natural Product Reports",
-    "Bone & Joint Research": "Bone and Joint Research",
-    "Psychology of Well-Being": "Psychology of Well-Being: Theory, Research and Practice",
-    "Genes & Immunity": "Genes and Immunity",
-    "Biomater. Sci.": "Biomaterials Science",
-    "BDJ": "British Dental Journal",
-    "QJM: An International Journal of Medicine": "QJM",
-    "American Journal of Physiology-Lung Cellular and Molecular Physiology": "American Journal of Physiology - Lung Cellular and Molecular Physiology",
-    "American Journal of Physiology-Renal Physiology": "AJP: Renal Physiology",
-    "The Journal of Nutrition": "Journal of Nutrition",
-    "Microbial Ecology in Health and Disease": "Microbial Ecology in Health & Disease",
-    "The Journals of Gerontology: Series B": "The Journals of Gerontology Series B: Psychological Sciences and Social Sciences",
-    "CIRP Annals": "CIRP Annals - Manufacturing Technology",
-    "Environment and Planning A": "Environment and Planning A: Economy and Space",
-    "Mathematical Medicine and Biology: A Journal of the IMA": "Mathematical Medicine and Biology",
-    "American Journal of Physiology-Cell Physiology": "American Journal of Physiology - Cell Physiology",
-    "Geological Society of America Bulletin": "GSA Bulletin",
-    "Structural Health Monitoring: An International Journal": "Structural Health Monitoring",
-    "Quarterly Journal of Experimental Psychology": "The Quarterly Journal of Experimental Psychology",
-    "Aging and disease": "Aging and Disease",
-    "physica status solidi (RRL) – Rapid Research Letters": "physica status solidi (RRL) - Rapid Research Letters",
-    "JOURNAL OF CLINICAL AND DIAGNOSTIC RESEARCH": "Journal of Clinical and Diagnostic Research",
-    "genesis": "Genesis",
-    "TRANSACTIONS OF THE JAPAN SOCIETY FOR AERONAUTICAL AND SPACE SCIENCES, AEROSPACE TECHNOLOGY JAPAN": "Transactions of the Japan Society for Aeronautical and Space Sciences, Aerospace Technology Japan",
-    "Anales de PsicologÃ­a": "Anales de Psicología",
-    "jwhg": "Journal of Women's Health and Gynecology",
-    "E&amp;G Quaternary Science Journal": "E&G Quaternary Science Journal",
-    "Work, employment and society": "Work, Employment and Society",
-    "Software and Systems Modeling": "Software & Systems Modeling",
-    "Photochem. Photobiol. Sci.": "Photochemical & Photobiological Sciences",
-    "Statistical Modelling: An International Journal": "Statistical Modelling",
-    "ael": "Agricultural & Environmental Letters",
-    "ua": "Urban Agriculture & Regional Food Systems",
-    "Journal of Orthopaedic Research®": "Journal of Orthopaedic Research",
-    "BJPscyh Advances": "BJPsych Advances",
-    "Clinical Orthopaedics and Related Research®": "Clinical Orthopaedics and Related Research",
-    "Essays In Biochemistry": "Essays in Biochemistry",
-    "Chemistry – A European Journal": "Chemistry - A European Journal",
-    "Proceedings of the Institution of Civil Engineers - Geotechnical Engineering": "Proceedings of the ICE - Geotechnical Engineering",
-    "BJS": "British Journal of Surgery",
-    "Annals of Clinical Biochemistry: International Journal of Laboratory Medicine": "Annals of Clinical Biochemistry: An international journal of biochemistry and laboratory medicine",
-    "The British Journal of Social Work": "British Journal of Social Work",
-    "Med. Chem. Commun.": "MedChemComm",
-    "Notes and Records: the Royal Society Journal of the History of Science": "Notes and Records of the Royal Society",
-    "Journal of Web Semantics": "Web Semantics: Science, Services and Agents on the World Wide Web",
-    "The Review of Financial Studies": "Review of Financial Studies",
-    "Raumforschung und Raumordnung Spatial Research and Planning": "Raumforschung und Raumordnung",
-    "Journal Of Environmental Law": "Journal of Environmental Law",
-    "Eurasia Journal of Mathematics, Science and Technology Education": "EURASIA Journal of Mathematics, Science and Technology Education",
-    "Journal of Vacuum Science & Technology A": "Journal of Vacuum Science & Technology A: Vacuum, Surfaces, and Films",
-    "Nonlinear Analysis": "Nonlinear Analysis: Theory, Methods & Applications",
-    "Journal of Water Sanitation and Hygiene for Development": "Journal of Water, Sanitation and Hygiene for Development",
-    "Advances in Nutrition: An International Review Journal": "Advances in Nutrition",
-    "Cellular & Molecular Immunology": "Cellular and Molecular Immunology",
-    "AFRICAN JOURNAL OF FOOD, AGRICULTURE, NUTRITION AND DEVELOPMENT": "African Journal of Food, Agriculture, Nutrition and Development",
-    "Journal of Psychiatry and Neuroscience": "Journal of Psychiatry & Neuroscience",
-    "Chemistry – An Asian Journal": "Chemistry - An Asian Journal",
-    "WIREs Computational Molecular Science": "Wiley Interdisciplinary Reviews: Computational Molecular Science",
-    "Corporate Ownership and Control": "Corporate Ownership & Control",
-    "Immunology & Cell Biology": "Immunology and Cell Biology",
-    "Journal of Vacuum Science & Technology B": "Journal of Vacuum Science & Technology B: Microelectronics and Nanometer Structures",
-    "Phytopathology®": "Phytopathology",
-    "Journal of General Physiology": "The Journal of General Physiology",
-    "Journal of Environment Quality": "Journal of Environmental Quality",
-    "TAXON": "Taxon",
-    "Journal of Applied Poultry Research": "The Journal of Applied Poultry Research",
-    "Journal of Experimental Medicine": "The Journal of Experimental Medicine",
-    "Journal of Cell Biology": "The Journal of Cell Biology",
-    "Gerontology and Geriatric Medicine": "Gerontology & Geriatric Medicine",
-    "Information & Computer Security": "Information and Computer Security",
-    "SLAS DISCOVERY: Advancing the Science of Drug Discovery": "SLAS DISCOVERY: Advancing Life Sciences R&D",
-    "Ear & Hearing": "Ear and Hearing",
-    "CORROSION": "Corrosion",
-    "Mathematical Biosciences and Engineering": "Mathematical Biosciences and Engineering (MBE)",
-    "The African Journal of Food, Agriculture, Nutrition and Development": "African Journal of Food, Agriculture, Nutrition and Development",
-    "WIREs Water": "Wiley Interdisciplinary Reviews: Water",
-    "Clinical Orthopaedics & Related Research": "Clinical Orthopaedics and Related Research",
-    "BSGF - Earth Sciences Bulletin": "Bulletin de la Société géologique de France",
-    "CLEAN – Soil, Air, Water": "CLEAN - Soil, Air, Water",
-    "ZDM – Mathematics Education": "ZDM",
-    "Risk Governance and Control: Financial Markets and Institutions": "Risk Governance and Control: Financial Markets & Institutions",
-    "Raumforschung und Raumordnung | Spatial Research and Planning": "Raumforschung und Raumordnung",
-    "Journal of Occupational & Environmental Medicine": "Journal of Occupational and Environmental Medicine",
-    "Chemical Engineering and Processing - Process Intensification": "Chemical Engineering and Processing: Process Intensification",
-    "Informatik Spektrum": "Informatik-Spektrum",
-    "BMJ Global health": "BMJ Global Health",
-    "Electronic Journal of e-Government": "The Electronic Journal of e-Government",
-    "WIREs Developmental Biology": "Wiley Interdisciplinary Reviews: Developmental Biology",
-    "Sustainability Management Forum | NachhaltigkeitsManagementForum": "NachhaltigkeitsManagementForum | Sustainability Management Forum",
-    "Animal": "animal",
-    "Molecular Plant-Microbe Interactions®": "Molecular Plant-Microbe Interactions",
-    "International Journal of Electrical Power &amp; Energy Systems": "International Journal of Electrical Power & Energy Systems",
-    "Agriculture, Ecosystems &amp; Environment": "Agriculture, Ecosystems & Environment",
-    "Computers &amp; Geosciences": "Computers & Geosciences",
-    "Optics &amp; Laser Technology": "Optics & Laser Technology",
-    "Journal of Plastic, Reconstructive &amp; Aesthetic Surgery": "Journal of Plastic, Reconstructive & Aesthetic Surgery",
-    "Social Science &amp; Medicine": "Social Science & Medicine",
-    "Pharmacology &amp; Therapeutics": "Pharmacology & Therapeutics",
-    "Computers &amp; Education": "Computers & Education",
-    "Best Practice &amp; Research Clinical Gastroenterology": "Best Practice & Research Clinical Gastroenterology",
-    "Energy Research &amp; Social Science": "Energy Research & Social Science",
-    "Discourse, Context &amp; Media": "Discourse, Context & Media",
-    "Language &amp; Communication": "Language & Communication",
-    "Information Processing &amp; Management": "Information Processing & Management",
-    "Bioorganic &amp; Medicinal Chemistry": "Bioorganic & Medicinal Chemistry",
-    "Parkinsonism &amp; Related Disorders": "Parkinsonism & Related Disorders",
-    "Journal of Business &amp; Industrial Marketing": "Journal of Business & Industrial Marketing",
-    "International Journal of Physical Distribution &amp; Logistics Management": "International Journal of Physical Distribution & Logistics Management",
-    "International Journal of Operations &amp; Production Management": "International Journal of Operations & Production Management",
-    "Accounting, Auditing &amp; Accountability Journal": "Accounting, Auditing & Accountability Journal",
-    "Journal of Public Budgeting, Accounting &amp; Financial Management": "Journal of Public Budgeting, Accounting & Financial Management",
-    "The Journal of World Energy Law &amp; Business": "The Journal of World Energy Law & Business",
-    "Journal of Neuropathology &amp; Experimental Neurology": "Journal of Neuropathology & Experimental Neurology",
-    "The Journal of Clinical Endocrinology &amp; Metabolism": "The Journal of Clinical Endocrinology & Metabolism",
-    "Nicotine &amp; Tobacco Research": "Nicotine & Tobacco Research",
-    "Catalysis Science &amp; Technology": "Catalysis Science & Technology",
-    "Organic &amp; Biomolecular Chemistry": "Organic & Biomolecular Chemistry",
-    "Journal of Public Policy &amp; Marketing": "Journal of Public Policy & Marketing",
-    "Annals of Otology, Rhinology &amp; Laryngology": "Annals of Otology, Rhinology & Laryngology",
-    "Business &amp; Society": "Business & Society",
-    "New Media &amp; Society": "New Media & Society",
-    "Social &amp; Legal Studies": "Social & Legal Studies",
-    "International Journal of Sports Science &amp; Coaching": "International Journal of Sports Science & Coaching",
-    "Wood Material Science &amp; Engineering": "Wood Material Science & Engineering",
-    "Technology Analysis &amp; Strategic Management": "Technology Analysis & Strategic Management",
-    "Planning Theory &amp; Practice": "Planning Theory & Practice",
-    "Journal of Small Business &amp; Entrepreneurship": "Journal of Small Business & Entrepreneurship",
-    "Public Money &amp; Management": "Public Money & Management",
-    "Ozone: Science &amp; Engineering": "Ozone: Science & Engineering",
-    "Journal of the Air &amp; Waste Management Association": "Journal of the Air & Waste Management Association",
-    "Knowledge Management Research &amp; Practice": "Knowledge Management Research & Practice",
-    "The Journal of Forensic Psychiatry &amp; Psychology": "The Journal of Forensic Psychiatry & Psychology",
-    "Substance Use &amp; Misuse": "Substance Use & Misuse",
-    "Cities &amp; Health": "Cities & Health",
-    "Journal of Convention &amp; Event Tourism": "Journal of Convention & Event Tourism",
-    "Information, Communication &amp; Society": "Information, Communication & Society",
-    "Food, Culture &amp; Society": "Food, Culture & Society",
-    "Journal of Energy &amp; Natural Resources Law": "Journal of Energy & Natural Resources Law",
-    "Behaviour &amp; Information Technology": "Behaviour & Information Technology",
-    "International Journal of Sustainable Development &amp; World Ecology": "International Journal of Sustainable Development & World Ecology",
-    "The Journal of Maternal-Fetal &amp; Neonatal Medicine": "The Journal of Maternal-Fetal & Neonatal Medicine",
-    "Ethics, Policy &amp; Environment": "Ethics, Policy & Environment",
-    "Production Planning &amp; Control": "Production Planning & Control",
-    "Chemical Engineering &amp; Technology": "Chemical Engineering & Technology",
-    "International Journal of Language &amp; Communication Disorders": "International Journal of Language & Communication Disorders",
-    "Advanced Synthesis &amp; Catalysis": "Advanced Synthesis & Catalysis",
-    "Particle &amp; Particle Systems Characterization": "Particle & Particle Systems Characterization",
-    "BJOG: An International Journal of Obstetrics &amp; Gynaecology": "BJOG: An International Journal of Obstetrics & Gynaecology",
-    "Basic &amp; Clinical Pharmacology &amp; Toxicology": "Basic & Clinical Pharmacology & Toxicology",
-    "Journal of Community &amp; Applied Social Psychology": "Journal of Community & Applied Social Psychology",
-    "Arthritis Care &amp; Research": "Arthritis Care & Research",
-    "Scandinavian Journal of Medicine &amp; Science in Sports": "Scandinavian Journal of Medicine & Science in Sports",
-    "Health &amp; Social Care in the Community": "Health & Social Care in the Community",
-    "FUTURES &amp; FORESIGHT SCIENCE": "FUTURES & FORESIGHT SCIENCE",
-    "Accounting &amp; Finance": "Accounting & Finance",
-    "IET Generation, Transmission &amp; Distribution": "IET Generation, Transmission & Distribution",
-    "Maternal &amp; Child Nutrition": "Maternal & Child Nutrition",
-    "Molecular Genetics &amp; Genomic Medicine": "Molecular Genetics & Genomic Medicine",
-    "IET Radar, Sonar &amp; Navigation": "IET Radar, Sonar & Navigation",
-    "Materials &amp; Design": "Materials & Design",
-    "Cell &amp; Bioscience": "Cell & Bioscience",
-    "Arthritis Research &amp; Therapy": "Arthritis Research & Therapy",
-    "Investigative Opthalmology &amp; Visual Science": "Investigative Opthalmology & Visual Science",
-    "Pharmacology Research &amp; Perspectives": "Pharmacology Research & Perspectives",
-    "Diabetology &amp; Metabolic Syndrome": "Diabetology & Metabolic Syndrome",
-    "Journal of Otolaryngology - Head &amp; Neck Surgery": "Journal of Otolaryngology - Head & Neck Surgery",
-    "Antimicrobial Resistance &amp; Infection Control": "Antimicrobial Resistance and Infection Control",
-    "Light: Science &amp; Applications": "Light: Science & Applications",
-    "Scandinavian Journal of Work, Environment &amp; Health": "Scandinavian Journal of Work Environment and Health",
-    "Journal of Experimental &amp; Clinical Cancer Research": "Journal of Experimental & Clinical Cancer Research",
-    "Cellular &amp; Molecular Immunology": "Cellular and Molecular Immunology",
-    "Translational Vision Science &amp; Technology": "Translational Vision Science & Technology",
-    "Stem Cell Research &amp; Therapy": "Stem Cell Research & Therapy",
-    "Biomedicine &amp; Pharmacotherapy": "Biomedicine & Pharmacotherapy",
-    "Astronomy &amp; Astrophysics": "Astronomy & Astrophysics",
-    "Molecular Therapy - Methods &amp; Clinical Development": "Molecular Therapy - Methods & Clinical Development",
-    "Allergy &amp; Rhinology": "Allergy & Rhinology",
-    "Leukemia &amp; Lymphoma": "Leukemia & Lymphoma",
-    "Clinical Pharmacology &amp; Therapeutics": "Clinical Pharmacology & Therapeutics",
-    "Plant, Cell &amp; Environment": "Plant, Cell & Environment",
-    "Cancer Diagnosis &amp; Prognosis": "Cancer Diagnosis & Prognosis",
-    "Music &amp; Science": "Music & Science",
-    "Experimental Hematology &amp; Oncology": "Experimental Hematology & Oncology",
-    "Disease Models &amp; Mechanisms": "Disease Models & Mechanisms",
-    "Primary Health Care Research &amp; Development": "Primary Health Care Research & Development",
-    "BMJ Open Sport &amp; Exercise Medicine": "BMJ Open Sport & Exercise Medicine",
-    "Contrast Media &amp; Molecular Imaging": "Contrast Media & Molecular Imaging",
-    "Ear, Nose &amp; Throat Journal": "Ear, Nose & Throat Journal",
-    "American Journal of Alzheimer's Disease &amp; Other Dementias®": "American Journal of Alzheimer's Disease & Other Dementias",
-    "Reproductive Biomedicine &amp; Society Online": "Reproductive Biomedicine & Society Online",
-    "Adsorption Science &amp; Technology": "Adsorption Science & Technology",
-    "IEEE Communications Surveys &amp; Tutorials": "IEEE Communications Surveys & Tutorials",
-    "Bone &amp; Joint Research": "Bone and Joint Research",
-    "Head &amp; Face Medicine": "Head & Face Medicine",
-    "Clinical &amp; Translational Immunology": "Clinical & Translational Immunology",
-    "Bioengineering &amp; Translational Medicine": "Bioengineering & Translational Medicine",
-    "Food Science &amp; Nutrition": "Food Science & Nutrition",
-    "ACS Sustainable Chemistry &amp; Engineering": "ACS Sustainable Chemistry & Engineering",
-    "ACS Applied Materials &amp; Interfaces": "ACS Applied Materials & Interfaces",
-    "ACS Pharmacology &amp; Translational Science": "ACS Pharmacology & Translational Science",
-    "Energy &amp; Environmental Science": "Energy & Environmental Science",
-    "Parasites &amp; Vectors": "Parasites & Vectors",
-    "Molecular &amp; Cellular Proteomics": "Molecular & Cellular Proteomics",
-    "Cancer Causes &amp; Control": "Cancer Causes & Control",
-    "European Child &amp; Adolescent Psychiatry": "European Child & Adolescent Psychiatry",
-    "Food &amp; Function": "Food & Function",
-    "Sound&amp;Vibration": "Sound & Vibration",
-    "Cell Death &amp; Disease": "Cell Death and Disease",
-    "Cognitive, Affective, &amp; Behavioral Neuroscience": "Cognitive, Affective, & Behavioral Neuroscience",
-    "Business &amp; Information Systems Engineering": "Business & Information Systems Engineering",
-    "Psychonomic Bulletin &amp; Review": "Psychonomic Bulletin & Review",
-    "Biology &amp; Philosophy": "Biology & Philosophy",
-    "Memory &amp; Cognition": "Memory & Cognition",
-    "Cell Death &amp; Differentiation": "Cell Death & Differentiation",
-    "Philosophy &amp; Technology": "Philosophy & Technology",
-    "Clinical &amp; Experimental Metastasis": "Clinical & Experimental Metastasis",
-    "Journal of Economics &amp; Management Strategy": "Journal of Economics & Management Strategy",
-    "Tijdschrift voor Economische en Sociale Geografie": "Tijdschrift voor economische en sociale geografie",
-    "Communicative &amp; Integrative Biology": "Communicative & Integrative Biology",
-    "Journal of Neurology, Neurosurgery &amp; Psychiatry": "Journal of Neurology, Neurosurgery & Psychiatry",
-    "Cancer Epidemiology, Biomarkers &amp; Prevention": "Cancer Epidemiology Biomarkers & Prevention",
-    "Evidence &amp; Policy: A Journal of Research, Debate and Practice": "Evidence & Policy: A Journal of Research, Debate and Practice",
-    "Current Opinion in Allergy &amp; Clinical Immunology": "Current Opinion in Allergy and Clinical Immunology",
-    "Alzheimer's Research &amp; Therapy": "Alzheimer's Research & Therapy",
-    "Computers &amp; Mathematics with Applications": "Computers & Mathematics with Applications",
-    "Communications Earth &amp; Environment": "Communications Earth & Environment",
-    "Energy Science &amp; Engineering": "Energy Science & Engineering",
-    "Food Additives &amp; Contaminants: Part A": "Food Additives & Contaminants: Part A",
-    "Higher Education Research &amp; Development": "Higher Education Research & Development",
-    "Regional &amp; Federal Studies": "Regional & Federal Studies",
-    "Journal of Travel &amp; Tourism Marketing": "Journal of Travel & Tourism Marketing",
-    "Consumption Markets &amp; Culture": "Consumption Markets & Culture",
-    "Research in Science &amp; Technological Education": "Research in Science & Technological Education",
-    "Disability &amp; Society": "Disability & Society",
-    "Emerging Microbes &amp; Infections": "Emerging Microbes & Infections",
-    "Anxiety, Stress, &amp; Coping": "Anxiety, Stress, & Coping",
-    "Assessment in Education: Principles, Policy &amp; Practice": "Assessment in Education: Principles, Policy & Practice",
-    "British Journal of Guidance &amp; Counselling": "British Journal of Guidance & Counselling",
-    "Journal of Vocational Education &amp; Training": "Journal of Vocational Education & Training",
-    "Anthropology &amp; Medicine": "Anthropology & Medicine",
-    "Journal of Immigrant &amp; Refugee Studies": "Journal of Immigrant & Refugee Studies",
-    "Work &amp; Stress": "Work & Stress",
-    "Psychology &amp; Health": "Psychology & Health",
-    "Defense &amp; Security Analysis": "Defense & Security Analysis",
-    "Biological Agriculture &amp; Horticulture": "Biological Agriculture & Horticulture",
-    "Gender &amp; Development": "Gender & Development",
-    "Conflict, Security &amp; Development": "Conflict, Security & Development",
-    "Journal of Trauma &amp; Dissociation": "Journal of Trauma & Dissociation",
-    "Victims &amp; Offenders": "Victims & Offenders",
-    "Alzheimer's &amp; Dementia: Diagnosis, Assessment &amp; Disease Monitoring": "Alzheimer's & Dementia: Diagnosis, Assessment & Disease Monitoring",
-    "Current Opinion in Colloid &amp; Interface Science": "Current Opinion in Colloid & Interface Science",
-    "Theory, Culture &amp; Society": "Theory, Culture & Society",
-    "Physics in Medicine &amp; Biology": "Physics in Medicine and Biology",
-    "Epigenetics &amp; Chromatin": "Epigenetics & Chromatin",
-    "Reaction Chemistry &amp; Engineering": "Reaction Chemistry & Engineering",
-    "Sustainable Energy &amp; Fuels": "Sustainable Energy & Fuels",
-    "Environmental Science: Processes &amp; Impacts": "Environmental Science: Processes & Impacts",
-    "Environmental Science: Water Research &amp; Technology": "Environmental Science: Water Research & Technology",
-    "Molecular Systems Design &amp; Engineering": "Molecular Systems Design & Engineering",
-    "Acta Agriculturae Scandinavica, Section B — Soil &amp; Plant Science": "Acta Agriculturae Scandinavica, Section B — Soil & Plant Science",
-    "BMJ Open Diabetes Research &amp; Care": "BMJ Open Diabetes Research & Care",
-    "GM Crops &amp; Food": "GM Crops & Food",
-    "PS: Political Science &amp; Politics": "PS: Political Science & Politics",
-    "Science, Technology, &amp; Human Values": "Science, Technology, & Human Values",
-    "Journal of Cerebral Blood Flow &amp; Metabolism": "Journal of Cerebral Blood Flow & Metabolism",
-    "Discourse &amp; Communication": "Discourse & Communication",
-    "Sociological Methods &amp; Research": "Sociological Methods & Research",
-    "Administration &amp; Society": "Administration & Society",
-    "Earthquake Engineering &amp; Structural Dynamics": "Earthquake Engineering & Structural Dynamics",
-    "Laser &amp; Photonics Reviews": "Laser & Photonics Reviews",
-    "Batteries &amp; Supercaps": "Batteries & Supercaps",
-    "Sociology of Health &amp; Illness": "Sociology of Health & Illness",
-    "Tropical Medicine &amp; International Health": "Tropical Medicine & International Health",
-    "Meteoritics &amp; Planetary Science": "Meteoritics & Planetary Science",
-    "Muscle &amp; Nerve": "Muscle & Nerve",
-    "Geriatrics &amp; Gerontology International": "Geriatrics & Gerontology International",
-    "International Journal of Gynecology &amp; Obstetrics": "International Journal of Gynecology & Obstetrics",
-    "Psychology &amp; Marketing": "Psychology & Marketing",
-    "Gender, Work &amp; Organization": "Gender, Work & Organization",
-    "Policy &amp; Internet": "Policy & Internet",
-    "WIREs Cognitive Science": "Wiley Interdisciplinary Reviews: Cognitive Science",
-    "WIREs Climate Change": "Wiley Interdisciplinary Reviews: Climate Change",
-    "Clinical Psychology &amp; Psychotherapy": "Clinical Psychology & Psychotherapy",
-    "Head &amp; Neck": "Head & Neck",
-    "Developmental Medicine &amp; Child Neurology": "Developmental Medicine & Child Neurology",
-    "Pediatric Blood &amp; Cancer": "Pediatric Blood & Cancer",
-    "Behavioral Sciences &amp; the Law": "Behavioral Sciences & the Law",
-    "Orthodontics &amp; Craniofacial Research": "Orthodontics & Craniofacial Research",
-    "Race &amp; Class": "Race & Class",
-    "Capital &amp; Class": "Capital & Class",
-    "Mobile Media &amp; Communication": "Mobile Media & Communication",
-    "Communication &amp; Sport": "Communication & Sport",
-    "Evaluation &amp; the Health Professions": "Evaluation & the Health Professions",
-    "Foot &amp; Ankle International": "Foot & Ankle International",
-    "Philosophy &amp; Social Criticism": "Philosophy & Social Criticism",
-    "Group Processes &amp; Intergroup Relations": "Group Processes & Intergroup Relations",
-    "Trauma, Violence, &amp; Abuse": "Trauma, Violence, & Abuse",
-    "Competition &amp; Change": "Competition & Change",
-    "American Journal of Rhinology &amp; Allergy": "American Journal of Rhinology & Allergy",
-    "Law &amp; Social Inquiry": "Law & Social Inquiry",
-    "Infection Control &amp; Hospital Epidemiology": "Infection Control & Hospital Epidemiology",
-    "The Journal of Laryngology &amp; Otology": "The Journal of Laryngology & Otology",
-    "European Journal of Clinical Microbiology &amp; Infectious Diseases": "European Journal of Clinical Microbiology & Infectious Diseases",
-    "AI &amp; SOCIETY": "AI & SOCIETY",
-    "Attention, Perception, &amp; Psychophysics": "Attention, Perception, & Psychophysics",
-    "Clinical and Experimental Immunology": "Clinical & Experimental Immunology",
-    "Molecular Nutrition &amp; Food Research": "Molecular Nutrition & Food Research",
-    "Social Politics: International Studies in Gender, State &amp; Society": "Social Politics: International Studies in Gender, State & Society",
-    "Regulation &amp; Governance": "Regulation & Governance",
-    "Alzheimer's &amp; Dementia": "Alzheimer's & Dementia",
-    "Chemistry &amp; Biodiversity": "Chemistry & Biodiversity",
-    "Neurogastroenterology &amp; Motility": "Neurogastroenterology & Motility",
-    "Science &amp; Education": "Science & Education",
-    "Rendiconti Lincei. Scienze Fisiche e Naturali": "Rendiconti Lincei",
-    "Wirtschaftsinformatik &amp; Management": "Wirtschaftsinformatik & Management",
-    "Information Technology &amp; Tourism": "Information Technology & Tourism",
-    "Discrete &amp; Computational Geometry": "Discrete & Computational Geometry",
-    "Clinical Orthopaedics &amp; Related Research": "Clinical Orthopaedics and Related Research",
-    "Environmental Science &amp; Technology": "Environmental Science & Technology",
-    "Random Structures &amp; Algorithms": "Random Structures & Algorithms",
-    "International Journal of Environmental Sciences &amp; Natural Resources": "International Journal of Environmental Sciences & Natural Resources",
-    "Social Theory &amp; Health": "Social Theory & Health",
-    "Information &amp; Management": "Information & Management",
-    "Environmental Science &amp; Policy": "Environmental Science & Policy",
-    "Statistics &amp; Probability Letters": "Statistics & Probability Letters",
-    "Computers &amp; Industrial Engineering": "Computers & Industrial Engineering",
-    "Computational Statistics &amp; Data Analysis": "Computational Statistics & Data Analysis",
-    "Reliability Engineering &amp; System Safety": "Reliability Engineering & System Safety",
-    "Trends in Food Science &amp; Technology": "Trends in Food Science & Technology",
-    "Environmental Modelling &amp; Software": "Environmental Modelling & Software",
-    "Computers &amp; Fluids": "Computers & Fluids",
-    "Best Practice &amp; Research Clinical Anaesthesiology": "Best Practice & Research Clinical Anaesthesiology",
-    "Computers &amp; Operations Research": "Computers & Operations Research",
-    "Neuroscience &amp; Biobehavioral Reviews": "Neuroscience & Biobehavioral Reviews",
-    "Science &amp; Justice": "Science & Justice",
-    "Child Abuse &amp; Neglect": "Child Abuse & Neglect",
-    "Journal of Economic Behavior &amp; Organization": "Journal of Economic Behavior & Organization",
-    "Orthopaedics &amp; Traumatology: Surgery &amp; Research": "Orthopaedics & Traumatology: Surgery & Research",
-    "Wilderness &amp; Environmental Medicine": "Wilderness & Environmental Medicine",
-    "Journal of Banking &amp; Finance": "Journal of Banking & Finance",
-    "Computers &amp; Graphics": "Computers & Graphics",
-    "Physiology &amp; Behavior": "Physiology & Behavior",
-    "Urban Forestry &amp; Urban Greening": "Urban Forestry & Urban Greening",
-    "Gait &amp; Posture": "Gait & Posture",
-    "Computer Speech &amp; Language": "Computer Speech & Language",
-    "Computers &amp; Structures": "Computers & Structures",
-    "Computers &amp; Chemical Engineering": "Computers & Chemical Engineering",
-    "Innovative Food Science &amp; Emerging Technologies": "Innovative Food Science & Emerging Technologies",
-    "Current Opinion in Genetics &amp; Development": "Current Opinion in Genetics & Development",
-    "Journal of Clinical &amp; Translational Endocrinology": "Journal of Clinical & Translational Endocrinology",
-    "Epilepsy &amp; Behavior": "Epilepsy & Behavior",
-    "Best Practice &amp; Research Clinical Endocrinology &amp; Metabolism": "Best Practice & Research Clinical Endocrinology & Metabolism",
-    "European Journal of Obstetrics &amp; Gynecology and Reproductive Biology": "European Journal of Obstetrics & Gynecology and Reproductive Biology",
-    "Health &amp; Place": "Health & Place",
-    "IJC Heart &amp; Vasculature": "IJC Heart & Vasculature",
-    "Cytokine &amp; Growth Factor Reviews": "Cytokine & Growth Factor Reviews",
-    "Seminars in Cell &amp; Developmental Biology": "Seminars in Cell & Developmental Biology",
-    "The International Journal of Biochemistry &amp; Cell Biology": "The International Journal of Biochemistry & Cell Biology",
-    "Technical Innovations &amp; Patient Support in Radiation Oncology": "Technical Innovations & Patient Support in Radiation Oncology",
-    "Chaos, Solitons &amp; Fractals": "Chaos, Solitons & Fractals",
-    "Data &amp; Knowledge Engineering": "Data & Knowledge Engineering",
-    "Comparative Biochemistry and Physiology Part A: Molecular &amp; Integrative Physiology": "Comparative Biochemistry and Physiology Part A: Molecular & Integrative Physiology",
-    "Nutrition &amp; Metabolism": "Nutrition & Metabolism",
-    "Cellular &amp; Molecular Biology Letters": "Cellular & Molecular Biology Letters",
-    "Journal of Occupational &amp; Environmental Medicine": "Journal of Occupational and Environmental Medicine",
-    "Clocks &amp; Sleep": "Clocks & Sleep",
-    "Journal of Bone and Joint Surgery": "The Journal of Bone and Joint Surgery",
-    "Genes &amp; Immunity": "Genes and Immunity",
-    "Journal of Vacuum Science &amp; Technology A": "Journal of Vacuum Science & Technology A: Vacuum, Surfaces, and Films",
-    "Photochemical &amp; Photobiological Sciences": "Photochemical & Photobiological Sciences",
-    "Immunology &amp; Cell Biology": "Immunology and Cell Biology",
-    "Clinical &amp; Experimental Allergy": "Clinical & Experimental Allergy",
-    "IET Microwaves, Antennas &amp; Propagation": "IET Microwaves, Antennas & Propagation",
-    "Biomedical Journal of Scientific &amp; Technical Research": "Biomedical Journal of Scientific & Technical Research",
-    "Quality &amp; Quantity": "Quality & Quantity",
-    "e &amp; i Elektrotechnik und Informationstechnik": "e & i Elektrotechnik und Informationstechnik",
-    "Fatigue &amp; Fracture of Engineering Materials &amp; Structures": "Fatigue & Fracture of Engineering Materials & Structures",
-    "Journal of Chemical Technology &amp; Biotechnology": "Journal of Chemical Technology & Biotechnology",
-    "eBioMedicine": "EBioMedicine",
-    "Schmalenbach Journal of Business Research": "Schmalenbachs Zeitschrift für betriebswirtschaftliche Forschung",
-    "Journal of Hematology &amp; Oncology": "Journal of Hematology & Oncology",
-    "Clinics In Surgery": "Clinics in Surgery",
-    "Acta Dermato-Venereologica": "Acta Dermato Venereologica",
-    "Alzheimer's &amp; Dementia: Translational Research &amp; Clinical Interventions": "Alzheimer's & Dementia: Translational Research & Clinical Interventions",
-    "Journal of the American Academy of Child &amp; Adolescent Psychiatry": "Journal of the American Academy of Child & Adolescent Psychiatry",
-    "Current Opinion in Nephrology &amp; Hypertension": " Current Opinion in Nephrology & Hypertension",
-    "Antioxidants &amp; Redox Signaling": "Antioxidants & Redox Signaling",
-    "Computers, Materials &amp; Continua": "Computers, Materials & Continua",
-    "Big Data &amp; Society": "Big Data & Society",
-    "Microsystems &amp; Nanoengineering": "Microsystems & Nanoengineering",
-    "Veterinary Radiology &amp; Ultrasound": "Veterinary Radiology & Ultrasound",
-    "Child &amp; Youth Care Forum": "Child & Youth Care Forum",
-    "Journal of Child &amp; Adolescent Trauma": "Journal of Child & Adolescent Trauma",
-    "Lupus Science &amp; Medicine": "Lupus Science & Medicine",
-    "Therapeutic Innovation &amp; Regulatory Science": "Therapeutic Innovation & Regulatory Science",
-    "Health Information &amp; Libraries Journal": "Health Information & Libraries Journal",
-    "Stem Cells": "STEM CELLS",
-    "Cancer &amp; Metabolism": "Cancer & Metabolism",
-    "Molecular Diagnosis &amp; Therapy": "Molecular Diagnosis & Therapy",
-    "Organisms Diversity &amp; Evolution": "Organisms Diversity & Evolution",
-    "Child Psychiatry &amp; Human Development": "Child Psychiatry & Human Development",
-    "Alimentary Pharmacology &amp; Therapeutics": "Alimentary Pharmacology & Therapeutics",
-    "Experimental &amp; Molecular Medicine": "Experimental & Molecular Medicine",
-    "CS Biomaterials Science &amp; Engineering": "CS Biomaterials Science & Engineering",
-    "Crystal Growth &amp; Design": "Crystal Growth & Design",
-    "Computer Law &amp; Security Review": "Computer Law & Security Review",
-    "Learning &amp; Behavior": "Learning & Behavior",
-    "Water, Air, &amp; Soil Pollution": "Water, Air, & Soil Pollution",
-    "Journal of Business &amp; Economic Statistics": "Journal of Business & Economic Statistics",
-    "Journal of Business Finance &amp; Accounting": "Journal of Business Finance & Accounting",
-    "Social Policy &amp; Administration": "Social Policy & Administration",
-    "Allergy, Asthma &amp; Clinical Immunology": "Allergy, Asthma & Clinical Immunology",
-    "Immunity &amp; Ageing": "Immunity & Ageing",
-    "Nutrition &amp; Diabetes": "Nutrition & Diabetes",
-    "Clinical Reviews in Allergy &amp; Immunology": "Clinical Reviews in Allergy & Immunology",
-    "Drugs &amp; Aging": "Drugs & Aging",
-    "Journal of Exposure Science &amp; Environmental Epidemiology": "Journal of Exposure Science & Environmental Epidemiology",
-    "Arthritis &amp; Rheumatology": "Arthritis & Rheumatology",
-    "Environmental Modeling &amp; Assessment": "Environmental Modeling & Assessment",
-    "Applied Mathematics &amp; Optimization": "Applied Mathematics & Optimization",
-    "Medical &amp; Biological Engineering &amp; Computing": "Medical & Biological Engineering & Computing",
-    "Air Quality, Atmosphere & Health": "Air Quality, Atmosphere & Health",
-    "Science China Physics, Mechanics &amp; Astronomy": "Science China Physics, Mechanics & Astronomy",
-    "SN Business &amp; Economics": "SN Business & Economics",
-    "Journal of Frailty &amp; Aging": "The Journal of Frailty & Aging",
-    "European Journal of Orthopaedic Surgery &amp; Traumatology": "European Journal of Orthopaedic Surgery & Traumatology",
-    "The journal of nutrition, health &amp; aging": "The journal of nutrition, health & aging",
-    "Text &amp; Talk": "Text & Talk",
-    "Medicine &amp; Science in Sports &amp; Exercise": "Medicine & Science in Sports & Exercise",
-    "Ear &amp; Hearing": "Ear & Hearing",
-    "Cancer Biology &amp; Therapy": "Cancer Biology & Therapy",
-    "Journal of Microbiology &amp; Biology Education": "Journal of Microbiology & Biology Education",
-    "Biomedical Physics &amp; Engineering Express": "Biomedical Physics & Engineering Express",
-    "Computers &amp; Security": "Computers & Security",
-    "Planning Practice &amp; Research": "Planning Practice & Research",
-    "Nordic Pulp &amp; Paper Research Journal": "Nordic Pulp & Paper Research Journal",
-    "Economics &amp; Human Biology": "Economics & Human Biology",
-    "Journal of Industrial Microbiology and Biotechnology": "Journal of Industrial Microbiology & Biotechnology",
-    "Environmental Technology &amp; Innovation": "Environmental Technology & Innovation",
-    "Accident Analysis &amp; Prevention": "Accident Analysis & Prevention",
-    "NAVIGATION": "Navigation",
-    "Statistical Methods &amp; Applications": "Statistical Methods & Applications",
-    "Air Quality, Atmosphere &amp; Health": "Air Quality, Atmosphere & Health",
-    "Cognition, Technology &amp; Work": "Cognition, Technology & Work",
-    "Journal of Intelligent &amp; Robotic Systems": "Journal of Intelligent & Robotic Systems",
-    "Clinical Linguistics &amp; Phonetics": "Clinical Linguistics & Phonetics",
-    "Cogent Mathematics &amp; Statistics": "Cogent Mathematics & Statistics",
-    "Soccer &amp; Society": "Soccer & Society",
-    "Systems Science &amp; Control Engineering": "Systems Science & Control Engineering",
-    "Cogent Economics &amp; Finance": "Cogent Economics & Finance",
-    "Journal of Vibration Engineering &amp; Technologies": "Journal of Vibration Engineering & Technologies",
-    "Wood Material Science & Engineering": "Wood Material Science and Engineering",
-    "Computer Modeling in Engineering &amp; Sciences": "Computer Modeling in Engineering & Sciences",
-    "R&amp;D Management": "R&D Management",
-    "Hepatobiliary Surgery and Nutrition": "HepatoBiliary Surgery and Nutrition",
-    "E&amp;amp;G Quaternary Science Journal": "E&G Quaternary Science Journal",
-    "Journal of BUON (J BUON)": "Journal of Balkan Union of Oncology",
-    "eClinicalMedicine": "EClinicalMedicine",
-    "Plant Signaling &amp; Behavior": "Plant Signaling & Behavior",
-    "Energy &amp; Fuels": "Energy & Fuels",
-    "Industrial &amp; Engineering Chemistry Research": "Industrial & Engineering Chemistry Research",
-    "ACS Food Science &amp; Technology": "ACS Food Science & Technology",
-    "Pediatric Infectious Disease Journal": "The Pediatric Infectious Disease Journal",
-    "Journal of Environmental Policy &amp; Planning": "Journal of Environmental Policy & Planning",
-    "Geophysical &amp; Astrophysical Fluid Dynamics": "Geophysical & Astrophysical Fluid Dynamics",
-    "Timing &amp; Time Perception": "Timing & Time Perception",
-    "Journal of Transport &amp; Health": "Journal of Transport & Health",
-    "Journal of Chemical &amp; Engineering Data": "Journal of Chemical & Engineering Data",
-    "Molecular &amp; Cellular Oncology": "Molecular & Cellular Oncology",
-    "Trends in Ecology &amp; Evolution": "Trends in Ecology & Evolution",
-    "Cell Host &amp; Microbe": "Cell Host & Microbe",
-    "Genes &amp; Development": "Genes & Development",
-    "CPT: Pharmacometrics &amp; Systems Pharmacology": "CPT: Pharmacometrics & Systems Pharmacology",
-    "BMJ Quality &amp; Safety": "BMJ Quality & Safety",
-    "EPJ Nuclear Sciences &amp; Technologies": "EPJ Nuclear Sciences & Technologies",
-    "Matériaux &amp; Techniques": "Matériaux & Techniques",
-    "Mechanics &amp; Industry": "Mechanics & Industry",
-    "Metallurgical Research &amp; Technology": "Metallurgical Research & Technology",
-    "Cogent Business &amp; Management": "Cogent Business & Management",
-    "Waste Management &amp; Research: The Journal for a Sustainable Circular Economy": "Waste Management & Research",
-    "Journal of Nonprofit &amp; Public Sector Marketing": "Journal of Nonprofit & Public Sector Marketing",
-    "IET Computers &amp; Digital Techniques": "IET Computers & Digital Techniques",
-    "Geriatric Orthopaedic Surgery &amp; Rehabilitation": "Geriatric Orthopaedic Surgery & Rehabilitation",
-    "Economics &amp; Sociology": "Economics & Sociology",
-    "Genes &amp; Nutrition": "Genes & Nutrition",
-    "Pedagogy, Culture &amp; Society": "Pedagogy, Culture & Society",
-    "Review of European, Comparative &amp; International Environmental Law": "Review of European, Comparative & International Environmental Law",
-    "Journal of Religion, Spirituality &amp; Aging": "Journal of Religion, Spirituality & Aging",
-    "Bioinspiration &amp; Biomimetics": "Bioinspiration & Biomimetics",
-    "Health Systems &amp; Reform": "Health Systems & Reform",
-    "Ophthalmic Plastic &amp; Reconstructive Surgery": "Ophthalmic Plastic and Reconstructive Surgery",
-    "Current Opinion in Supportive &amp; Palliative Care": "Current Opinion in Supportive and Palliative Care",
-    "Annals of Medicine &amp; Surgery": "Annals of Medicine & Surgery",
-    "Social Sciences &amp; Humanities Open": "Social Sciences & Humanities Open",
-    "Agriculture &amp; Food Security": "Agriculture & Food Security",
-    "Ocean &amp; Coastal Management": "Ocean & Coastal Management",
-    "Autism &amp; Developmental Language Impairments": "Autism & Developmental Language Impairments",
-    "Endocrinology, Diabetes &amp; Metabolism Case Reports": "Endocrinology, Diabetes & Metabolism Case Reports",
-    "BMJ Supportive &amp; Palliative Care": "BMJ Supportive & Palliative Care",
-    "Diabetes Technology &amp; Therapeutics": "Diabetes Technology & Therapeutics",
-    "Evolution &amp; Development": "Evolution & Development",
-    "Ultrasound in Obstetrics &amp; Gynecology": "Ultrasound in Obstetrics & Gynecology",
-    "Epilepsy &amp; Behavior Reports": "Epilepsy & Behavior Reports",
-    "Schmalenbachs Zeitschrift fÃ¼r betriebswirtschaftliche Forschung": "Schmalenbachs Zeitschrift für betriebswirtschaftliche Forschung",
-    "CHEST": "Chest",
-    "Journal of the American Society for Mass Spectrometry": "Journal of The American Society for Mass Spectrometry",
-    "Journal of the Royal Statistical Society Series C: Applied Statistics": "Journal of the Royal Statistical Society: Series C (Applied Statistics)",
-    "Journal of Global Mobility: The Home of Expatriate Management Research": "Journal of Global Mobility",
-    "IEEE Transactions on Molecular, Biological, and Multi-Scale Communications": "IEEE Transactions on Molecular, Biological and Multi-Scale Communications",
-    "Ironmaking & Steelmaking: Processes, Products and Applications": "Ironmaking & Steelmaking",
-    "PROTEOMICS – Clinical Applications": "PROTEOMICS - Clinical Applications",
-    "Medizinische Genetik": "medizinische genetik",
-    "Arthroscopy": "Arthroscopy: The Journal of Arthroscopic & Related Surgery",
-    "Mutation Research/Genetic Toxicology and Environmental Mutagenesis": "Mutation Research - Genetic Toxicology and Environmental Mutagenesis",
-    "Mutation Research - Reviews in Mutation Research": "Mutation Research/Reviews in Mutation Research",
-    "Journal of Medical Mycology": "Journal de Mycologie Médicale",
-    "Molecular Therapy Methods & Clinical Development": "Molecular Therapy - Methods & Clinical Development",
-    "Seizure: European Journal of Epilepsy": "Seizure",
-    "British Journal of Radiology": "The British Journal of Radiology",
-    "Journal of the Royal Statistical Society Series A: Statistics in Society": "Journal of the Royal Statistical Society: Series A (Statistics in Society)",
-    "Operations Research Forum": "SN Operations Research Forum",
-    "Partial Differential Equations and Applications": "SN Partial Differential Equations and Applications",
-    "WIREs RNA": "Wiley Interdisciplinary Reviews: RNA",
-    "Voluntas: International Journal of Voluntary and Nonprofit Organizations": "VOLUNTAS: International Journal of Voluntary and Nonprofit Organizations",
-    "Applied Catalysis B: Environment and Energy": "Applied Catalysis B: Environmental",
-    "Limnologica": "Limnologica - Ecology and Management of Inland Waters",
-    "Studies in History and Philosophy of Science": "Studies in History and Philosophy of Science Part A",
-    "EMBO Reports": "EMBO reports",
-    "Europhysics Letters": "EPL (Europhysics Letters)",
-    "Proceedings in Applied Mathematics and Mechanics": "PAMM",
-    "Statistical Analysis and Data Mining: An ASA Data Science Journal": "Statistical Analysis and Data Mining: The ASA Data Science Journal",
-    "Educational technology research and development": "Educational Technology Research and Development",
-    "Elt Journal": "ELT Journal",
-    "Social Cognitive And Affective Neuroscience": "Social Cognitive and Affective Neuroscience",
-    "East European Politics and Societies": "East European Politics and Societies: and Cultures",
-    "Rendiconti del Circolo Matematico di Palermo Series 2": "Rendiconti del Circolo Matematico di Palermo (1952 -)",
-    "Molecular Therapy Oncolytics": "Molecular Therapy - Oncolytics",
-    "European Journal Of International Law": "European Journal of International Law",
-    "GENETICS": "Genetics",
-    "The Journals of Gerontology, Series B: Psychological Sciences and Social Sciences": "The Journals of Gerontology Series B: Psychological Sciences and Social Sciences",
-    "Integrative And Comparative Biology": "Integrative and Comparative Biology",
-    "Molecular Therapy Nucleic Acids": "Molecular Therapy - Nucleic Acids",
-    "SLEEP": "Sleep",
-    "SLEEPJ": "Sleep",
-    "Language and Literature: International Journal of Stylistics": "Language and Literature",
-    "Sage Open": "SAGE Open",
-    "International Journal for Lesson and Learning Studies": "International Journal for Lesson & Learning Studies"
+  "ESAC_PUBLISHER_MAPPINGS": {
+    "American Chemical Society": {
+      "full": "American Chemical Society (ACS)",
+      "short": "ACS"
+    },
+    "Taylor & Francis": {
+      "full": "Informa UK Limited",
+      "short": "Taylor & Francis"
+    }
   },
-  "COLUMN_NAMES": {
-    "institution": [
-      "institution",
-      "institution_name"
-    ],
-    "doi": [
-      "doi"
-    ],
-    "euro": [
-      "apc",
-      "kosten",
-      "cost",
-      "euro",
-      "eur"
-    ],
-    "period": [
-      "period",
-      "jahr"
-    ],
-    "is_hybrid": [
-      "is_hybrid",
-      "is hybrid",
-      "hybrid"
-    ],
-    "opt_out": [
-      "opt_out",
-      "opt-out"
-    ],
-    "publisher": [
-      "publisher",
-      "PublisherName"
-    ],
-    "journal_full_title": [
-      "journal_full_title",
-      "journal",
-      "journal title",
-      "journal full title",
-      "journaltitle",
-      "journal_title"
-    ],
-    "issn": [
-      "issn",
-      "issn.1",
-      "issn0"
-    ],
-    "issn_print": [
-      "issn_print"
-    ],
-    "issn_electronic": [
-      "issn_electronic"
-    ],
-    "issn_l": [
-      "issn_l"
-    ],
-    "license_ref": [
-      "licence",
-      "license",
-      "license_ref"
-    ],
-    "indexed_in_crossref": [
-      "indexed_in_crossref"
-    ],
-    "pmid": [
-      "pmid",
-      "pubmed id"
-    ],
-    "pmcid": [
-      "pmcid",
-      "pubmed central (pmc) id"
-    ],
-    "ut": [
-      "ut"
-    ],
-    "url": [
-      "url"
-    ],
-    "doaj": [
-      "doaj"
-    ],
-    "agreement": [
-      "agreement",
-      "contract_primary_identifier"
-    ],
-    "group_id": [
-      "group_id",
-      "contract_group_id"
-    ],
-    "book_title": [
-      "book_title"
-    ],
-    "backlist_oa": [
-      "backlist_oa"
-    ],
-    "isbn": [
-      "isbn"
-    ],
-    "isbn_print": [
-      "isbn_print"
-    ],
-    "isbn_electronic": [
-      "isbn_electronic"
-    ],
-    "colour charge": [
-      "colour charge",
-      "colour_charge",
-      "color charge",
-      "color_charge"
-    ],
-    "cover charge": [
-      "cover charge",
-      "cover_charge"
-    ],
-    "page charge": [
-      "page charge",
-      "page_charge"
-    ],
-    "permission": [
-      "permission"
-    ],
-    "reprint": [
-      "reprint"
-    ],
-    "submission fee": [
-      "submission fee",
-      "submission_fee"
-    ],
-    "payment fee": [
-      "payment fee",
-      "payment_fee"
-    ],
-    "other": [
-      "other"
-    ]
+  "GEO_MAPPINGS": {
+    "AB": "CA-AB",
+    "AT": "AUT",
+    "BC": "CA-BC",
+    "CA": "CAN",
+    "DE": "DEU",
+    "Europe": "EUROPE",
+    "IT": "ITA",
+    "MB": "CA-MB",
+    "NB": "CA-NB",
+    "NL": "CA-NL",
+    "NS": "CA-NS",
+    "North America": "NORTH_AMERICA",
+    "ON": "CA-ON",
+    "PE": "CA-PE",
+    "QC": "CA-QC",
+    "SK": "CA-SK"
   },
   "HYBRID_STATUS": {
-    "TRUE": [
-      "true",
-      "hybrid",
-      "hybride",
-      "wahr",
-      "yes",
-      "ja",
-      "1",
-      "vero"
-    ],
     "FALSE": [
       "false",
       "full open",
@@ -2346,76 +1633,789 @@
       "nein",
       "0",
       "falso"
+    ],
+    "TRUE": [
+      "true",
+      "hybrid",
+      "hybride",
+      "wahr",
+      "yes",
+      "ja",
+      "1",
+      "vero"
     ]
   },
   "ISSN_L_CORRECTIONS": {
-    "0266-7061": "1367-4803",
-    "1654-6628": "1654-661X",
-    "1474-7596": "1465-6906",
-    "0959-8138": "1756-1833",
-    "0957-5820": "NA",
-    "2058-5888": "NA",
-    "1573-0565": "0885-6125",
-    "2041-7128": "2041-7136",
-    "2035-8385": "2035-8377",
     "0016-9420": "0018-9855",
-    "2054-4650": "2054-4642"
+    "0266-7061": "1367-4803",
+    "0957-5820": "NA",
+    "0959-8138": "1756-1833",
+    "1474-7596": "1465-6906",
+    "1573-0565": "0885-6125",
+    "1654-6628": "1654-661X",
+    "2035-8385": "2035-8377",
+    "2041-7128": "2041-7136",
+    "2054-4650": "2054-4642",
+    "2058-5888": "NA"
   },
-  "AGREEMENT_PUBLISHER_MAP": {
-    "EMBO": "Wiley-Blackwell",
-    "American Geophysical Union (AGU)": "Wiley-Blackwell",
-    "International Union of Crystallography (IUCr)": "Wiley-Blackwell",
+  "JOURNAL_MAPPINGS": {
+    "ACS Applied Materials &amp; Interfaces": "ACS Applied Materials & Interfaces",
+    "ACS Food Science &amp; Technology": "ACS Food Science & Technology",
+    "ACS Pharmacology &amp; Translational Science": "ACS Pharmacology & Translational Science",
+    "ACS Sustainable Chemistry &amp; Engineering": "ACS Sustainable Chemistry & Engineering",
+    "AFRICAN JOURNAL OF FOOD, AGRICULTURE, NUTRITION AND DEVELOPMENT": "African Journal of Food, Agriculture, Nutrition and Development",
+    "AI &amp; SOCIETY": "AI & SOCIETY",
+    "AJP: Heart and Circulatory Physiology": "American Journal of Physiology - Heart and Circulatory Physiology",
+    "Accident Analysis &amp; Prevention": "Accident Analysis & Prevention",
+    "Accounting &amp; Finance": "Accounting & Finance",
+    "Accounting, Auditing &amp; Accountability Journal": "Accounting, Auditing & Accountability Journal",
+    "Acta Agriculturae Scandinavica, Section B — Soil &amp; Plant Science": "Acta Agriculturae Scandinavica, Section B — Soil & Plant Science",
+    "Acta Dermato-Venereologica": "Acta Dermato Venereologica",
+    "Administration &amp; Society": "Administration & Society",
+    "Adsorption Science &amp; Technology": "Adsorption Science & Technology",
+    "Advanced Synthesis &amp; Catalysis": "Advanced Synthesis & Catalysis",
+    "Advances in Nutrition: An International Review Journal": "Advances in Nutrition",
+    "Aging and disease": "Aging and Disease",
+    "Agriculture &amp; Food Security": "Agriculture & Food Security",
+    "Agriculture, Ecosystems &amp; Environment": "Agriculture, Ecosystems & Environment",
+    "Air Quality, Atmosphere & Health": "Air Quality, Atmosphere & Health",
+    "Air Quality, Atmosphere &amp; Health": "Air Quality, Atmosphere & Health",
+    "Alimentary Pharmacology &amp; Therapeutics": "Alimentary Pharmacology & Therapeutics",
+    "Allergy &amp; Rhinology": "Allergy & Rhinology",
+    "Allergy, Asthma &amp; Clinical Immunology": "Allergy, Asthma & Clinical Immunology",
+    "Alzheimer's &amp; Dementia": "Alzheimer's & Dementia",
+    "Alzheimer's &amp; Dementia: Diagnosis, Assessment &amp; Disease Monitoring": "Alzheimer's & Dementia: Diagnosis, Assessment & Disease Monitoring",
+    "Alzheimer's &amp; Dementia: Translational Research &amp; Clinical Interventions": "Alzheimer's & Dementia: Translational Research & Clinical Interventions",
+    "Alzheimer's Research &amp; Therapy": "Alzheimer's Research & Therapy",
+    "American Journal of Alzheimer's Disease &amp; Other Dementias®": "American Journal of Alzheimer's Disease & Other Dementias",
+    "American Journal of Physiology - Endocrinology And Metabolism": "AJP: Endocrinology and Metabolism",
+    "American Journal of Physiology-Cell Physiology": "American Journal of Physiology - Cell Physiology",
+    "American Journal of Physiology-Endocrinology and Metabolism": "AJP: Endocrinology and Metabolism",
+    "American Journal of Physiology-Heart and Circulatory Physiology": "American Journal of Physiology - Heart and Circulatory Physiology",
+    "American Journal of Physiology-Lung Cellular and Molecular Physiology": "American Journal of Physiology - Lung Cellular and Molecular Physiology",
+    "American Journal of Physiology-Renal Physiology": "AJP: Renal Physiology",
+    "American Journal of Rhinology &amp; Allergy": "American Journal of Rhinology & Allergy",
+    "Anal. Methods": "Analytical Methods",
+    "Anales de PsicologÃ­a": "Anales de Psicología",
+    "Animal": "animal",
+    "Annals of Clinical Biochemistry": "Annals of Clinical Biochemistry: An international journal of biochemistry and laboratory medicine",
+    "Annals of Clinical Biochemistry: International Journal of Laboratory Medicine": "Annals of Clinical Biochemistry: An international journal of biochemistry and laboratory medicine",
+    "Annals of Medicine &amp; Surgery": "Annals of Medicine & Surgery",
+    "Annals of Otology, Rhinology &amp; Laryngology": "Annals of Otology, Rhinology & Laryngology",
+    "Anthropology &amp; Medicine": "Anthropology & Medicine",
+    "Antimicrobial Resistance & Infection Control": "Antimicrobial Resistance and Infection Control",
+    "Antimicrobial Resistance &amp; Infection Control": "Antimicrobial Resistance and Infection Control",
+    "Antioxidants &amp; Redox Signaling": "Antioxidants & Redox Signaling",
+    "Anxiety, Stress, &amp; Coping": "Anxiety, Stress, & Coping",
+    "AoB PLANTS": "AoB Plants",
+    "Applied Catalysis B: Environment and Energy": "Applied Catalysis B: Environmental",
+    "Applied Mathematics &amp; Optimization": "Applied Mathematics & Optimization",
+    "Arthritis &amp; Rheumatology": "Arthritis & Rheumatology",
+    "Arthritis Care &amp; Research": "Arthritis Care & Research",
+    "Arthritis Research &amp; Therapy": "Arthritis Research & Therapy",
+    "Arthroscopy": "Arthroscopy: The Journal of Arthroscopic & Related Surgery",
+    "Assessment in Education: Principles, Policy &amp; Practice": "Assessment in Education: Principles, Policy & Practice",
+    "Astronomy &amp; Astrophysics": "Astronomy & Astrophysics",
+    "Attention, Perception, &amp; Psychophysics": "Attention, Perception, & Psychophysics",
+    "Autism &amp; Developmental Language Impairments": "Autism & Developmental Language Impairments",
+    "BDJ": "British Dental Journal",
+    "BJA: British Journal of Anaesthesia": "British Journal of Anaesthesia",
+    "BJOG: An International Journal of Obstetrics &amp; Gynaecology": "BJOG: An International Journal of Obstetrics & Gynaecology",
+    "BJPscyh Advances": "BJPsych Advances",
+    "BJPsych Open": "British Journal of Psychiatry Open",
+    "BJS": "British Journal of Surgery",
+    "BMJ Global health": "BMJ Global Health",
+    "BMJ Open Diabetes Research &amp; Care": "BMJ Open Diabetes Research & Care",
+    "BMJ Open Sport &amp; Exercise Medicine": "BMJ Open Sport & Exercise Medicine",
+    "BMJ Quality &amp; Safety": "BMJ Quality & Safety",
+    "BMJ Supportive &amp; Palliative Care": "BMJ Supportive & Palliative Care",
+    "BSGF - Earth Sciences Bulletin": "Bulletin de la Société géologique de France",
+    "Basic &amp; Clinical Pharmacology &amp; Toxicology": "Basic & Clinical Pharmacology & Toxicology",
+    "Batteries &amp; Supercaps": "Batteries & Supercaps",
+    "Behavioral Sciences &amp; the Law": "Behavioral Sciences & the Law",
+    "Behaviour &amp; Information Technology": "Behaviour & Information Technology",
+    "BeitrÃ¤ge zur Algebra und Geometrie / Contributions to Algebra and Geometry": "Beiträge zur Algebra und Geometrie / Contributions to Algebra and Geometry",
+    "Best Practice &amp; Research Clinical Anaesthesiology": "Best Practice & Research Clinical Anaesthesiology",
+    "Best Practice &amp; Research Clinical Endocrinology &amp; Metabolism": "Best Practice & Research Clinical Endocrinology & Metabolism",
+    "Best Practice &amp; Research Clinical Gastroenterology": "Best Practice & Research Clinical Gastroenterology",
+    "Big Data &amp; Society": "Big Data & Society",
+    "Bioengineering &amp; Translational Medicine": "Bioengineering & Translational Medicine",
+    "Bioinspiration &amp; Biomimetics": "Bioinspiration & Biomimetics",
+    "Biological Agriculture &amp; Horticulture": "Biological Agriculture & Horticulture",
+    "Biology &amp; Philosophy": "Biology & Philosophy",
+    "Biomater. Sci.": "Biomaterials Science",
+    "Biomedical Journal of Scientific &amp; Technical Research": "Biomedical Journal of Scientific & Technical Research",
+    "Biomedical Physics &amp; Engineering Express": "Biomedical Physics & Engineering Express",
+    "Biomedicine &amp; Pharmacotherapy": "Biomedicine & Pharmacotherapy",
+    "Bioorganic &amp; Medicinal Chemistry": "Bioorganic & Medicinal Chemistry",
+    "Bone & Joint Research": "Bone and Joint Research",
+    "Bone &amp; Joint Research": "Bone and Joint Research",
+    "Briefings In Bioinformatics": "Briefings in Bioinformatics",
+    "British Editorial Society of Bone &amp; Joint Surgery": "British Editorial Society of Bone & Joint Surgery",
+    "British Journal of Guidance &amp; Counselling": "British Journal of Guidance & Counselling",
+    "British Journal of Psychiatry": "The British Journal of Psychiatry",
+    "British Journal of Radiology": "The British Journal of Radiology",
+    "Business &amp; Information Systems Engineering": "Business & Information Systems Engineering",
+    "Business &amp; Society": "Business & Society",
+    "CARTILAGE": "Cartilage",
+    "CHEST": "Chest",
+    "CIRP Annals": "CIRP Annals - Manufacturing Technology",
+    "CLEAN – Soil, Air, Water": "CLEAN - Soil, Air, Water",
+    "CORROSION": "Corrosion",
+    "CPT Pharmacometrics Syst. Pharmacol.": "CPT: Pharmacometrics & Systems Pharmacology",
+    "CPT: Pharmacometrics &amp; Systems Pharmacology": "CPT: Pharmacometrics & Systems Pharmacology",
+    "CS Biomaterials Science &amp; Engineering": "CS Biomaterials Science & Engineering",
+    "Cancer &amp; Metabolism": "Cancer & Metabolism",
+    "Cancer Biology &amp; Therapy": "Cancer Biology & Therapy",
+    "Cancer Causes &amp; Control": "Cancer Causes & Control",
+    "Cancer Diagnosis &amp; Prognosis": "Cancer Diagnosis & Prognosis",
+    "Cancer Epidemiology, Biomarkers &amp; Prevention": "Cancer Epidemiology Biomarkers & Prevention",
+    "Capital &amp; Class": "Capital & Class",
+    "Catal. Sci. Technol.": "Catalysis Science & Technology",
+    "Catalysis Science &amp; Technology": "Catalysis Science & Technology",
+    "Cell &amp; Bioscience": "Cell & Bioscience",
+    "Cell Death & Differentiation": "Cell Death and Differentiation",
+    "Cell Death & Disease": "Cell Death and Disease",
+    "Cell Death &amp; Differentiation": "Cell Death & Differentiation",
+    "Cell Death &amp; Disease": "Cell Death and Disease",
+    "Cell Host &amp; Microbe": "Cell Host & Microbe",
+    "Cellular & Molecular Immunology": "Cellular and Molecular Immunology",
+    "Cellular &amp; Molecular Biology Letters": "Cellular & Molecular Biology Letters",
+    "Cellular &amp; Molecular Immunology": "Cellular and Molecular Immunology",
+    "Cellular and Molecular Gastroenterology and Hepatology": "CMGH Cellular and Molecular Gastroenterology and Hepatology",
+    "Chaos, Solitons &amp; Fractals": "Chaos, Solitons & Fractals",
+    "Chem. Commun.": "Chemical Communications",
+    "Chem. Sci.": "Chemical Science",
+    "Chem. Soc. Rev.": "Chemical Society Reviews",
+    "Chemical Engineering &amp; Technology": "Chemical Engineering & Technology",
+    "Chemical Engineering and Processing - Process Intensification": "Chemical Engineering and Processing: Process Intensification",
+    "Chemistry &amp; Biodiversity": "Chemistry & Biodiversity",
+    "Chemistry – A European Journal": "Chemistry - A European Journal",
+    "Chemistry – An Asian Journal": "Chemistry - An Asian Journal",
+    "Child &amp; Youth Care Forum": "Child & Youth Care Forum",
+    "Child Abuse &amp; Neglect": "Child Abuse & Neglect",
+    "Child Psychiatry &amp; Human Development": "Child Psychiatry & Human Development",
+    "Cities &amp; Health": "Cities & Health",
+    "Clinical &amp; Experimental Allergy": "Clinical & Experimental Allergy",
+    "Clinical &amp; Experimental Metastasis": "Clinical & Experimental Metastasis",
+    "Clinical &amp; Translational Immunology": "Clinical & Translational Immunology",
+    "Clinical Linguistics &amp; Phonetics": "Clinical Linguistics & Phonetics",
+    "Clinical Orthopaedics & Related Research": "Clinical Orthopaedics and Related Research",
+    "Clinical Orthopaedics &amp; Related Research": "Clinical Orthopaedics and Related Research",
+    "Clinical Orthopaedics and Related Research®": "Clinical Orthopaedics and Related Research",
+    "Clinical Pharmacology &amp; Therapeutics": "Clinical Pharmacology & Therapeutics",
+    "Clinical Psychology &amp; Psychotherapy": "Clinical Psychology & Psychotherapy",
+    "Clinical Reviews in Allergy &amp; Immunology": "Clinical Reviews in Allergy & Immunology",
+    "Clinical and Experimental Immunology": "Clinical & Experimental Immunology",
+    "Clinics In Surgery": "Clinics in Surgery",
+    "Clocks &amp; Sleep": "Clocks & Sleep",
+    "Cogent Business &amp; Management": "Cogent Business & Management",
+    "Cogent Economics &amp; Finance": "Cogent Economics & Finance",
+    "Cogent Mathematics &amp; Statistics": "Cogent Mathematics & Statistics",
+    "Cognition and Emotion": "Cognition & Emotion",
+    "Cognition, Technology &amp; Work": "Cognition, Technology & Work",
+    "Cognitive, Affective, &amp; Behavioral Neuroscience": "Cognitive, Affective, & Behavioral Neuroscience",
+    "Communication &amp; Sport": "Communication & Sport",
+    "Communications Earth &amp; Environment": "Communications Earth & Environment",
+    "Communicative &amp; Integrative Biology": "Communicative & Integrative Biology",
+    "Comparative Biochemistry and Physiology Part A: Molecular &amp; Integrative Physiology": "Comparative Biochemistry and Physiology Part A: Molecular & Integrative Physiology",
+    "Competition &amp; Change": "Competition & Change",
+    "Computational Statistics &amp; Data Analysis": "Computational Statistics & Data Analysis",
+    "Computer Law &amp; Security Review": "Computer Law & Security Review",
+    "Computer Modeling in Engineering &amp; Sciences": "Computer Modeling in Engineering & Sciences",
+    "Computer Speech &amp; Language": "Computer Speech & Language",
+    "Computers &amp; Chemical Engineering": "Computers & Chemical Engineering",
+    "Computers &amp; Education": "Computers & Education",
+    "Computers &amp; Fluids": "Computers & Fluids",
+    "Computers &amp; Geosciences": "Computers & Geosciences",
+    "Computers &amp; Graphics": "Computers & Graphics",
+    "Computers &amp; Industrial Engineering": "Computers & Industrial Engineering",
+    "Computers &amp; Mathematics with Applications": "Computers & Mathematics with Applications",
+    "Computers &amp; Operations Research": "Computers & Operations Research",
+    "Computers &amp; Security": "Computers & Security",
+    "Computers &amp; Structures": "Computers & Structures",
+    "Computers, Materials &amp; Continua": "Computers, Materials & Continua",
+    "Conflict, Security &amp; Development": "Conflict, Security & Development",
+    "Consumption Markets &amp; Culture": "Consumption Markets & Culture",
+    "Contrast Media &amp; Molecular Imaging": "Contrast Media & Molecular Imaging",
+    "Corporate Ownership and Control": "Corporate Ownership & Control",
+    "Crystal Growth &amp; Design": "Crystal Growth & Design",
+    "Current Opinion in Allergy &amp; Clinical Immunology": "Current Opinion in Allergy and Clinical Immunology",
+    "Current Opinion in Colloid &amp; Interface Science": "Current Opinion in Colloid & Interface Science",
+    "Current Opinion in Genetics &amp; Development": "Current Opinion in Genetics & Development",
+    "Current Opinion in Nephrology &amp; Hypertension": " Current Opinion in Nephrology & Hypertension",
+    "Current Opinion in Supportive &amp; Palliative Care": "Current Opinion in Supportive and Palliative Care",
+    "Cytokine &amp; Growth Factor Reviews": "Cytokine & Growth Factor Reviews",
+    "Dalton Trans.": "Dalton Transactions",
+    "Data &amp; Knowledge Engineering": "Data & Knowledge Engineering",
+    "Defense &amp; Security Analysis": "Defense & Security Analysis",
+    "Developmental Medicine &amp; Child Neurology": "Developmental Medicine & Child Neurology",
+    "Diabetes Technology &amp; Therapeutics": "Diabetes Technology & Therapeutics",
+    "Diabetology &amp; Metabolic Syndrome": "Diabetology & Metabolic Syndrome",
+    "Disability &amp; Society": "Disability & Society",
+    "Discourse &amp; Communication": "Discourse & Communication",
+    "Discourse, Context &amp; Media": "Discourse, Context & Media",
+    "Discrete &amp; Computational Geometry": "Discrete & Computational Geometry",
+    "Disease Models &amp; Mechanisms": "Disease Models & Mechanisms",
+    "Drugs &amp; Aging": "Drugs & Aging",
+    "E&amp;G Quaternary Science Journal": "E&G Quaternary Science Journal",
+    "E&amp;amp;G Quaternary Science Journal": "E&G Quaternary Science Journal",
+    "EMBO Reports": "EMBO reports",
+    "EP Europace": "Europace",
+    "EPJ Nuclear Sciences &amp; Technologies": "EPJ Nuclear Sciences & Technologies",
+    "Ear & Hearing": "Ear and Hearing",
+    "Ear &amp; Hearing": "Ear & Hearing",
+    "Ear, Nose &amp; Throat Journal": "Ear, Nose & Throat Journal",
+    "Earthquake Engineering &amp; Structural Dynamics": "Earthquake Engineering & Structural Dynamics",
+    "East European Politics and Societies": "East European Politics and Societies: and Cultures",
+    "Economics &amp; Human Biology": "Economics & Human Biology",
+    "Economics &amp; Sociology": "Economics & Sociology",
+    "Educational technology research and development": "Educational Technology Research and Development",
+    "Electronic Journal of e-Government": "The Electronic Journal of e-Government",
+    "Elem Sci Anth": "Elementa: Science of the Anthropocene",
+    "Elt Journal": "ELT Journal",
+    "Emerging Microbes &amp; Infections": "Emerging Microbes & Infections",
+    "Endocrine-Related Cancer": "Endocrine Related Cancer",
+    "Endocrinology, Diabetes &amp; Metabolism Case Reports": "Endocrinology, Diabetes & Metabolism Case Reports",
+    "Energy &amp; Environmental Science": "Energy & Environmental Science",
+    "Energy &amp; Fuels": "Energy & Fuels",
+    "Energy Environ. Sci.": "Energy & Environmental Science",
+    "Energy Research &amp; Social Science": "Energy Research & Social Science",
+    "Energy Science &amp; Engineering": "Energy Science & Engineering",
+    "Environment and Planning A": "Environment and Planning A: Economy and Space",
+    "Environmental Modeling &amp; Assessment": "Environmental Modeling & Assessment",
+    "Environmental Modelling &amp; Software": "Environmental Modelling & Software",
+    "Environmental Science &amp; Policy": "Environmental Science & Policy",
+    "Environmental Science &amp; Technology": "Environmental Science & Technology",
+    "Environmental Science: Processes &amp; Impacts": "Environmental Science: Processes & Impacts",
+    "Environmental Science: Water Research &amp; Technology": "Environmental Science: Water Research & Technology",
+    "Environmental Technology &amp; Innovation": "Environmental Technology & Innovation",
+    "Epigenetics &amp; Chromatin": "Epigenetics & Chromatin",
+    "Epilepsy &amp; Behavior": "Epilepsy & Behavior",
+    "Epilepsy &amp; Behavior Reports": "Epilepsy & Behavior Reports",
+    "Essays In Biochemistry": "Essays in Biochemistry",
+    "Ethics, Policy &amp; Environment": "Ethics, Policy & Environment",
+    "Eurasia Journal of Mathematics, Science and Technology Education": "EURASIA Journal of Mathematics, Science and Technology Education",
+    "European Child &amp; Adolescent Psychiatry": "European Child & Adolescent Psychiatry",
+    "European Heart Journal – Cardiovascular Imaging": "European Heart Journal - Cardiovascular Imaging",
+    "European Journal Of International Law": "European Journal of International Law",
+    "European Journal of Clinical Microbiology &amp; Infectious Diseases": "European Journal of Clinical Microbiology & Infectious Diseases",
+    "European Journal of Obstetrics &amp; Gynecology and Reproductive Biology": "European Journal of Obstetrics & Gynecology and Reproductive Biology",
+    "European Journal of Orthopaedic Surgery &amp; Traumatology": "European Journal of Orthopaedic Surgery & Traumatology",
+    "European Journal of Public Health": "The European Journal of Public Health",
+    "Europhysics Letters": "EPL (Europhysics Letters)",
+    "Evaluation &amp; the Health Professions": "Evaluation & the Health Professions",
+    "Evidence &amp; Policy: A Journal of Research, Debate and Practice": "Evidence & Policy: A Journal of Research, Debate and Practice",
+    "Evolution &amp; Development": "Evolution & Development",
+    "Experimental &amp; Molecular Medicine": "Experimental & Molecular Medicine",
+    "Experimental Hematology &amp; Oncology": "Experimental Hematology & Oncology",
+    "FUTURES &amp; FORESIGHT SCIENCE": "FUTURES & FORESIGHT SCIENCE",
+    "Faraday Discuss.": "Faraday Discussions",
+    "Fatigue &amp; Fracture of Engineering Materials &amp; Structures": "Fatigue & Fracture of Engineering Materials & Structures",
+    "Food &amp; Function": "Food & Function",
+    "Food Additives &amp; Contaminants: Part A": "Food Additives & Contaminants: Part A",
+    "Food Science &amp; Nutrition": "Food Science & Nutrition",
+    "Food, Culture &amp; Society": "Food, Culture & Society",
+    "Foot &amp; Ankle International": "Foot & Ankle International",
+    "Forensic Science, Medicine, and Pathology": "Forensic Science, Medicine and Pathology",
+    "Forestry": "Forestry: An International Journal of Forest Research",
+    "G3 Genes|Genomes|Genetics": "G3: Genes|Genomes|Genetics",
+    "G3&amp;#58; Genes|Genomes|Genetics": "G3: Genes|Genomes|Genetics",
+    "GENETICS": "Genetics",
+    "GM Crops &amp; Food": "GM Crops & Food",
+    "Gait &amp; Posture": "Gait & Posture",
+    "Gender &amp; Development": "Gender & Development",
+    "Gender, Work &amp; Organization": "Gender, Work & Organization",
+    "Genes & Immunity": "Genes and Immunity",
+    "Genes &amp; Development": "Genes & Development",
+    "Genes &amp; Immunity": "Genes and Immunity",
+    "Genes &amp; Nutrition": "Genes & Nutrition",
+    "Geological Society of America Bulletin": "GSA Bulletin",
+    "Geophysical &amp; Astrophysical Fluid Dynamics": "Geophysical & Astrophysical Fluid Dynamics",
+    "Geospatial health": "Geospatial Health",
+    "Geriatric Orthopaedic Surgery &amp; Rehabilitation": "Geriatric Orthopaedic Surgery & Rehabilitation",
+    "Geriatrics &amp; Gerontology International": "Geriatrics & Gerontology International",
+    "Gerontology and Geriatric Medicine": "Gerontology & Geriatric Medicine",
+    "Green Chem.": "Green Chemistry",
+    "Group Processes &amp; Intergroup Relations": "Group Processes & Intergroup Relations",
+    "Head &amp; Face Medicine": "Head & Face Medicine",
+    "Head &amp; Neck": "Head & Neck",
+    "Health &amp; Place": "Health & Place",
+    "Health &amp; Social Care in the Community": "Health & Social Care in the Community",
+    "Health Information &amp; Libraries Journal": "Health Information & Libraries Journal",
+    "Health Systems &amp; Reform": "Health Systems & Reform",
+    "Health:: An Interdisciplinary Journal for the Social Study of Health, Illness and Medicine": "Health: An Interdisciplinary Journal for the Social Study of Health, Illness and Medicine",
+    "Hepatobiliary Surgery and Nutrition": "HepatoBiliary Surgery and Nutrition",
+    "Higher Education Research &amp; Development": "Higher Education Research & Development",
+    "IEEE Communications Surveys &amp; Tutorials": "IEEE Communications Surveys & Tutorials",
+    "IEEE Transactions on Molecular, Biological, and Multi-Scale Communications": "IEEE Transactions on Molecular, Biological and Multi-Scale Communications",
+    "IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control": "IEEE Transactions on Ultrasonics, Ferroelectrics and Frequency Control",
+    "IET Computers &amp; Digital Techniques": "IET Computers & Digital Techniques",
+    "IET Generation, Transmission &amp; Distribution": "IET Generation, Transmission & Distribution",
+    "IET Microwaves, Antennas &amp; Propagation": "IET Microwaves, Antennas & Propagation",
+    "IET Radar, Sonar &amp; Navigation": "IET Radar, Sonar & Navigation",
+    "IJC Heart &amp; Vasculature": "IJC Heart & Vasculature",
+    "INTERNATIONAL JOURNAL OF SYSTEMATIC AND EVOLUTIONARY MICROBIOLOGY": "International Journal of Systematic and Evolutionary Microbiology",
+    "ISME Journal": "The ISME Journal",
+    "Immunity &amp; Ageing": "Immunity & Ageing",
+    "Immunology & Cell Biology": "Immunology and Cell Biology",
+    "Immunology &amp; Cell Biology": "Immunology and Cell Biology",
+    "Industrial &amp; Engineering Chemistry Research": "Industrial & Engineering Chemistry Research",
+    "Infection Control &amp; Hospital Epidemiology": "Infection Control & Hospital Epidemiology",
+    "Informatik Spektrum": "Informatik-Spektrum",
+    "Information & Computer Security": "Information and Computer Security",
+    "Information &amp; Management": "Information & Management",
+    "Information Processing &amp; Management": "Information Processing & Management",
+    "Information Technology &amp; Tourism": "Information Technology & Tourism",
+    "Information, Communication &amp; Society": "Information, Communication & Society",
+    "Innovative Food Science &amp; Emerging Technologies": "Innovative Food Science & Emerging Technologies",
+    "Integrative And Comparative Biology": "Integrative and Comparative Biology",
+    "Interface": "Journal of The Royal Society Interface",
+    "International Journal for Lesson and Learning Studies": "International Journal for Lesson & Learning Studies",
+    "International Journal of Clinical and Experimental Pathology ": "International Journal of Clinical and Experimental Pathology",
+    "International Journal of Electrical Power &amp; Energy Systems": "International Journal of Electrical Power & Energy Systems",
+    "International Journal of Environmental Sciences &amp; Natural Resources": "International Journal of Environmental Sciences & Natural Resources",
+    "International Journal of Gynecology &amp; Obstetrics": "International Journal of Gynecology & Obstetrics",
+    "International Journal of Language &amp; Communication Disorders": "International Journal of Language & Communication Disorders",
+    "International Journal of Operations &amp; Production Management": "International Journal of Operations & Production Management",
+    "International Journal of Physical Distribution &amp; Logistics Management": "International Journal of Physical Distribution & Logistics Management",
+    "International Journal of Sports Science &amp; Coaching": "International Journal of Sports Science & Coaching",
+    "International Journal of Sustainable Development &amp; World Ecology": "International Journal of Sustainable Development & World Ecology",
+    "International journal of methods in psychiatric research": "International Journal of Methods in Psychiatric Research",
+    "Investigative Opthalmology &amp; Visual Science": "Investigative Opthalmology & Visual Science",
+    "Ironmaking & Steelmaking: Processes, Products and Applications": "Ironmaking & Steelmaking",
+    "J. Anal. At. Spectrom.": "Journal of Analytical Atomic Spectrometry",
+    "J. Mater. Chem. A": "Journal of Materials Chemistry A",
+    "J. Mater. Chem. B": "Journal of Materials Chemistry B",
+    "J. Mater. Chem. C": "Journal of Materials Chemistry C",
+    "JNCI: Journal of the National Cancer Institute": "JNCI Journal of the National Cancer Institute",
+    "JOURNAL OF CLINICAL AND DIAGNOSTIC RESEARCH": "Journal of Clinical and Diagnostic Research",
+    "JOURNAL OF FORENSIC SCIENCE & CRIMINOLOGY": "Journal of Forensic Science & Criminology",
+    "JRSM": "Journal of the Royal Society of Medicine",
+    "Journal Of Environmental Law": "Journal of Environmental Law",
+    "Journal Of Logic And Computation": "Journal of Logic and Computation",
+    "Journal für Verbraucherschutz und Lebensmittelsicherheit": "Journal of Consumer Protection and Food Safety",
+    "Journal of Agricultural, Biological, and Environmental Statistics": "Journal of Agricultural, Biological and Environmental Statistics",
+    "Journal of Alzheimer's disease": "Journal of Alzheimer's Disease",
+    "Journal of Applied Poultry Research": "The Journal of Applied Poultry Research",
+    "Journal of BUON (J BUON)": "Journal of Balkan Union of Oncology",
+    "Journal of Banking &amp; Finance": "Journal of Banking & Finance",
+    "Journal of Bone and Joint Surgery": "The Journal of Bone and Joint Surgery",
+    "Journal of Business &amp; Economic Statistics": "Journal of Business & Economic Statistics",
+    "Journal of Business &amp; Industrial Marketing": "Journal of Business & Industrial Marketing",
+    "Journal of Business Finance &amp; Accounting": "Journal of Business Finance & Accounting",
+    "Journal of Cell Biology": "The Journal of Cell Biology",
+    "Journal of Cerebral Blood Flow &amp; Metabolism": "Journal of Cerebral Blood Flow & Metabolism",
+    "Journal of Chemical &amp; Engineering Data": "Journal of Chemical & Engineering Data",
+    "Journal of Chemical Technology &amp; Biotechnology": "Journal of Chemical Technology & Biotechnology",
+    "Journal of Child &amp; Adolescent Trauma": "Journal of Child & Adolescent Trauma",
+    "Journal of Child and Adolescent Behavior": "Journal of Child and Adolescent Behaviour",
+    "Journal of Clinical &amp; Translational Endocrinology": "Journal of Clinical & Translational Endocrinology",
+    "Journal of Community &amp; Applied Social Psychology": "Journal of Community & Applied Social Psychology",
+    "Journal of Convention &amp; Event Tourism": "Journal of Convention & Event Tourism",
+    "Journal of Development Studies": "The Journal of Development Studies",
+    "Journal of Economic Behavior &amp; Organization": "Journal of Economic Behavior & Organization",
+    "Journal of Economics &amp; Management Strategy": "Journal of Economics & Management Strategy",
+    "Journal of Elections, Public Opinion and Parties": "Journal of Elections, Public Opinion & Parties",
+    "Journal of Energy &amp; Natural Resources Law": "Journal of Energy & Natural Resources Law",
+    "Journal of Environment Quality": "Journal of Environmental Quality",
+    "Journal of Environmental Policy &amp; Planning": "Journal of Environmental Policy & Planning",
+    "Journal of Epidemiology & Community Health": "Journal of Epidemiology and Community Health",
+    "Journal of Experimental &amp; Clinical Cancer Research": "Journal of Experimental & Clinical Cancer Research",
+    "Journal of Experimental Medicine": "The Journal of Experimental Medicine",
+    "Journal of Exposure Science &amp; Environmental Epidemiology": "Journal of Exposure Science & Environmental Epidemiology",
+    "Journal of Frailty &amp; Aging": "The Journal of Frailty & Aging",
+    "Journal of General Physiology": "The Journal of General Physiology",
+    "Journal of Global Mobility: The Home of Expatriate Management Research": "Journal of Global Mobility",
+    "Journal of Hematology &amp; Oncology": "Journal of Hematology & Oncology",
+    "Journal of Immigrant &amp; Refugee Studies": "Journal of Immigrant & Refugee Studies",
+    "Journal of Industrial Microbiology and Biotechnology": "Journal of Industrial Microbiology & Biotechnology",
+    "Journal of Intelligent &amp; Robotic Systems": "Journal of Intelligent & Robotic Systems",
+    "Journal of Lipid Research": "The Journal of Lipid Research",
+    "Journal of Management and Governance": "Journal of Management & Governance",
+    "Journal of Mass Communication & Journalism": "Journal of Mass Communication and Journalism",
+    "Journal of Medical Mycology": "Journal de Mycologie Médicale",
+    "Journal of Microbiology &amp; Biology Education": "Journal of Microbiology & Biology Education",
+    "Journal of Neurology, Neurosurgery &amp; Psychiatry": "Journal of Neurology, Neurosurgery & Psychiatry",
+    "Journal of Neuropathology &amp; Experimental Neurology": "Journal of Neuropathology & Experimental Neurology",
+    "Journal of Nonprofit &amp; Public Sector Marketing": "Journal of Nonprofit & Public Sector Marketing",
+    "Journal of Occupational & Environmental Medicine": "Journal of Occupational and Environmental Medicine",
+    "Journal of Occupational &amp; Environmental Medicine": "Journal of Occupational and Environmental Medicine",
+    "Journal of Orthopaedic Research®": "Journal of Orthopaedic Research",
+    "Journal of Otolaryngology - Head &amp; Neck Surgery": "Journal of Otolaryngology - Head & Neck Surgery",
+    "Journal of Otolaryngology - Head and Neck Surgery": "Journal of Otolaryngology - Head & Neck Surgery",
+    "Journal of Plastic, Reconstructive &amp; Aesthetic Surgery": "Journal of Plastic, Reconstructive & Aesthetic Surgery",
+    "Journal of Psychiatry and Neuroscience": "Journal of Psychiatry & Neuroscience",
+    "Journal of Public Budgeting, Accounting &amp; Financial Management": "Journal of Public Budgeting, Accounting & Financial Management",
+    "Journal of Public Policy &amp; Marketing": "Journal of Public Policy & Marketing",
+    "Journal of Religion, Spirituality &amp; Aging": "Journal of Religion, Spirituality & Aging",
+    "Journal of Small Business &amp; Entrepreneurship": "Journal of Small Business & Entrepreneurship",
+    "Journal of Transport &amp; Health": "Journal of Transport & Health",
+    "Journal of Trauma &amp; Dissociation": "Journal of Trauma & Dissociation",
+    "Journal of Travel &amp; Tourism Marketing": "Journal of Travel & Tourism Marketing",
+    "Journal of Vacuum Science & Technology A": "Journal of Vacuum Science & Technology A: Vacuum, Surfaces, and Films",
+    "Journal of Vacuum Science & Technology B": "Journal of Vacuum Science & Technology B: Microelectronics and Nanometer Structures",
+    "Journal of Vacuum Science & Technology B, Nanotechnology and Microelectronics: Materials, Processing, Measurement, and Phenomena": "Journal of Vacuum Science & Technology B: Microelectronics and Nanometer Structures",
+    "Journal of Vacuum Science &amp; Technology A": "Journal of Vacuum Science & Technology A: Vacuum, Surfaces, and Films",
+    "Journal of Vibration Engineering &amp; Technologies": "Journal of Vibration Engineering & Technologies",
+    "Journal of Vocational Education &amp; Training": "Journal of Vocational Education & Training",
+    "Journal of Water Sanitation and Hygiene for Development": "Journal of Water, Sanitation and Hygiene for Development",
+    "Journal of Web Semantics": "Web Semantics: Science, Services and Agents on the World Wide Web",
+    "Journal of the Air &amp; Waste Management Association": "Journal of the Air & Waste Management Association",
+    "Journal of the American Academy of Child &amp; Adolescent Psychiatry": "Journal of the American Academy of Child & Adolescent Psychiatry",
+    "Journal of the American Society for Mass Spectrometry": "Journal of The American Society for Mass Spectrometry",
+    "Journal of the European Optical Society-Rapid Publications": "Journal of the European Optical Society: Rapid Publications",
+    "Journal of the National Cancer Institute": "JNCI Journal of the National Cancer Institute",
+    "Journal of the Royal Statistical Society Series A: Statistics in Society": "Journal of the Royal Statistical Society: Series A (Statistics in Society)",
+    "Journal of the Royal Statistical Society Series C: Applied Statistics": "Journal of the Royal Statistical Society: Series C (Applied Statistics)",
+    "Knowledge Management Research &amp; Practice": "Knowledge Management Research & Practice",
+    "Lab Chip": "Lab on a Chip",
+    "Language &amp; Communication": "Language & Communication",
+    "Language and Literature: International Journal of Stylistics": "Language and Literature",
+    "Laser &amp; Photonics Reviews": "Laser & Photonics Reviews",
+    "Law &amp; Social Inquiry": "Law & Social Inquiry",
+    "Learning &amp; Behavior": "Learning & Behavior",
+    "Learning and Individual Differences": "Learning & Individual Differences",
+    "Leukemia &amp; Lymphoma": "Leukemia & Lymphoma",
+    "Light: Science &amp; Applications": "Light: Science & Applications",
+    "Lighting Research and Technology": "Lighting Research & Technology",
+    "Limnologica": "Limnologica - Ecology and Management of Inland Waters",
+    "Lupus Science &amp; Medicine": "Lupus Science & Medicine",
+    "MHR: Basic science of reproductive medicine": "Molecular Human Reproduction",
+    "Mater. Horiz.": "Materials Horizons",
+    "Materials &amp; Design": "Materials & Design",
+    "Maternal &amp; Child Nutrition": "Maternal & Child Nutrition",
+    "Mathematical Biosciences and Engineering": "Mathematical Biosciences and Engineering (MBE)",
+    "Mathematical Medicine and Biology: A Journal of the IMA": "Mathematical Medicine and Biology",
+    "Matériaux &amp; Techniques": "Matériaux & Techniques",
+    "Mechanics &amp; Industry": "Mechanics & Industry",
+    "Med. Chem. Commun.": "MedChemComm",
+    "Medical &amp; Biological Engineering &amp; Computing": "Medical & Biological Engineering & Computing",
+    "Medical Engineering and Physics": "Medical Engineering & Physics",
+    "Medicine &amp; Science in Sports &amp; Exercise": "Medicine & Science in Sports & Exercise",
+    "Medizinische Genetik": "medizinische genetik",
+    "Memory &amp; Cognition": "Memory & Cognition",
+    "Metallurgical Research &amp; Technology": "Metallurgical Research & Technology",
+    "Meteoritics &amp; Planetary Science": "Meteoritics & Planetary Science",
+    "Microbial Ecology in Health and Disease": "Microbial Ecology in Health & Disease",
+    "Microsystems &amp; Nanoengineering": "Microsystems & Nanoengineering",
+    "Milbank Quarterly": "The Milbank Quarterly",
+    "Mobile Media &amp; Communication": "Mobile Media & Communication",
+    "Mol. BioSyst.": "Molecular BioSystems",
+    "Molecular &amp; Cellular Oncology": "Molecular & Cellular Oncology",
+    "Molecular &amp; Cellular Proteomics": "Molecular & Cellular Proteomics",
+    "Molecular Diagnosis &amp; Therapy": "Molecular Diagnosis & Therapy",
+    "Molecular Genetics &amp; Genomic Medicine": "Molecular Genetics & Genomic Medicine",
+    "Molecular Nutrition &amp; Food Research": "Molecular Nutrition & Food Research",
+    "Molecular Plant-Microbe Interactions®": "Molecular Plant-Microbe Interactions",
+    "Molecular Systems Design &amp; Engineering": "Molecular Systems Design & Engineering",
+    "Molecular Therapy - Methods &amp; Clinical Development": "Molecular Therapy - Methods & Clinical Development",
+    "Molecular Therapy Methods & Clinical Development": "Molecular Therapy - Methods & Clinical Development",
+    "Molecular Therapy Nucleic Acids": "Molecular Therapy - Nucleic Acids",
+    "Molecular Therapy Oncolytics": "Molecular Therapy - Oncolytics",
+    "Muscle &amp; Nerve": "Muscle & Nerve",
+    "Music &amp; Science": "Music & Science",
+    "Mutation Research - Reviews in Mutation Research": "Mutation Research/Reviews in Mutation Research",
+    "Mutation Research/Genetic Toxicology and Environmental Mutagenesis": "Mutation Research - Genetic Toxicology and Environmental Mutagenesis",
+    "NAVIGATION": "Navigation",
+    "Nanoscale Horiz.": "Nanoscale Horizons",
+    "Nat. Prod. Rep.": "Natural Product Reports",
+    "Natural Hazards and Earth System Science": "Natural Hazards and Earth System Sciences",
+    "Naturwissenschaften": "The Science of Nature",
+    "Neurogastroenterology &amp; Motility": "Neurogastroenterology & Motility",
+    "Neurology - Neuroimmunology Neuroinflammation": "Neurology: Neuroimmunology & Neuroinflammation",
+    "Neuroscience &amp; Biobehavioral Reviews": "Neuroscience & Biobehavioral Reviews",
+    "New J. Chem.": "New Journal of Chemistry",
+    "New Media &amp; Society": "New Media & Society",
+    "Nicotine &amp; Tobacco Research": "Nicotine & Tobacco Research",
+    "Nonlinear Analysis": "Nonlinear Analysis: Theory, Methods & Applications",
+    "Nordic Pulp &amp; Paper Research Journal": "Nordic Pulp & Paper Research Journal",
+    "Notes and Records: the Royal Society Journal of the History of Science": "Notes and Records of the Royal Society",
+    "Notes and Records: the Royal Society journal of the history of science": "Notes and Records of the Royal Society",
+    "Notfall +  Rettungsmedizin": "Notfall + Rettungsmedizin",
+    "Nutrition &amp; Diabetes": "Nutrition & Diabetes",
+    "Nutrition &amp; Metabolism": "Nutrition & Metabolism",
+    "Ocean &amp; Coastal Management": "Ocean & Coastal Management",
+    "Oncotarget": "OncoTarget",
+    "Operations Research Forum": "SN Operations Research Forum",
+    "Ophthalmic Plastic &amp; Reconstructive Surgery": "Ophthalmic Plastic and Reconstructive Surgery",
+    "Optics &amp; Laser Technology": "Optics & Laser Technology",
+    "Org. Biomol. Chem.": "Organic & Biomolecular Chemistry",
+    "Organic &amp; Biomolecular Chemistry": "Organic & Biomolecular Chemistry",
+    "Organisms Diversity &amp; Evolution": "Organisms Diversity & Evolution",
+    "Orthodontics &amp; Craniofacial Research": "Orthodontics & Craniofacial Research",
+    "Orthopaedics &amp; Traumatology: Surgery &amp; Research": "Orthopaedics & Traumatology: Surgery & Research",
+    "Ozone: Science &amp; Engineering": "Ozone: Science & Engineering",
+    "PAIN": "Pain",
+    "PLANT PHYSIOLOGY": "Plant Physiology",
+    "PLOS One": "PLOS ONE",
+    "PLoS Biology": "PLOS Biology",
+    "PLoS Computational Biology": "PLOS Computational Biology",
+    "PLoS Genetics": "PLOS Genetics",
+    "PLoS Medicine": "PLOS Medicine",
+    "PLoS Neglected Tropical Diseases": "PLOS Neglected Tropical Diseases",
+    "PLoS ONE": "PLOS ONE",
+    "PLoS Pathogens": "PLOS Pathogens",
+    "PROTEOMICS – Clinical Applications": "PROTEOMICS - Clinical Applications",
+    "PS: Political Science &amp; Politics": "PS: Political Science & Politics",
+    "PalZ": "Paläontologische Zeitschrift",
+    "Parasites &amp; Vectors": "Parasites & Vectors",
+    "Parkinsonism &amp; Related Disorders": "Parkinsonism & Related Disorders",
+    "Partial Differential Equations and Applications": "SN Partial Differential Equations and Applications",
+    "Particle &amp; Particle Systems Characterization": "Particle & Particle Systems Characterization",
+    "Pedagogy, Culture &amp; Society": "Pedagogy, Culture & Society",
+    "Pediatric Blood &amp; Cancer": "Pediatric Blood & Cancer",
+    "Pediatric Infectious Disease Journal": "The Pediatric Infectious Disease Journal",
+    "Pharmacology &amp; Therapeutics": "Pharmacology & Therapeutics",
+    "Pharmacology Research &amp; Perspectives": "Pharmacology Research & Perspectives",
+    "Philosophy &amp; Social Criticism": "Philosophy & Social Criticism",
+    "Philosophy &amp; Technology": "Philosophy & Technology",
+    "Photochem. Photobiol. Sci.": "Photochemical & Photobiological Sciences",
+    "Photochemical &amp; Photobiological Sciences": "Photochemical & Photobiological Sciences",
+    "Phys. Chem. Chem. Phys.": "Physical Chemistry Chemical Physics",
+    "Physics in Medicine & Biology": "Physics in Medicine and Biology",
+    "Physics in Medicine &amp; Biology": "Physics in Medicine and Biology",
+    "Physiology &amp; Behavior": "Physiology & Behavior",
+    "Phytopathology®": "Phytopathology",
+    "Planning Practice &amp; Research": "Planning Practice & Research",
+    "Planning Practice and Research": "Planning Practice & Research",
+    "Planning Theory &amp; Practice": "Planning Theory & Practice",
+    "Plant Signaling &amp; Behavior": "Plant Signaling & Behavior",
+    "Plant, Cell &amp; Environment": "Plant, Cell & Environment",
+    "Plastic and Reconstructive Surgery Global Open": "Plastic and Reconstructive Surgery - Global Open",
+    "Policy &amp; Internet": "Policy & Internet",
+    "Polym. Chem.": "Polymer Chemistry",
+    "Primary Health Care Research &amp; Development": "Primary Health Care Research & Development",
+    "Proceedings in Applied Mathematics and Mechanics": "PAMM",
+    "Proceedings of the Institution of Civil Engineers - Geotechnical Engineering": "Proceedings of the ICE - Geotechnical Engineering",
+    "Proceedings of the Royal Society A: Mathematical, Physical and Engineering Science": "Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences",
+    "Production Planning &amp; Control": "Production Planning & Control",
+    "Prostate Cancer and Prostatic Disease": "Prostate Cancer and Prostatic Diseases",
+    "Protein Engineering Design and Selection": "Protein Engineering, Design and Selection",
+    "Psychology &amp; Health": "Psychology & Health",
+    "Psychology &amp; Marketing": "Psychology & Marketing",
+    "Psychology and Sexuality": "Psychology & Sexuality",
+    "Psychology of Well-Being": "Psychology of Well-Being: Theory, Research and Practice",
+    "Psychonomic Bulletin &amp; Review": "Psychonomic Bulletin & Review",
+    "Public Money &amp; Management": "Public Money & Management",
+    "QJM: An International Journal of Medicine": "QJM",
+    "Quality &amp; Quantity": "Quality & Quantity",
+    "Quarterly Journal of Experimental Psychology": "The Quarterly Journal of Experimental Psychology",
+    "R&amp;D Management": "R&D Management",
+    "RSC Adv.": "RSC Advances",
+    "Race &amp; Class": "Race & Class",
+    "Random Structures &amp; Algorithms": "Random Structures & Algorithms",
+    "Raumforschung und Raumordnung Spatial Research and Planning": "Raumforschung und Raumordnung",
+    "Raumforschung und Raumordnung |  Spatial Research and Planning": "Raumforschung und Raumordnung",
+    "Raumforschung und Raumordnung | Spatial Research and Planning": "Raumforschung und Raumordnung",
+    "Reaction Chemistry &amp; Engineering": "Reaction Chemistry & Engineering",
+    "Regional &amp; Federal Studies": "Regional & Federal Studies",
+    "Regulation &amp; Governance": "Regulation & Governance",
+    "Reliability Engineering &amp; System Safety": "Reliability Engineering & System Safety",
+    "Rendiconti Lincei. Scienze Fisiche e Naturali": "Rendiconti Lincei",
+    "Rendiconti del Circolo Matematico di Palermo Series 2": "Rendiconti del Circolo Matematico di Palermo (1952 -)",
+    "Reproductive Biomedicine &amp; Society Online": "Reproductive Biomedicine & Society Online",
+    "Research in Science &amp; Technological Education": "Research in Science & Technological Education",
+    "Research on Language and Social Interaction": "Research on Language & Social Interaction",
+    "Review of European, Comparative &amp; International Environmental Law": "Review of European, Comparative & International Environmental Law",
+    "Risk Governance and Control: Financial Markets and Institutions": "Risk Governance and Control: Financial Markets & Institutions",
+    "SHOCK": "Shock",
+    "SLAS DISCOVERY: Advancing the Science of Drug Discovery": "SLAS DISCOVERY: Advancing Life Sciences R&D",
+    "SLEEP": "Sleep",
+    "SLEEPJ": "Sleep",
+    "SN Business &amp; Economics": "SN Business & Economics",
+    "Sage Open": "SAGE Open",
+    "Scandinavian Journal of Medicine &amp; Science in Sports": "Scandinavian Journal of Medicine & Science in Sports",
+    "Scandinavian Journal of Work, Environment & Health": "Scandinavian Journal of Work Environment and Health",
+    "Scandinavian Journal of Work, Environment &amp; Health": "Scandinavian Journal of Work Environment and Health",
+    "Schmalenbach Journal of Business Research": "Schmalenbachs Zeitschrift für betriebswirtschaftliche Forschung",
+    "Schmalenbachs Zeitschrift fÃ¼r betriebswirtschaftliche Forschung": "Schmalenbachs Zeitschrift für betriebswirtschaftliche Forschung",
+    "Science &amp; Education": "Science & Education",
+    "Science &amp; Justice": "Science & Justice",
+    "Science China Physics, Mechanics &amp; Astronomy": "Science China Physics, Mechanics & Astronomy",
+    "Science, Technology, &amp; Human Values": "Science, Technology, & Human Values",
+    "Scientific Repor.": "Scientific Reports",
+    "Seizure: European Journal of Epilepsy": "Seizure",
+    "Seminars in Cell &amp; Developmental Biology": "Seminars in Cell & Developmental Biology",
+    "Soccer &amp; Society": "Soccer & Society",
+    "Social &amp; Legal Studies": "Social & Legal Studies",
+    "Social Cognitive And Affective Neuroscience": "Social Cognitive and Affective Neuroscience",
+    "Social Policy &amp; Administration": "Social Policy & Administration",
+    "Social Politics: International Studies in Gender, State &amp; Society": "Social Politics: International Studies in Gender, State & Society",
+    "Social Science &amp; Medicine": "Social Science & Medicine",
+    "Social Sciences &amp; Humanities Open": "Social Sciences & Humanities Open",
+    "Social Theory &amp; Health": "Social Theory & Health",
+    "Sociological Methods &amp; Research": "Sociological Methods & Research",
+    "Sociology of Health &amp; Illness": "Sociology of Health & Illness",
+    "Software and Systems Modeling": "Software & Systems Modeling",
+    "Sound&amp;Vibration": "Sound & Vibration",
+    "Statistical Analysis and Data Mining: An ASA Data Science Journal": "Statistical Analysis and Data Mining: The ASA Data Science Journal",
+    "Statistical Methods &amp; Applications": "Statistical Methods & Applications",
+    "Statistical Modelling: An International Journal": "Statistical Modelling",
+    "Statistics &amp; Probability Letters": "Statistics & Probability Letters",
+    "Stem Cell Research &amp; Therapy": "Stem Cell Research & Therapy",
+    "Stem Cells": "STEM CELLS",
+    "Stochastics and  Partial Differential Equations: Analysis and Computations": "Stochastics and Partial Differential Equations: Analysis and Computations",
+    "Structural Health Monitoring: An International Journal": "Structural Health Monitoring",
+    "Studies in History and Philosophy of Science": "Studies in History and Philosophy of Science Part A",
+    "Substance Use &amp; Misuse": "Substance Use & Misuse",
+    "Sustainability Management Forum | NachhaltigkeitsManagementForum": "NachhaltigkeitsManagementForum | Sustainability Management Forum",
+    "Sustainable Energy &amp; Fuels": "Sustainable Energy & Fuels",
+    "Systems Science &amp; Control Engineering": "Systems Science & Control Engineering",
+    "TAXON": "Taxon",
+    "TRANSACTIONS OF THE JAPAN SOCIETY FOR AERONAUTICAL AND SPACE SCIENCES, AEROSPACE TECHNOLOGY JAPAN": "Transactions of the Japan Society for Aeronautical and Space Sciences, Aerospace Technology Japan",
+    "Taal en tongval": "Taal en Tongval",
+    "Technical Innovations &amp; Patient Support in Radiation Oncology": "Technical Innovations & Patient Support in Radiation Oncology",
+    "Technology Analysis &amp; Strategic Management": "Technology Analysis & Strategic Management",
+    "Tellus A: Dynamic Meteorology and Oceanography": "Tellus A",
+    "Tellus B: Chemical and Physical Meteorology": "Tellus B",
+    "Text &amp; Talk": "Text & Talk",
+    "The African Journal of Food, Agriculture, Nutrition and Development": "African Journal of Food, Agriculture, Nutrition and Development",
+    "The American Journal of Clinical Nutrition": "American Journal of Clinical Nutrition",
+    "The American Journal of Tropical Medicine and Hygiene": "American Journal of Tropical Medicine and Hygiene",
+    "The Bone & Joint Journal": "Bone & Joint Journal",
+    "The British Journal of Criminology": "British Journal of Criminology",
+    "The British Journal of Social Work": "British Journal of Social Work",
+    "The FEBS Journal": "FEBS Journal",
+    "The International Journal of Biochemistry &amp; Cell Biology": "The International Journal of Biochemistry & Cell Biology",
+    "The Journal of Clinical Endocrinology &amp; Metabolism": "The Journal of Clinical Endocrinology & Metabolism",
+    "The Journal of Experimental Biology": "Journal of Experimental Biology",
+    "The Journal of Forensic Psychiatry &amp; Psychology": "The Journal of Forensic Psychiatry & Psychology",
+    "The Journal of Infectious Diseases": "Journal of Infectious Diseases",
+    "The Journal of Laryngology &amp; Otology": "The Journal of Laryngology & Otology",
+    "The Journal of Maternal-Fetal &amp; Neonatal Medicine": "The Journal of Maternal-Fetal & Neonatal Medicine",
+    "The Journal of Neuroscience": "Journal of Neuroscience",
+    "The Journal of Nutrition": "Journal of Nutrition",
+    "The Journal of World Energy Law &amp; Business": "The Journal of World Energy Law & Business",
+    "The Journals of Gerontology, Series B: Psychological Sciences and Social Sciences": "The Journals of Gerontology Series B: Psychological Sciences and Social Sciences",
+    "The Journals of Gerontology: Series A": "The Journals of Gerontology Series A: Biological Sciences and Medical Sciences",
+    "The Journals of Gerontology: Series B": "The Journals of Gerontology Series B: Psychological Sciences and Social Sciences",
+    "The Plant Cell Online": "The Plant Cell",
+    "The Review of Financial Studies": "Review of Financial Studies",
+    "The journal of nutrition, health &amp; aging": "The journal of nutrition, health & aging",
+    "Theory, Culture &amp; Society": "Theory, Culture & Society",
+    "Therapeutic Innovation &amp; Regulatory Science": "Therapeutic Innovation & Regulatory Science",
+    "Tijdschrift voor Economische en Sociale Geografie": "Tijdschrift voor economische en sociale geografie",
+    "Timing &amp; Time Perception": "Timing & Time Perception",
+    "Transactions of the Royal Society of Tropical Medicine and Hygiene": "Transactions of The Royal Society of Tropical Medicine and Hygiene",
+    "Translational Vision Science &amp; Technology": "Translational Vision Science & Technology",
+    "Transplantation": "Transplantation Journal",
+    "Trauma, Violence, &amp; Abuse": "Trauma, Violence, & Abuse",
+    "Trends in Ecology &amp; Evolution": "Trends in Ecology & Evolution",
+    "Trends in Food Science &amp; Technology": "Trends in Food Science & Technology",
+    "Tropical Medicine &amp; International Health": "Tropical Medicine & International Health",
+    "Ultrasound in Obstetrics &amp; Gynecology": "Ultrasound in Obstetrics & Gynecology",
+    "Urban Forestry &amp; Urban Greening": "Urban Forestry & Urban Greening",
+    "Veterinary Radiology &amp; Ultrasound": "Veterinary Radiology & Ultrasound",
+    "Victims &amp; Offenders": "Victims & Offenders",
+    "Voluntas: International Journal of Voluntary and Nonprofit Organizations": "VOLUNTAS: International Journal of Voluntary and Nonprofit Organizations",
+    "WIREs Climate Change": "Wiley Interdisciplinary Reviews: Climate Change",
+    "WIREs Cognitive Science": "Wiley Interdisciplinary Reviews: Cognitive Science",
+    "WIREs Computational Molecular Science": "Wiley Interdisciplinary Reviews: Computational Molecular Science",
+    "WIREs Developmental Biology": "Wiley Interdisciplinary Reviews: Developmental Biology",
+    "WIREs RNA": "Wiley Interdisciplinary Reviews: RNA",
+    "WIREs Water": "Wiley Interdisciplinary Reviews: Water",
+    "Waste Management &amp; Research: The Journal for a Sustainable Circular Economy": "Waste Management & Research",
+    "Water Science and Technology": "Water Science & Technology",
+    "Water, Air, &amp; Soil Pollution": "Water, Air, & Soil Pollution",
+    "Wilderness &amp; Environmental Medicine": "Wilderness & Environmental Medicine",
+    "Wirtschaftsinformatik &amp; Management": "Wirtschaftsinformatik & Management",
+    "Wood Material Science & Engineering": "Wood Material Science and Engineering",
+    "Wood Material Science &amp; Engineering": "Wood Material Science & Engineering",
+    "Work &amp; Stress": "Work & Stress",
+    "Work, employment and society": "Work, Employment and Society",
+    "ZDM – Mathematics Education": "ZDM",
+    "Zeitschrift für die neutestamentliche Wissenschaft": "Zeitschrift für die Neutestamentliche Wissenschaft und die Kunde der älteren Kirche",
+    "ael": "Agricultural & Environmental Letters",
+    "e &amp; i Elektrotechnik und Informationstechnik": "e & i Elektrotechnik und Informationstechnik",
+    "eBioMedicine": "EBioMedicine",
+    "eClinicalMedicine": "EClinicalMedicine",
+    "eneuro": "eNeuro",
+    "genesis": "Genesis",
+    "interactive Journal of Medical Research": "Interactive Journal of Medical Research",
+    "jwhg": "Journal of Women's Health and Gynecology",
+    "manuscripta mathematica": "Manuscripta Mathematica",
+    "physica status solidi (RRL) – Rapid Research Letters": "physica status solidi (RRL) - Rapid Research Letters",
+    "ua": "Urban Agriculture & Regional Food Systems"
+  },
+  "PUBLISHER_MAPPINGS": {
+    "Academic Conferences and Publishing International Limited": "Academic Conferences International Ltd",
+    "American Society for Biochemistry &amp; Molecular Biology (ASBMB)": "American Society for Biochemistry & Molecular Biology (ASBMB)",
+    "Amsterdam university Press": "Amsterdam University Press",
+    "BRILL": "Brill",
+    "Bioscientifica": "BioScientifica",
+    "Bloomsbury Academic": "Bloomsbury Publishing",
+    "Bloomsbury Publishing Inc": "Bloomsbury Publishing",
+    "Bloomsbury Publishing Plc": "Bloomsbury Publishing",
+    "Bloomsbury T & T Clark": "Bloomsbury Publishing",
+    "Bloomsbury T&T Clark": "Bloomsbury Publishing",
+    "Bloomsbury Visual Arts": "Bloomsbury Publishing",
+    "Brill | Nijhoff": "Brill",
+    "BÖHLAU VERLAG": "Böhlau",
+    "Böhlau Verlag": "Böhlau",
+    "CMA Joule Inc.": "Joule Inc.",
+    "Cold Spring Harbor Laboratory": "Cold Spring Harbor Laboratory Press",
+    "Continuum International Publishing Group": "Bloomsbury Publishing",
+    "DE GRUYTER": "De Gruyter",
+    "DE GRUYTER SAUR": "De Gruyter",
+    "De Gruyter Mouton": "De Gruyter",
+    "De Gruyter Oldenbourg": "De Gruyter",
+    "De Gruyter Saur": "De Gruyter",
+    "Edinburgh University Global Health Society": "International Global Health Society",
+    "Element": "Ele-Math",
+    "Element d.o.o.": "Ele-Math",
+    "F1000 ( Faculty of 1000 Ltd)": "F1000 Research, Ltd.",
+    "F1000 Research Ltd": "F1000 Research, Ltd.",
+    "Future Science Ltd": "Future Science, LTD",
+    "Hindawi Limited": "Hindawi Publishing Corporation",
+    "Hollitzer Verlag": "Hollitzer",
+    "Horizon Research Publishing Co., Ltd.": "Horizon Research Publishing",
+    "Impact Journals": "Impact Journals LLC",
+    "Institute of Electrical &amp; Electronics Engineers (IEEE)": "Institute of Electrical & Electronics Engineers (IEEE)",
+    "Institute of Electrical and Electronics Engineers (IEEE)": "Institute of Electrical & Electronics Engineers (IEEE)",
+    "Institute of Physiology of the Czech Academy of Sciences": "Academia Scientiarum Bohemoslovaca",
+    "Intellect Books": "Intellect",
+    "Intellect Ltd": "Intellect",
+    "Modestum Publishing Ltd": "Modestum Limited",
+    "NUS Press Pte Ltd": "NUS Press",
+    "Nomos Verlagsgesellschaft mbH & Co.- KG": "Nomos Verlagsgesellschaft mbH & Co. KG",
+    "Osterreichische Akademie der Wissenschaften": "Österreichische Akademie der Wissenschaften",
+    "Oxford University Press": "Oxford University Press (OUP)",
+    "PETER LANG LTD International Academic Publishers": "Peter Lang",
+    "Peter Lang D": "Peter Lang",
+    "Peter Lang UK": "Peter Lang",
+    "Policy Press": "The Policy Press",
+    "Schüren Verlag": "Schüren Verlag GmbH",
+    "Science and Education Publishing Co., Ltd.": "Science and Education Publishing",
+    "Scientific Research Publishing, Inc,": "Scientific Research Publishing, Inc.",
+    "Scientific and Academic Publishing": "Scientific & Academic Publishing",
     "Springer Fachmedien Wiesbaden GmbH": "Springer Nature",
-    "Nature Publishing Group": "Springer Nature",
-    "Institute of Mathematics, Czech Academy of Sciences": "Springer Nature",
-    "The Endocrine Society": "Oxford University Press (OUP)",
-    "National Inquiry Services Center (NISC)": "Informa UK Limited",
-    "F1000 Research, Ltd.": "Informa UK Limited",
-    "Royal College of Psychiatrists": "Cambridge University Press (CUP)",
-    "Mineralogical Society": "Cambridge University Press (CUP)",
-    "Canadian Mathematical Society": "Cambridge University Press (CUP)",
-    "Antiquity Publications": "Cambridge University Press (CUP)",
-    "American Vacuum Society": "AIP Publishing",
-    "Acoustical Society of America (ASA)": "AIP Publishing",
-    "Laser Institute of America": "AIP Publishing",
-    "American Association of Physics Teachers (AAPT)": "AIP Publishing",
-    "British Institute of Radiology": "Wiley-Blackwell",
-    "Institution of Engineering and Technology (IET)": "Wiley-Blackwell",
-    "American Psychological Association (APA)": "Elsevier BV",
-    "American Dairy Science Association": "Elsevier BV",
-    "American Educational Research Association (AERA)": "SAGE Publications",
-    "The Electrochemical Society": "IOP Publishing"
-  },
-  "ESAC_COUNTRY_MAPPINGS": {
-    "Germany": "DEU",
-    "Austria": "AUT"
-  },
-  "ESAC_PUBLISHER_MAPPINGS": {
-    "Taylor & Francis": {
-      "full": "Informa UK Limited",
-      "short": "Taylor & Francis"
-    },
-    "American Chemical Society": {
-      "full": "American Chemical Society (ACS)",
-      "short": "ACS"
-    }
-  },
-  "GEO_MAPPINGS": {
-    "North America": "NORTH_AMERICA",
-    "Europe": "EUROPE",
-    "CA": "CAN",
-    "DE": "DEU",
-    "IT": "ITA",
-    "AT": "AUT",
-    "ON": "CA-ON",
-    "MB": "CA-MB",
-    "QC": "CA-QC",
-    "AB": "CA-AB",
-    "NS": "CA-NS",
-    "BC": "CA-BC",
-    "NL": "CA-NL",
-    "NB": "CA-NB",
-    "PE": "CA-PE",
-    "SK": "CA-SK"
+    "Springer Nature America, Inc": "Springer Nature",
+    "Springer Nature Switzerland": "Springer International Publishing",
+    "Springer Science and Business Media LLC": "Springer Nature",
+    "T&T Clark": "Bloomsbury Publishing",
+    "Tectum – ein Verlag in der Nomos Verlagsgesellschaft": "Tectum Wissenschaftsverlag",
+    "The Ohio State University Press": "Ohio State University Press",
+    "The Optical Society": "Optical Society of America (OSA)",
+    "Transcript Verlag": "transcript Verlag",
+    "University of Hawai'i / Hawai‘i Press": "University of Hawaii Press",
+    "University of Hawai'i Press": "University of Hawaii Press",
+    "University of Ottawa Press / Les Presses de l’Université d’Ottawa": "University of Ottawa Press",
+    "VERLAG DER ÖSTERREICHISCHEN AKADEMIE DER WISSENSCHAFTEN (ÖAW)": "Verlag der Österreichischen Akademie der Wissenschaften",
+    "VERLAG TURIA UND KANT ": "Turia und Kant",
+    "Verlag Holzhausen": "Holzhausen",
+    "Verlag Holzhausen GmbH": "Holzhausen",
+    "Verlag Walter de Gruyter GmbH": "De Gruyter",
+    "Verlag der österreichischen Akademie der Wissenschaften": "Verlag der Österreichischen Akademie der Wissenschaften",
+    "Verlag irena regener": "Berlin Regener Publishing House",
+    "WALLSTEIN VERLAG": "Wallstein Verlag",
+    "WALTER DE GRUYTER": "De Gruyter",
+    "WAXMANN VERLAG": "Waxmann Verlag",
+    "Walter de Gruyter – K. G. Saur": "De Gruyter",
+    "Waxmann": "Waxmann Verlag",
+    "Waxmann Verlag GmbH": "Waxmann Verlag",
+    "Wiley": "Wiley-Blackwell",
+    "edition text + kritik im Richard Boorberg Verlag": "edition text + kritik",
+    "transcript-Verlag": "transcript Verlag"
   }
 }
