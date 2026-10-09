@@ -525,7 +525,7 @@ Lappeenranta-Lahti University of Technology LUT,lut_u,Lappeenranta-Lahti Univers
 Finnish Institute for Health and Welfare,finnish_thl,Finnish Institute for Health and Welfare,EUROPE,FIN,FI-18,NA,https://ror.org/03tf0c761,NA,NA,https://thl.fi/en/web/thlfi-en,NA
 Novia University of Applied Sciences,novia,Novia University of Applied Sciences,EUROPE,FIN,FI-12,NA,https://ror.org/05e08rb26,NA,NA,https://www.novia.fi/novia-uas/,NA
 Hubrecht Institute for Developmental Biology and Stem Cell Research,hubrecht_institute,Hubrecht Institute for Developmental Biology and Stem Cell Research,EUROPE,NLD,NL-UT,NA,https://ror.org/023qc4a07,NA,NA,https://www.hubrecht.eu/,NA
-Ferdinand Porsche FernFH,fernfh,Ferdinand Porsche FernFH,EUROPE,AUT,AUT-NO,NA,NA,https://ror.org/04w0zef94,NA,https://www.fernfh.ac.at/en,NA
+Ferdinand Porsche FernFH,fernfh,Ferdinand Porsche FernFH,EUROPE,AUT,AUT-NO,NA,https://ror.org/04w0zef94,NA,NA,https://www.fernfh.ac.at/en,NA
 FHWien der WKW (FHW),fh_wien,FHWien der WKW (FHW),EUROPE,AUT,AUT-WI,NA,https://ror.org/001gcc176,NA,NA,https://www.fh-wien.ac.at/en/,NA
 University of Innsbruck and Medical University of Innsbruck,innsbruck_uni_meduni,University of Innsbruck and Medical University of Innsbruck,EUROPE,AUT,AUT-TR,NA,NA,NA,NA,NA,NA
 University of Innsbruck,innsbruck_u,University of Innsbruck,EUROPE,AUT,AUT-TR,NA,https://ror.org/054pv6659,NA,NA,https://www.uibk.ac.at/en/,NA
@@ -775,6 +775,6 @@ Leibniz-LIN,lin,Leibniz Institute for Neurobiology,EUROPE,DEU,ST,lin,https://ror
 Universitat Politècnica de València,upv,Universitat Politècnica de València,EUROPE,ESP,ES.VC,upv,https://ror.org/01460j859,NA,NA,https://www.upv.es,NA
 CAMPUS 02 Fachhochschule der Wirtschaft GmbH,campus_02,CAMPUS 02 University for Applied Sciences,EUROPE,AUT,AUT-ST,NA,https://ror.org/02cms1514,NA,NA,https://www.campus02.at,NA
 Fachhochschule des BFI Wien GmbH,fh_bfi_wien,University of Applied Sciences BFI Vienna,EUROPE,AUT,AUT-WI,NA,https://ror.org/01x98fq76,NA,NA,https://www.fh-vie.ac.at,NA
-FH Gesundheitsberufe OÖ GmbH,fh_gesundheitsberufe,University of Applied Sciences for Health Professions Upper Austria,EUROPE,AUT-OO,4,NA,https://ror.org/01jwm2188,NA,NA,https://www.fh-gesundheitsberufe.at,NA
+FH Gesundheitsberufe OÖ GmbH,fh_gesundheitsberufe,University of Applied Sciences for Health Professions Upper Austria,EUROPE,AUT,AUT-OO,NA,https://ror.org/01jwm2188,NA,NA,https://www.fh-gesundheitsberufe.at,NA
 IT:U Interdisciplinary Transformation University,itu_austria,Interdisciplinary Transformation University Austria,EUROPE,AUT,AUT-OO,NA,https://ror.org/03jzk4720,NA,NA,https://www.it-u.at,NA
 Vorarlberger Landesbibliothek,vorarlberg_lb,Vorarlberger Landesbibliothek,EUROPE,AUT,AUT-VO,NA,https://ror.org/04ht9dx76,NA,NA,https://vlb.vorarlberg.at,NA
