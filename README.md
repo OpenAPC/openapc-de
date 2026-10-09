@@ -16,7 +16,7 @@ At the moment OpenAPC provides the following cost data:
 
 | Entity                      | Count                                     | Aggregated Sum (€)               | Contributing Institutions                                         |
 |-----------------------------|-------------------------------------------|----------------------------------|-------------------------------------------------------------------|
-| Articles (APCs)             |297,652                  | 623,110,153    | 489                   |
+| Articles (APCs)             |294,284                  | 616,074,295    | 489                   |
 | Monographs (BPCs)           |2,759                           | 18,249,149             | 120                            |
 | OA Agreements/Contracts     |1,600                 | 213,049,201   | 143                  |
 
@@ -242,6 +242,7 @@ The following institutions have contributed to OpenAPC so far:
 - [Austrian Academy of Sciences](https://www.oeaw.ac.at)
 - [Austrian Institute of Economic Research](https://www.wifo.ac.at)
 - [Austrian Institute of Technology](https://www.ait.ac.at)
+- [CAMPUS 02 University for Applied Sciences](https://www.campus02.at)
 - [Carinthia University of Applied Sciences (CUAS)](https://www.fh-kaernten.at/en/)
 - [Central European University](https://www.ceu.edu)
 - [Danube Private University](http://www.danube-private-university.at/)
@@ -259,6 +260,7 @@ The following institutions have contributed to OpenAPC so far:
 - [IMC University of Applied Sciences Krems](https://www.fh-krems.ac.at/en/)
 - [Institute for Advanced Studies Vienna](https://www.ihs.ac.at/)
 - [Institute of Science and Technology Austria](https://ist.ac.at/en/research/library/publish-communicate/)
+- [Interdisciplinary Transformation University Austria](https://www.it-u.at)
 - [International Institute for Applied Systems Analysis (IIASA)](https://iiasa.ac.at/)
 - [Joanneum Research](http://www.joanneum.at/en.html)
 - [Johannes Kepler University Linz](https://www.jku.at/en/library/service/bibliometrics-and-publication-support/open-access-publishing/publication-fund/)
@@ -274,10 +276,12 @@ The following institutions have contributed to OpenAPC so far:
 - [Sigmund Freud Privatuniversität Wien](https://www.sfu.ac.at)
 - [Technische Universität Wien](https://www.tuwien.at/bibliothek/publizieren/open-access-und-urheberrecht)
 - [UMIT - Private Universität für Gesundheitswissenschaften, Medizinische Informatik und Technik](https://www.umit.at/page.cfm?vpath=studien&switchLocale=en_US)
+- [University of Applied Sciences BFI Vienna](https://www.fh-vie.ac.at)
 - [University of Applied Sciences Burgenland](https://www.fh-burgenland.at/en/)
 - [University of Applied Sciences Technikum Wien](https://www.technikum-wien.at)
 - [University of Applied Sciences Upper Austria](https://www.fh-ooe.at/en/)
 - [University of Applied Sciences Wiener Neustadt for Business and Engineering](https://www.fhwn.ac.at/en/)
+- [University of Applied Sciences for Health Professions Upper Austria](https://www.fh-gesundheitsberufe.at)
 - [University of Graz](https://www.uni-graz.at/en/)
 - [University of Innsbruck](https://www.uibk.ac.at/en/)
 - University of Innsbruck and Medical University of Innsbruck
@@ -290,6 +294,7 @@ The following institutions have contributed to OpenAPC so far:
 - [Universitäts- und Landesbibliothek Tirol](https://www.uibk.ac.at/ulb)
 - [Verbund für Bildung und Kultur](https://www.vbk.ac.at)
 - [Vienna University of Economics and Business (WU)](https://www.wu.ac.at/en/)
+- [Vorarlberger Landesbibliothek](https://vlb.vorarlberg.at)
 
 </details>
 
@@ -1022,13 +1027,13 @@ The following institutions have contributed to OpenAPC so far:
 
 
 
-The APC data set contains information on 269,292 Open Access journal articles for which publication fees were paid on an article basis. These articles were published in fully Open Access and hybrid journals, and the corresponding fees were supported financially by 487 research-performing institutions and research funders.
+The APC data set contains information on 268,861 Open Access journal articles for which publication fees were paid on an article basis. These articles were published in fully Open Access and hybrid journals, and the corresponding fees were supported financially by 487 research-performing institutions and research funders.
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 557,960,201. The average payment was € 2,072 and the median was € 1,914.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 557,111,959. The average payment was € 2,072 and the median was € 1,914.
 
-200,384 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 379,373,199, including value-added tax; the average payment was € 1,893 (median =  € 1,750, SD = € 931).
+200,359 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 379,303,515, including value-added tax; the average payment was € 1,893 (median =  € 1,750, SD = € 931).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 68,908 articles in the data set were published in hybrid journals. Total expenditure amounts to 178,587,002 €; the average fee was € 2,592 (median =  € 2,526, SD = € 1,184).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 68,502 articles in the data set were published in hybrid journals. Total expenditure amounts to 177,808,443 €; the average fee was € 2,596 (median =  € 2,534, SD = € 1,186).
 
 Articles published under OA publishing agreements, including cases where APCs are paid on an article basis within such agreements, are not included in the APC data set but are recorded in the TA data set.
 
@@ -1056,13 +1061,13 @@ Articles published under OA publishing agreements, including cases where APCs ar
 |2014   |       5,171|   1,376|     1,255|  40.0 -  9,028|           6,518|       2,238|         2,200|   132.3 -  6,000|
 |2015   |       8,418|   1,522|     1,451|  59.0 -  5,669|           6,685|       2,610|         2,623|   126.6 -  8,636|
 |2016   |       9,796|   1,638|     1,531|  62.5 -  5,985|           7,894|       2,551|         2,513|     2.3 -  9,079|
-|2017   |      14,975|   1,700|     1,553|   8.7 - 14,634|          10,645|       2,528|         2,469|    36.9 -  9,858|
-|2018   |      16,613|   1,700|     1,581|  13.0 -  8,926|           9,481|       2,551|         2,538|     1.8 -  9,073|
-|2019   |      17,947|   1,708|     1,634|  10.7 -  7,821|           7,122|       2,535|         2,498|    75.3 -  9,500|
+|2017   |      14,975|   1,700|     1,553|   8.7 - 14,634|          10,643|       2,528|         2,469|    36.9 -  9,858|
+|2018   |      16,613|   1,700|     1,581|  13.0 -  8,926|           9,480|       2,551|         2,538|     1.8 -  9,073|
+|2019   |      17,947|   1,708|     1,634|  10.7 -  7,821|           6,726|       2,572|         2,570|    75.3 -  9,500|
 |2020   |      20,276|   1,706|     1,668|   0.2 -  8,906|           4,583|       2,497|         2,534|    16.6 -  7,416|
-|2021   |      25,367|   1,799|     1,753|  27.0 -  8,341|           3,892|       2,568|         2,520|    30.2 - 11,400|
-|2022   |      27,057|   2,067|     1,989|  12.4 - 11,175|           3,191|       2,908|         2,730|     2.1 - 22,210|
-|2023   |      23,931|   2,275|     2,200|  35.0 -  9,893|           3,852|       3,023|         2,860|   106.4 - 11,895|
+|2021   |      25,362|   1,799|     1,753|  27.0 -  8,341|           3,890|       2,568|         2,520|    30.2 - 11,400|
+|2022   |      27,038|   2,066|     1,989|  12.4 - 11,175|           3,188|       2,909|         2,730|     2.1 - 22,210|
+|2023   |      23,930|   2,275|     2,200|  35.0 -  9,893|           3,850|       3,024|         2,860|   106.4 - 11,895|
 |2024   |      18,738|   2,431|     2,379|  10.3 -  9,758|           2,953|       3,135|         3,014|    28.4 - 13,044|
 |2025   |       5,685|   2,576|     2,399|  20.0 -  8,854|             907|       3,222|         2,979|    95.0 - 13,166|
 |2026   |         472|   2,446|     2,338|  66.0 -  7,503|              55|       3,062|         3,230|   595.0 -  5,142|
@@ -1170,8 +1175,8 @@ Metadata representing publication titles or publisher names is obtained from Cro
 |Identifier                 | Coverage (articles)                                               | Coverage (Books)                                            |
 |:--------------------------|:------------------------------------------------------------------|-------------------------------------------------------------|
 |DOI                        |  99.78%       |88.73%   |
-|PubMed ID                  |  69.79%      | NA                                                          |
-|PubMed Central ID          |  64.24%     | NA                                                          |
+|PubMed ID                  |  69.77%      | NA                                                          |
+|PubMed Central ID          |  64.22%     | NA                                                          |
 
 
 
