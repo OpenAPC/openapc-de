@@ -459,7 +459,9 @@ JOURNAL_OWNER_CHANGED = {
 	"1532-429X": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # Journal of Cardiovascular Magnetic Resonance
 	"1097-6647": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # Journal of Cardiovascular Magnetic Resonance (linking)
 	"1355-8145": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # Cell Stress and Chaperones
+	"1466-1268": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # Cell Stress and Chaperones (electronic)
 	"1071-3581": ["Springer Nature", "Elsevier BV"], # Journal of Nuclear Cardiology 
+	"1532-6551": ["Springer Nature", "Elsevier BV"], # Journal of Nuclear Cardiology (electronic)
 	"1538-7836": ["Wiley-Blackwell", "Elsevier BV"], # Journal of Thrombosis and Haemostasis
 	"2041-7136": ["Springer Science + Business Media", "Springer Nature", "Frontiers Media SA"], # Pastoralism
     "0942-2056": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Knee Surgery, Sports Traumatology, Arthroscopy 
@@ -595,7 +597,9 @@ JOURNAL_OWNER_CHANGED = {
 	"2210-4968": ["IOS Press", "SAGE Publications"], # Semantic Web 
 	"1570-0844": ["IOS Press", "SAGE Publications"], # Semantic Web (print)
 	"1091-255X": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # Journal of Gastrointestinal Surgery
+	"1873-4626": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # Journal of Gastrointestinal Surgery (electronic)
 	"1600-6135": ["Wiley-Blackwell", "Elsevier BV"], # American Journal of Transplantation
+	"1600-6143": ["Wiley-Blackwell", "Elsevier BV"], # American Journal of Transplantation (electronic)
 	"0893-3952": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"], # Modern Pathology
 	"1098-3600": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"], # Genetics in Medicine 
 	"0006-341X": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Biometrics 
@@ -750,6 +754,19 @@ JOURNAL_OWNER_CHANGED = {
 	"1475-1313": ["Wiley-Blackwell", "Springer Nature"], # Ophthalmic and Physiological Optics (electronic)
 	"0749-8063": ["Elsevier BV", "Wiley-Blackwell"], # Arthroscopy 
 	"1526-3231": ["Elsevier BV", "Wiley-Blackwell"], # Arthroscopy (electronic)
+	"0028-4289": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # New Blackfriars
+	"1741-2005": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # New Blackfriars (electronic)
+	"2690-442X": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Skin Health and Disease
+	"0021-8499": ["WARC Limited", "Informa UK Limited"], # Journal of Advertising Research 
+	"1740-1909": ["WARC Limited", "Informa UK Limited"], # Journal of Advertising Research (electronic)
+	"2380-8985": ["Informa UK Limited", "Oxford University Press (OUP)"], # Annals of the International Communication Association 
+	"2380-8977": ["Informa UK Limited", "Oxford University Press (OUP)"], # Annals of the International Communication Association (electronic)
+	"1386-4157": ["Springer Nature", "Cambridge University Press (CUP)"], # Experimental Economics 
+	"1573-6938": ["Springer Nature", "Cambridge University Press (CUP)"], # Experimental Economics (electronic)
+	"0025-5572": ["Informa UK Limited", "Cambridge University Press (CUP)"], # The Mathematical Gazette
+	"2056-6328": ["Informa UK Limited", "Cambridge University Press (CUP)"], # The Mathematical Gazette (electronic)
+	"0887-5367": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # Hypatia
+	"1527-2001": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # Hypatia (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1336,6 +1353,24 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2210-7711", # International Journal of Clinical Pharmacy, Gold OA since 2026
     "1755-098X", # Molecular Ecology Resources, Gold OA since 2026
     "1539-9087", # ACM Transactions on Embedded Computing Systems, Gold OA since 2026
+    "1462-3994", # Expert Reviews in Molecular Medicine, Gold OA since
+    "2196-7024", # Soziologische Revue, S2O since 2022
+    "2366-0325", # Zeitschrift für Soziologie, S2O OA since 2022
+    "2055-6837", # European Heart Journal - Cardiovascular Pharmacotherapy, Gold OA since 2025
+    "0730-6679", # Advances in Polymer Technology, Gold OA since 2019
+    "1590-4261", # Annals of Microbiology, Gold OA since 2020
+    "0365-0340", # Archives of Agronomy and Soil Science, Gold OA since 2024
+    "1465-6493", # Perspektiven der Wirtschaftspolitik, S2O since 2025
+    "2053-4477", # Journal of the American Philosophical Association, Gold OA since 2025
+    "0021-8553", # Journal of African Law, Gold OA since 2026
+    "0954-5867", # Cambridge Opera Journal, Gold OA since 2025
+    "0301-4460", # Annals of Human Biology, Gold OA since 2025
+    "0029-6473", # Nursing Forum, Gold OA since 2023
+    "2196-680X", # Historische Zeitschrift, S2O since 2025
+    "0921-4771", # Probus, S2O since 2025
+    "1386-4157", # Experimental Economics, Gold OA since 2025
+    "2366-0392", # Zeitschrift für Rechtssoziologie, S2O since 2025
+    "0021-2237", # Israel Law Review, Gold OA since 2025
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts

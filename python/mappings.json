@@ -1,6 +1,1433 @@
 {
   "CONTEXTUAL_MAPPINGS": {
-    "issn": {},
+    "issn": {
+      "1388-9842": {
+        "publisher": {
+          "2020": "Wiley-Blackwell",
+          "2021": "Wiley-Blackwell",
+          "2023": "Wiley-Blackwell",
+          "2018": "Wiley-Blackwell"
+        }
+      },
+      "2471-254X": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2688-6146": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2642-3561": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1527-6465": {
+        "publisher": {
+          "2018": "Wiley-Blackwell",
+          "2020": "Wiley-Blackwell"
+        }
+      },
+      "2210-2612": {
+        "publisher": {
+          "2021": "Elsevier BV"
+        }
+      },
+      "0896-4327": {
+        "is_hybrid": {
+          "2018": "FALSE"
+        }
+      },
+      "0934-0874": {
+        "publisher": {
+          "2018": "Wiley-Blackwell"
+        },
+        "doaj": {
+          "2020": "FALSE",
+          "2019": "FALSE",
+          "2021": "FALSE"
+        }
+      },
+      "2047-9980": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        },
+        "publisher": {
+          "2022": "Wiley-Blackwell"
+        }
+      },
+      "1661-8726": {
+        "publisher": {
+          "2016": "Springer Nature",
+          "2017": "Springer Nature",
+          "2018": "Springer Nature"
+        },
+        "doaj": {
+          "2016": "FALSE",
+          "2017": "FALSE",
+          "2018": "FALSE"
+        }
+      },
+      "2699-9293": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2699-9412": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2045-7634": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2045-7022": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2001-1326": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2045-7758": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2055-5822": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        },
+        "publisher": {
+          "2022": "Wiley-Blackwell"
+        }
+      },
+      "2698-5977": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2470-9239": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2190-5991": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2001-3078": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2378-2242": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2191-1363": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2161-2234": {
+        "publisher": {
+          "2019": "Wiley-Blackwell",
+          "2020": "Wiley-Blackwell"
+        }
+      },
+      "2399-2050": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1386-4157": {
+        "publisher": {
+          "2017": "Springer Nature",
+          "2018": "Springer Nature",
+          "2019": "Springer Nature",
+          "2022": "Springer Nature",
+          "2020": "Springer Nature"
+        }
+      },
+      "0957-8765": {
+        "publisher": {
+          "2023": "Springer Nature",
+          "2018": "Springer Nature",
+          "2019": "Springer Nature",
+          "2016": "Springer Nature",
+          "2020": "Springer Nature",
+          "2021": "Springer Nature"
+        }
+      },
+      "1560-4292": {
+        "publisher": {
+          "2023": "Springer Nature",
+          "2021": "Springer Nature"
+        }
+      },
+      "2199-6784": {
+        "publisher": {
+          "2017": "Springer Nature",
+          "2019": "Springer Nature",
+          "2023": "Springer Nature",
+          "2016": "Springer Nature"
+        }
+      },
+      "0167-2681": {
+        "is_hybrid": {
+          "2021": "TRUE"
+        }
+      },
+      "2694-2461": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2694-250X": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2694-2496": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2694-247X": {
+        "is_hybrid": {
+          "2021": "FALSE",
+          "2022": "FALSE"
+        }
+      },
+      "2694-2445": {
+        "is_hybrid": {
+          "2021": "FALSE",
+          "2022": "FALSE"
+        }
+      },
+      "2691-3704": {
+        "is_hybrid": {
+          "2022": "FALSE",
+          "2021": "FALSE"
+        }
+      },
+      "0964-0282": {
+        "publisher": {
+          "2019": "Wiley-Blackwell",
+          "2020": "Wiley-Blackwell",
+          "2021": "Wiley-Blackwell"
+        },
+        "doaj": {
+          "2019": "FALSE",
+          "2020": "FALSE",
+          "2021": "FALSE"
+        }
+      },
+      "0012-2017": {
+        "publisher": {
+          "2018": "Wiley-Blackwell",
+          "2019": "Wiley-Blackwell"
+        },
+        "doaj": {
+          "2018": "FALSE",
+          "2019": "FALSE"
+        }
+      },
+      "1750-8592": {
+        "publisher": {
+          "2023": "Wiley-Blackwell"
+        }
+      },
+      "1088-1980": {
+        "publisher": {
+          "2020": "Wiley-Blackwell",
+          "2021": "Wiley-Blackwell",
+          "2025": "Wiley-Blackwell",
+          "2022": "Wiley-Blackwell",
+          "2023": "Wiley-Blackwell",
+          "2018": "Wiley-Blackwell",
+          "2019": "Wiley-Blackwell"
+        }
+      },
+      "1056-8190": {
+        "publisher": {
+          "2023": "Wiley-Blackwell"
+        },
+        "doaj": {
+          "2023": "FALSE"
+        }
+      },
+      "1757-4676": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1998-0124": {
+        "publisher": {
+          "2018": "Springer Nature",
+          "2020": "Springer Nature"
+        },
+        "doaj": {
+          "2018": "FALSE",
+          "2020": "FALSE"
+        }
+      },
+      "2196-4386": {
+        "publisher": {
+          "2018": "Springer Nature",
+          "2023": "Springer Nature",
+          "2022": "Springer Nature"
+        }
+      },
+      "2352-4928": {
+        "is_hybrid": {
+          "2025": "TRUE"
+        }
+      },
+      "1751-7915": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1093-9687": {
+        "publisher": {
+          "2020": "Wiley-Blackwell",
+          "2023": "Wiley-Blackwell",
+          "2025": "Wiley-Blackwell"
+        }
+      },
+      "1560-2745": {
+        "publisher": {
+          "2020": "Springer Nature",
+          "2016": "Springer Nature"
+        }
+      },
+      "2193-9438": {
+        "publisher": {
+          "2018": "Springer Nature"
+        },
+        "doaj": {
+          "2018": "FALSE"
+        }
+      },
+      "1751-8644": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "0022-0418": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "2475-1421": {
+        "is_hybrid": {
+          "2022": "FALSE",
+          "2025": "FALSE"
+        }
+      },
+      "2573-9522": {
+        "is_hybrid": {
+          "2025": "FALSE",
+          "2023": "FALSE"
+        }
+      },
+      "0275-5947": {
+        "publisher": {
+          "2018": "Wiley-Blackwell"
+        }
+      },
+      "1940-3372": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1903-220X": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "0266-8254": {
+        "publisher": {
+          "2018": "Wiley-Blackwell"
+        }
+      },
+      "1680-4333": {
+        "publisher": {
+          "2021": "Springer Nature",
+          "2023": "Springer Nature",
+          "2025": "Springer Nature"
+        },
+        "doaj": {
+          "2025": "FALSE",
+          "2021": "FALSE",
+          "2023": "FALSE"
+        }
+      },
+      "1467-6370": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "0368-492X": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "2198-3844": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2150-8925": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "0020-5346": {
+        "publisher": {
+          "2019": "Springer Nature"
+        },
+        "doaj": {
+          "2019": "FALSE"
+        }
+      },
+      "1126-3504": {
+        "publisher": {
+          "2025": "Informa UK Limited"
+        }
+      },
+      "2047-8844": {
+        "publisher": {
+          "2023": "Wiley-Blackwell",
+          "2025": "Wiley-Blackwell",
+          "2018": "Wiley-Blackwell",
+          "2019": "Wiley-Blackwell",
+          "2020": "Wiley-Blackwell"
+        }
+      },
+      "1744-4292": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "0012-9682": {
+        "publisher": {
+          "2021": "Wiley-Blackwell"
+        }
+      },
+      "1833-3672": {
+        "is_hybrid": {
+          "2025": "TRUE"
+        }
+      },
+      "1471-5201": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "2628-5452": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2055-4877": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2054-1058": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2192-4376": {
+        "publisher": {
+          "2018": "Springer Nature"
+        },
+        "doaj": {
+          "2018": "FALSE"
+        }
+      },
+      "0025-5572": {
+        "publisher": {
+          "2025": "Cambridge University Press (CUP)"
+        }
+      },
+      "0268-4160": {
+        "publisher": {
+          "2025": "Cambridge University Press (CUP)"
+        }
+      },
+      "0307-8833": {
+        "publisher": {
+          "2023": "Cambridge University Press (CUP)"
+        }
+      },
+      "2694-2453": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1942-2466": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1356-3289": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "2042-3896": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "1363-254X": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "0008-8994": {
+        "publisher": {
+          "2021": "Wiley-Blackwell"
+        }
+      },
+      "2047-3087": {
+        "publisher": {
+          "2022": "Wiley-Blackwell"
+        }
+      },
+      "0075-4102": {
+        "is_hybrid": {
+          "2025": "FALSE"
+        }
+      },
+      "2328-9503": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2050-0904": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2045-8827": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2324-9269": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "0004-069X": {
+        "publisher": {
+          "2017": "Springer Nature"
+        }
+      },
+      "0936-5931": {
+        "publisher": {
+          "2017": "Springer Nature"
+        }
+      },
+      "1878-5352": {
+        "publisher": {
+          "2022": "Elsevier BV"
+        }
+      },
+      "2666-061X": {
+        "publisher": {
+          "2022": "Elsevier BV"
+        }
+      },
+      "0954-5794": {
+        "is_hybrid": {
+          "2025": "TRUE"
+        }
+      },
+      "1464-6668": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "1061-0421": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "1366-5626": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "1754-2731": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "0933-7407": {
+        "is_hybrid": {
+          "2025": "TRUE"
+        }
+      },
+      "2396-9873": {
+        "publisher": {
+          "2023": "SAGE Publications"
+        }
+      },
+      "2366-6129": {
+        "publisher": {
+          "2017": "Springer Fachmedien Wiesbaden GmbH"
+        }
+      },
+      "0957-8234": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "2053-1095": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1467-2987": {
+        "is_hybrid": {
+          "2025": "TRUE"
+        }
+      },
+      "1751-7311": {
+        "publisher": {
+          "2020": "Cambridge University Press (CUP)"
+        },
+        "doaj": {
+          "2020": "FALSE"
+        }
+      },
+      "1939-1676": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        },
+        "publisher": {
+          "2022": "Wiley-Blackwell"
+        }
+      },
+      "2044-1398": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "2059-5891": {
+        "is_hybrid": {
+          "2022": "TRUE"
+        }
+      },
+      "1757-7802": {
+        "publisher": {
+          "2019": "Wiley-Blackwell"
+        }
+      },
+      "0175-7598": {
+        "doaj": {
+          "2022": "FALSE",
+          "2016": "FALSE",
+          "2017": "FALSE",
+          "2018": "FALSE",
+          "2019": "FALSE",
+          "2020": "FALSE",
+          "2023": "FALSE",
+          "2021": "FALSE"
+        }
+      },
+      "1871-4757": {
+        "is_hybrid": {
+          "2025": "FALSE"
+        },
+        "doaj": {
+          "2018": "FALSE",
+          "2017": "FALSE",
+          "2019": "FALSE"
+        }
+      },
+      "0017-257X": {
+        "doaj": {
+          "2022": "FALSE",
+          "2020": "FALSE",
+          "2021": "FALSE",
+          "2023": "FALSE"
+        }
+      },
+      "0922-1565": {
+        "doaj": {
+          "2023": "FALSE"
+        }
+      },
+      "2045-3817": {
+        "doaj": {
+          "2023": "FALSE",
+          "2020": "FALSE"
+        }
+      },
+      "1286-4560": {
+        "doaj": {
+          "2017": "FALSE",
+          "2019": "FALSE",
+          "2018": "FALSE",
+          "2016": "FALSE"
+        }
+      },
+      "0142-0615": {
+        "doaj": {
+          "2021": "FALSE",
+          "2022": "FALSE"
+        }
+      },
+      "0939-4451": {
+        "doaj": {
+          "2021": "FALSE",
+          "2020": "FALSE",
+          "2022": "FALSE",
+          "2019": "FALSE",
+          "2016": "FALSE",
+          "2017": "FALSE",
+          "2018": "FALSE"
+        }
+      },
+      "0957-4530": {
+        "doaj": {
+          "2018": "FALSE",
+          "2017": "FALSE",
+          "2016": "FALSE"
+        }
+      },
+      "0261-4189": {
+        "doaj": {
+          "2018": "FALSE",
+          "2023": "FALSE",
+          "2019": "FALSE",
+          "2020": "FALSE",
+          "2021": "FALSE",
+          "2022": "FALSE"
+        }
+      },
+      "1469-221X": {
+        "doaj": {
+          "2021": "FALSE",
+          "2018": "FALSE",
+          "2019": "FALSE",
+          "2020": "FALSE",
+          "2022": "FALSE",
+          "2023": "FALSE"
+        }
+      },
+      "0363-907X": {
+        "doaj": {
+          "2021": "FALSE",
+          "2019": "FALSE"
+        }
+      },
+      "0939-5555": {
+        "is_hybrid": {
+          "2016": "FALSE"
+        },
+        "doaj": {
+          "2017": "FALSE",
+          "2021": "FALSE",
+          "2018": "FALSE",
+          "2022": "FALSE",
+          "2020": "FALSE",
+          "2019": "FALSE",
+          "2023": "FALSE"
+        }
+      },
+      "1432-0584": {
+        "is_hybrid": {
+          "2025": "FALSE"
+        }
+      },
+      "0932-0067": {
+        "doaj": {
+          "2020": "FALSE",
+          "2018": "FALSE",
+          "2019": "FALSE",
+          "2016": "FALSE",
+          "2017": "FALSE",
+          "2021": "FALSE"
+        }
+      },
+      "1432-0711": {
+        "doaj": {
+          "2023": "FALSE",
+          "2021": "FALSE",
+          "2022": "FALSE"
+        },
+        "is_hybrid": {
+          "2025": "FALSE"
+        }
+      },
+      "0171-5216": {
+        "doaj": {
+          "2021": "FALSE",
+          "2022": "FALSE",
+          "2023": "FALSE",
+          "2019": "FALSE",
+          "2016": "FALSE",
+          "2020": "FALSE",
+          "2018": "FALSE"
+        }
+      },
+      "0001-6268": {
+        "doaj": {
+          "2018": "FALSE",
+          "2020": "FALSE",
+          "2021": "FALSE",
+          "2017": "FALSE",
+          "2019": "FALSE",
+          "2016": "FALSE"
+        }
+      },
+      "0942-0940": {
+        "doaj": {
+          "2023": "FALSE",
+          "2022": "FALSE"
+        },
+        "is_hybrid": {
+          "2025": "FALSE"
+        }
+      },
+      "1878-7479": {
+        "doaj": {
+          "2020": "FALSE",
+          "2021": "FALSE",
+          "2018": "FALSE",
+          "2019": "FALSE",
+          "2016": "FALSE",
+          "2022": "FALSE"
+        }
+      },
+      "1396-0296": {
+        "doaj": {
+          "2018": "FALSE",
+          "2020": "FALSE",
+          "2022": "FALSE"
+        }
+      },
+      "1351-5101": {
+        "doaj": {
+          "2020": "FALSE",
+          "2021": "FALSE",
+          "2022": "FALSE",
+          "2018": "FALSE",
+          "2023": "FALSE",
+          "2019": "FALSE"
+        }
+      },
+      "1359-4338": {
+        "doaj": {
+          "2023": "FALSE",
+          "2020": "FALSE",
+          "2021": "FALSE"
+        }
+      },
+      "2523-3963": {
+        "doaj": {
+          "2019": "FALSE",
+          "2018": "FALSE",
+          "2020": "FALSE"
+        }
+      },
+      "1574-9541": {
+        "doaj": {
+          "2023": "FALSE"
+        }
+      },
+      "0043-1397": {
+        "doaj": {
+          "2018": "FALSE",
+          "2020": "FALSE",
+          "2021": "FALSE",
+          "2019": "FALSE",
+          "2022": "FALSE",
+          "2023": "FALSE"
+        }
+      },
+      "0094-8276": {
+        "doaj": {
+          "2021": "FALSE",
+          "2022": "FALSE",
+          "2018": "FALSE",
+          "2019": "FALSE",
+          "2020": "FALSE"
+        }
+      },
+      "2041-210X": {
+        "doaj": {
+          "2022": "FALSE",
+          "2019": "FALSE",
+          "2020": "FALSE",
+          "2021": "FALSE"
+        }
+      },
+      "1366-9516": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2196-0216": {
+        "doaj": {
+          "2019": "FALSE",
+          "2021": "FALSE",
+          "2018": "FALSE",
+          "2020": "FALSE"
+        }
+      },
+      "1618-0240": {
+        "doaj": {
+          "2019": "FALSE",
+          "2018": "FALSE"
+        }
+      },
+      "1420-682X": {
+        "doaj": {
+          "2019": "FALSE",
+          "2017": "FALSE",
+          "2016": "FALSE",
+          "2018": "FALSE",
+          "2021": "FALSE",
+          "2022": "FALSE"
+        }
+      },
+      "0044-2585": {
+        "doaj": {
+          "2017": "FALSE",
+          "2016": "FALSE",
+          "2022": "FALSE"
+        }
+      },
+      "0013-5194": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1572-1000": {
+        "doaj": {
+          "2022": "FALSE"
+        }
+      },
+      "1880-4276": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1219-4956": {
+        "doaj": {
+          "2016": "FALSE",
+          "2017": "FALSE",
+          "2018": "FALSE",
+          "2019": "FALSE",
+          "2020": "FALSE"
+        }
+      },
+      "1368-5031": {
+        "doaj": {
+          "2021": "FALSE",
+          "2019": "FALSE",
+          "2020": "FALSE"
+        }
+      },
+      "1742-4801": {
+        "doaj": {
+          "2018": "FALSE",
+          "2019": "FALSE"
+        },
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1083-7159": {
+        "doaj": {
+          "2019": "FALSE",
+          "2020": "FALSE"
+        }
+      },
+      "1574-7891": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1065-9471": {
+        "doaj": {
+          "2018": "FALSE"
+        },
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1478-1239": {
+        "doaj": {
+          "2019": "FALSE"
+        }
+      },
+      "1420-9071": {
+        "is_hybrid": {
+          "2025": "FALSE"
+        }
+      },
+      "0340-7004": {
+        "doaj": {
+          "2016": "FALSE",
+          "2020": "FALSE",
+          "2021": "FALSE",
+          "2023": "FALSE",
+          "2019": "FALSE",
+          "2018": "FALSE"
+        }
+      },
+      "1432-1335": {
+        "is_hybrid": {
+          "2025": "FALSE"
+        }
+      },
+      "1434-9957": {
+        "is_hybrid": {
+          "2025": "FALSE"
+        }
+      },
+      "1355-8145": {
+        "doaj": {
+          "2019": "FALSE"
+        }
+      },
+      "1590-1262": {
+        "is_hybrid": {
+          "2023": "FALSE"
+        },
+        "doaj": {
+          "2021": "FALSE"
+        }
+      },
+      "0266-4623": {
+        "doaj": {
+          "2020": "FALSE",
+          "2021": "FALSE"
+        }
+      },
+      "1368-9800": {
+        "doaj": {
+          "2020": "FALSE"
+        }
+      },
+      "0001-6349": {
+        "doaj": {
+          "2018": "FALSE",
+          "2020": "FALSE"
+        },
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1015-6305": {
+        "doaj": {
+          "2018": "FALSE"
+        },
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1752-6981": {
+        "doaj": {
+          "2018": "FALSE"
+        }
+      },
+      "1075-122X": {
+        "doaj": {
+          "2020": "FALSE"
+        }
+      },
+      "0958-0670": {
+        "doaj": {
+          "2020": "FALSE",
+          "2021": "FALSE",
+          "2022": "FALSE"
+        }
+      },
+      "0730-6679": {
+        "doaj": {
+          "2018": "FALSE"
+        }
+      },
+      "1438-7492": {
+        "doaj": {
+          "2018": "FALSE",
+          "2019": "FALSE"
+        }
+      },
+      "2577-6576": {
+        "doaj": {
+          "2019": "FALSE"
+        }
+      },
+      "2516-8401": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2196-7350": {
+        "doaj": {
+          "2019": "FALSE",
+          "2020": "FALSE",
+          "2021": "FALSE",
+          "2022": "FALSE",
+          "2018": "FALSE"
+        }
+      },
+      "2199-160X": {
+        "doaj": {
+          "2020": "FALSE",
+          "2021": "FALSE",
+          "2022": "FALSE",
+          "2018": "FALSE"
+        }
+      },
+      "1545-2255": {
+        "doaj": {
+          "2019": "FALSE",
+          "2020": "FALSE"
+        }
+      },
+      "0341-2687": {
+        "doaj": {
+          "2020": "FALSE",
+          "2016": "FALSE"
+        }
+      },
+      "1049-9644": {
+        "doaj": {
+          "2021": "FALSE",
+          "2022": "FALSE"
+        }
+      },
+      "0928-0987": {
+        "doaj": {
+          "2021": "FALSE"
+        }
+      },
+      "1570-8268": {
+        "doaj": {
+          "2021": "FALSE"
+        }
+      },
+      "1525-2027": {
+        "doaj": {
+          "2018": "FALSE",
+          "2019": "FALSE",
+          "2020": "FALSE"
+        },
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "0269-8463": {
+        "doaj": {
+          "2021": "FALSE",
+          "2018": "FALSE",
+          "2020": "FALSE",
+          "2019": "FALSE",
+          "2022": "FALSE"
+        }
+      },
+      "0304-4130": {
+        "doaj": {
+          "2018": "FALSE",
+          "2021": "FALSE",
+          "2022": "FALSE",
+          "2019": "FALSE",
+          "2023": "FALSE",
+          "2025": "FALSE"
+        }
+      },
+      "1474-9718": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1355-6215": {
+        "doaj": {
+          "2020": "FALSE",
+          "2021": "FALSE",
+          "2022": "FALSE"
+        }
+      },
+      "0906-7590": {
+        "doaj": {
+          "2019": "FALSE"
+        }
+      },
+      "0947-5745": {
+        "doaj": {
+          "2018": "FALSE",
+          "2019": "FALSE",
+          "2020": "FALSE",
+          "2021": "FALSE"
+        }
+      },
+      "1467-7644": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1432-0614": {
+        "is_hybrid": {
+          "2025": "FALSE"
+        }
+      },
+      "2365-5127": {
+        "doaj": {
+          "2016": "FALSE",
+          "2017": "FALSE",
+          "2018": "FALSE",
+          "2019": "FALSE",
+          "2020": "FALSE",
+          "2021": "FALSE",
+          "2022": "FALSE",
+          "2023": "FALSE"
+        }
+      },
+      "2365-5135": {
+        "is_hybrid": {
+          "2025": "FALSE"
+        }
+      },
+      "1751-8687": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1600-5775": {
+        "doaj": {
+          "2019": "FALSE"
+        },
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1476-5535": {
+        "doaj": {
+          "2016": "FALSE",
+          "2020": "FALSE",
+          "2019": "FALSE"
+        }
+      },
+      "0378-3820": {
+        "doaj": {
+          "2022": "FALSE"
+        }
+      },
+      "0956-7925": {
+        "doaj": {
+          "2023": "FALSE",
+          "2020": "FALSE",
+          "2022": "FALSE"
+        }
+      },
+      "0950-5423": {
+        "doaj": {
+          "2021": "FALSE",
+          "2020": "FALSE",
+          "2022": "FALSE"
+        }
+      },
+      "1435-0211": {
+        "doaj": {
+          "2018": "FALSE"
+        }
+      },
+      "1869-4179": {
+        "doaj": {
+          "2017": "FALSE",
+          "2016": "FALSE"
+        }
+      },
+      "1590-4261": {
+        "doaj": {
+          "2019": "FALSE"
+        }
+      },
+      "0023-6438": {
+        "doaj": {
+          "2021": "FALSE"
+        }
+      },
+      "2589-2347": {
+        "doaj": {
+          "2022": "FALSE"
+        }
+      },
+      "1355-557X": {
+        "doaj": {
+          "2019": "FALSE",
+          "2020": "FALSE"
+        }
+      },
+      "1462-5814": {
+        "doaj": {
+          "2018": "FALSE"
+        }
+      },
+      "0908-8857": {
+        "doaj": {
+          "2018": "FALSE",
+          "2020": "FALSE",
+          "2019": "FALSE"
+        }
+      },
+      "1866-9808": {
+        "doaj": {
+          "2022": "FALSE"
+        }
+      },
+      "1753-318X": {
+        "doaj": {
+          "2018": "FALSE"
+        }
+      },
+      "1049-8931": {
+        "doaj": {
+          "2019": "FALSE"
+        }
+      },
+      "1124-4909": {
+        "doaj": {
+          "2018": "FALSE",
+          "2017": "FALSE"
+        }
+      },
+      "2573-8488": {
+        "doaj": {
+          "2020": "FALSE"
+        }
+      },
+      "1469-3569": {
+        "doaj": {
+          "2023": "FALSE",
+          "2020": "FALSE"
+        }
+      },
+      "1755-7739": {
+        "doaj": {
+          "2020": "FALSE",
+          "2022": "FALSE",
+          "2021": "FALSE"
+        }
+      },
+      "1435-9448": {
+        "doaj": {
+          "2016": "FALSE",
+          "2020": "FALSE",
+          "2022": "FALSE",
+          "2017": "FALSE",
+          "2018": "FALSE",
+          "2021": "FALSE"
+        }
+      },
+      "1435-9456": {
+        "is_hybrid": {
+          "2025": "FALSE"
+        }
+      },
+      "1874-785X": {
+        "doaj": {
+          "2018": "FALSE",
+          "2022": "FALSE",
+          "2017": "FALSE"
+        }
+      },
+      "1439-1791": {
+        "doaj": {
+          "2021": "FALSE"
+        }
+      },
+      "1598-2408": {
+        "doaj": {
+          "2021": "FALSE"
+        }
+      },
+      "2049-8470": {
+        "doaj": {
+          "2023": "FALSE"
+        }
+      },
+      "0007-1234": {
+        "doaj": {
+          "2023": "FALSE"
+        }
+      },
+      "0021-9320": {
+        "doaj": {
+          "2021": "FALSE",
+          "2022": "FALSE",
+          "2023": "FALSE"
+        }
+      },
+      "0031-1820": {
+        "doaj": {
+          "2020": "FALSE",
+          "2021": "FALSE"
+        }
+      },
+      "0143-814X": {
+        "doaj": {
+          "2020": "FALSE"
+        }
+      },
+      "1744-1331": {
+        "doaj": {
+          "2023": "FALSE"
+        }
+      },
+      "2052-2630": {
+        "doaj": {
+          "2022": "FALSE"
+        }
+      },
+      "1740-8695": {
+        "doaj": {
+          "2019": "FALSE"
+        }
+      },
+      "1867-299X": {
+        "doaj": {
+          "2023": "FALSE"
+        }
+      },
+      "0960-2585": {
+        "doaj": {
+          "2022": "FALSE"
+        }
+      },
+      "1445-5781": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2042-6747": {
+        "doaj": {
+          "2019": "FALSE"
+        }
+      }
+    },
     "issn_print": {},
     "issn_electronic": {},
     "issn_l": {}
@@ -720,7 +2147,50 @@
     "Evolution &amp; Development": "Evolution & Development",
     "Ultrasound in Obstetrics &amp; Gynecology": "Ultrasound in Obstetrics & Gynecology",
     "Epilepsy &amp; Behavior Reports": "Epilepsy & Behavior Reports",
-    "Schmalenbachs Zeitschrift fÃ¼r betriebswirtschaftliche Forschung": "Schmalenbachs Zeitschrift für betriebswirtschaftliche Forschung"
+    "Schmalenbachs Zeitschrift fÃ¼r betriebswirtschaftliche Forschung": "Schmalenbachs Zeitschrift für betriebswirtschaftliche Forschung",
+    "CHEST": "Chest",
+    "Journal of the American Society for Mass Spectrometry": "Journal of The American Society for Mass Spectrometry",
+    "Journal of the Royal Statistical Society Series C: Applied Statistics": "Journal of the Royal Statistical Society: Series C (Applied Statistics)",
+    "Journal of Global Mobility: The Home of Expatriate Management Research": "Journal of Global Mobility",
+    "IEEE Transactions on Molecular, Biological, and Multi-Scale Communications": "IEEE Transactions on Molecular, Biological and Multi-Scale Communications",
+    "Ironmaking & Steelmaking: Processes, Products and Applications": "Ironmaking & Steelmaking",
+    "PROTEOMICS – Clinical Applications": "PROTEOMICS - Clinical Applications",
+    "Medizinische Genetik": "medizinische genetik",
+    "Arthroscopy": "Arthroscopy: The Journal of Arthroscopic & Related Surgery",
+    "Mutation Research/Genetic Toxicology and Environmental Mutagenesis": "Mutation Research - Genetic Toxicology and Environmental Mutagenesis",
+    "Mutation Research - Reviews in Mutation Research": "Mutation Research/Reviews in Mutation Research",
+    "Journal of Medical Mycology": "Journal de Mycologie Médicale",
+    "Molecular Therapy Methods & Clinical Development": "Molecular Therapy - Methods & Clinical Development",
+    "Seizure: European Journal of Epilepsy": "Seizure",
+    "British Journal of Radiology": "The British Journal of Radiology",
+    "Journal of the Royal Statistical Society Series A: Statistics in Society": "Journal of the Royal Statistical Society: Series A (Statistics in Society)",
+    "Operations Research Forum": "SN Operations Research Forum",
+    "Partial Differential Equations and Applications": "SN Partial Differential Equations and Applications",
+    "WIREs RNA": "Wiley Interdisciplinary Reviews: RNA",
+    "Voluntas: International Journal of Voluntary and Nonprofit Organizations": "VOLUNTAS: International Journal of Voluntary and Nonprofit Organizations",
+    "Applied Catalysis B: Environment and Energy": "Applied Catalysis B: Environmental",
+    "Limnologica": "Limnologica - Ecology and Management of Inland Waters",
+    "Studies in History and Philosophy of Science": "Studies in History and Philosophy of Science Part A",
+    "EMBO Reports": "EMBO reports",
+    "Europhysics Letters": "EPL (Europhysics Letters)",
+    "Proceedings in Applied Mathematics and Mechanics": "PAMM",
+    "Statistical Analysis and Data Mining: An ASA Data Science Journal": "Statistical Analysis and Data Mining: The ASA Data Science Journal",
+    "Educational technology research and development": "Educational Technology Research and Development",
+    "Elt Journal": "ELT Journal",
+    "Social Cognitive And Affective Neuroscience": "Social Cognitive and Affective Neuroscience",
+    "East European Politics and Societies": "East European Politics and Societies: and Cultures",
+    "Rendiconti del Circolo Matematico di Palermo Series 2": "Rendiconti del Circolo Matematico di Palermo (1952 -)",
+    "Molecular Therapy Oncolytics": "Molecular Therapy - Oncolytics",
+    "European Journal Of International Law": "European Journal of International Law",
+    "GENETICS": "Genetics",
+    "The Journals of Gerontology, Series B: Psychological Sciences and Social Sciences": "The Journals of Gerontology Series B: Psychological Sciences and Social Sciences",
+    "Integrative And Comparative Biology": "Integrative and Comparative Biology",
+    "Molecular Therapy Nucleic Acids": "Molecular Therapy - Nucleic Acids",
+    "SLEEP": "Sleep",
+    "SLEEPJ": "Sleep",
+    "Language and Literature: International Journal of Stylistics": "Language and Literature",
+    "Sage Open": "SAGE Open",
+    "International Journal for Lesson and Learning Studies": "International Journal for Lesson & Learning Studies"
   },
   "COLUMN_NAMES": {
     "institution": [
