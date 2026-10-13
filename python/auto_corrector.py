@@ -20,12 +20,29 @@ ARG_HELP_STRINGS = {
 APC_DE_FILE = "../data/apc_de.csv"
 TA_FILE = "../data/transformative_agreements/transformative_agreements.csv"
 
+DOAJ = None
+
 ISSN_DICTS = {
     "issn": {},
     "issn_print": {},
     "issn_electronic": {},
     "issn_l": {}
 }
+
+DOAJ_MISMATCH_MSG = ('Line {}: Detected a doaj/is_hybrid mismatch (both TRUE)\n' +
+                     '  period             : {}\n' +
+                     '  is_hybrid          : {}\n' +
+                     '  publisher          : {}\n' +
+                     '  journal_full_title : {}\n' +
+                     '  doaj               : {}\n')
+
+DOAJ_CORRECT_MSG = ("How do you want to proceed?\n" +
+                    "1) Correct is_hybrid to FALSE\n" +
+                    "2) Correct doaj to FALSE\n" +
+                    "3) Do nothing\n" +
+                    "4) Do nothing and abort (saving all changes to out.csv)\n" +
+                    "5) Get additional information from the EZB\n" +
+                    "6) Get additional information from the DOAJ\n> ")
 
 MISMATCH_MSG = ('Line {}: Detected a mismatch in the {} field for {} {}:\n' +
                 '  period             : {}\n' +
@@ -44,7 +61,8 @@ CORRECT_MSG = ("How do you want to proceed?\n" +
                "2) Correct {} to {} and abort (saving all changes to out.csv)\n" +
                "3) Do nothing\n" +
                "4) Do nothing and abort (saving all changes to out.csv)\n" +
-               "5) Get additional information from the EZB\n> ")
+               "5) Get additional information from the EZB\n" +
+               "6) Get additional information from the DOAJ\n> ")
 
 MAPPING_ASK = ("Do you want to update the mappings?\n" +
                "1) Yes, modify mappings.json directly\n" +
@@ -75,6 +93,28 @@ def _prepare_ezb_info(issn):
         msg += "Categories: " + record["categories"] + "\n" if record["categories"] else ""
         msg += "DOAJ:       " + record["doaj_link"] + "\n" if record["doaj_link"] else ""
         msg += "-------------------------------------------------------\n"        
+    return msg
+
+def _prepare_doaj_info(issn_list):
+    global DOAJ
+    if DOAJ is None:
+        DOAJ = oat.DOAJAnalysis()
+    info = None
+    for issn in issn_list:
+        info = DOAJ.get_metadata(issn)
+        if info is not None:
+            break
+    else:
+        msg = "\n\nNo Information could be obtained from the DOAJ for ISSN " + issn
+        return msg
+    msg = "\n\nThe following additional information could be obtained from the DOAJ for ISSN " + issn + ":\n"
+    msg += "Title:                " + info["journal_title"] + "\n" if info["journal_title"] else ""
+    msg += "Publisher:            " + info["publisher"] + "\n" if info["publisher"] else ""
+    msg += "Other Organisation:   " + info["other_org"] + "\n" if info["other_org"] else ""
+    msg += "Gold OA since:        " + info["oa_since"] + "\n" if info["oa_since"] else ""
+    msg += "Added / Last update:  " + "{} / {}\n".format(info["added"], info["updated"])
+    msg += "Mirror Journal / S2O: " + "{} / {}\n".format(info["mirror"], info["s20"])
+    msg += "-------------------------------------------------------\n"
     return msg
 
 def _build_wl_suggestion(field_type, new_value, established_value, issn, issn_p, issn_e, issn_l, journal_full_title):
@@ -113,7 +153,7 @@ def _apply_mappings_to_line(line_num, line):
             msg = msg.format(line_num, title, new_value)
             oat.print_c(msg)
             changes_made = True
-    for field_type in ["is_hybrid", "publisher"]:
+    for field_type in ["is_hybrid", "publisher", "doaj"]:
         old_value = line[field_type]
         for issn_type in ISSN_DICTS.keys():
             issn = line[issn_type]
@@ -130,7 +170,7 @@ def _apply_mappings_to_line(line_num, line):
 def _create_mapping(issn_type, issn_value, field_type, mapping_key, mapping_target, period=None):
     if field_type == "journal_full_title":
         mappings.JOURNAL_MAPPINGS[mapping_key] = mapping_target
-    if field_type in ["is_hybrid", "publisher"]:
+    if field_type in ["is_hybrid", "publisher", "doaj"]:
         con_map = mappings.CONTEXTUAL_MAPPINGS
         if issn_value not in con_map[issn_type]:
             con_map[issn_type][issn_value] = {}
@@ -201,13 +241,18 @@ def main():
                             ask_msg = CORRECT_MSG.format(field_type, oat.colorize(established_value, "green"), 
                                                          field_type, oat.colorize(established_value, "green"))
                             ezb_msg = None
+                            doaj_msg = None
                             ret = input(ask_msg)
                             while ret not in ["1", "2", "3", "4"]:
                                 if ret == "5":
                                     if ezb_msg is None:
                                         ezb_msg = _prepare_ezb_info(issn)
                                     print(ezb_msg)
-                                ret = input("Please select an option from 1 to 5 > ")
+                                if ret == "6":
+                                    if doaj_msg is None:
+                                        doaj_msg = _prepare_doaj_info([line["issn"], line["issn_print"], line["issn_electronic"], line["issn_l"]])
+                                    print(doaj_msg)
+                                ret = input("Please select an option from 1 to 6 > ")
                             print("\n\n\n\n")
                             if ret in ["1", "2"]:
                                 line[field_type] = established_value
@@ -220,6 +265,37 @@ def main():
                             if ret in ["2", "4"]:
                                 stopped = True
                                 break
+            if not skip_line and line["is_hybrid"] == "TRUE" and line["doaj"] == "TRUE":
+                msg = DOAJ_MISMATCH_MSG.format(reader.line_num, line["period"], line["is_hybrid"], line["publisher"], line["journal_full_title"], line["doaj"])
+                print(msg)
+                ezb_msg = None
+                doaj_msg = None
+                ret = input(DOAJ_CORRECT_MSG)
+                while ret not in ["1", "2", "3", "4"]:
+                    if ret == "5":
+                        if ezb_msg is None:
+                            ezb_msg = _prepare_ezb_info(issn)
+                        print(ezb_msg)
+                    if ret == "6":
+                        if doaj_msg is None:
+                            doaj_msg = _prepare_doaj_info([line["issn"], line["issn_print"], line["issn_electronic"], line["issn_l"]])
+                        print(doaj_msg)
+                    ret = input("Please select an option from 1 to 6 > ")
+                print("\n\n\n\n")
+                if ret == "1":
+                    line["is_hybrid"] = "FALSE"
+                    changes_made = True
+                    _create_mapping("issn", line["issn"], "is_hybrid", "TRUE", "FALSE", line["period"])
+                    mappings_changed = True
+                if ret == "2":
+                    line["doaj"] = "FALSE"
+                    changes_made = True
+                    _create_mapping("issn", line["issn"], "doaj", "TRUE", "FALSE", line["period"])
+                    mappings_changed = True
+                if ret in ["3", "4"]:
+                    skip_line = True
+                if ret == "4": 
+                    stopped = True
             modified_content.append(line)
     modified_lines = [header]
     for line in modified_content:

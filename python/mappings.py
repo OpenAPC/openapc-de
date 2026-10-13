@@ -20,7 +20,7 @@ def save_mappings_json(mappings_file=None):
     if mappings_file is None:
         mappings_file = MAPPINGS_FILE
     with open(mappings_file, "w") as handle:
-        json.dump(MAPPINGS_DICT, handle, ensure_ascii=False, indent=2)
+        json.dump(MAPPINGS_DICT, handle, ensure_ascii=False, indent=2, sort_keys=True)
 
 def __getattr__(name):
     '''
