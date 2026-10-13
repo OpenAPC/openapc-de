@@ -767,6 +767,9 @@ JOURNAL_OWNER_CHANGED = {
 	"2056-6328": ["Informa UK Limited", "Cambridge University Press (CUP)"], # The Mathematical Gazette (electronic)
 	"0887-5367": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # Hypatia
 	"1527-2001": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # Hypatia (electronic)
+	"1757-7802": ["Wiley-Blackwell", "Elsevier BV"], # Regional Science Policy & Practice
+	"2036-7457": ["PAGEPress Publications", "Wiley-Blackwell"], # Mental Illness 
+	"2036-7465": ["PAGEPress Publications", "Wiley-Blackwell"], # Mental Illness (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1371,6 +1374,16 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1386-4157", # Experimental Economics, Gold OA since 2025
     "2366-0392", # Zeitschrift für Rechtssoziologie, S2O since 2025
     "0021-2237", # Israel Law Review, Gold OA since 2025
+    "0934-5043", # Formal Aspects of Computing, Gold OA since 2026
+    "2994-970X", # Proceedings of the ACM on Software Engineering, Gold OA since 2026
+    "0304-4238", # Scientia Horticulturae, Gold OA since 2025
+    "2212-4209", # International Journal of Disaster Risk Reduction, Gold OA since 2026
+    "0965-206X", # Journal of Tissue Viability, Gold OA since 2025
+    "1757-7802", # Regional Science Policy & Practice, Gold OA since 2024
+    "1769-7212", # European Journal of Medical Genetics, Gold OA since 2024
+    "0932-0113", # Parasitology Research, Gold OA since 2024
+    "2193-5343", # Arabian Journal of Mathematics, Hybrid OA since 2025
+    "1869-5469", # Social Network Analysis and Mining, Gold OA since 2025
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts

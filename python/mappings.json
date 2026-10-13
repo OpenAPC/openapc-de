@@ -499,7 +499,8 @@
           "2023": "FALSE"
         },
         "is_hybrid": {
-          "2016": "FALSE"
+          "2016": "FALSE",
+          "2025": "FALSE"
         }
       },
       "0942-0940": {
@@ -557,7 +558,8 @@
           "2019": "Springer Nature",
           "2020": "Springer Nature",
           "2021": "Springer Nature",
-          "2023": "Springer Nature"
+          "2023": "Springer Nature",
+          "2025": "Springer Nature"
         }
       },
       "0958-0670": {
@@ -582,6 +584,11 @@
           "2019": "Wiley-Blackwell",
           "2020": "Wiley-Blackwell",
           "2021": "Wiley-Blackwell"
+        }
+      },
+      "0972-978X": {
+        "publisher": {
+          "2025": "Elsevier BV"
         }
       },
       "1015-6305": {
@@ -681,6 +688,11 @@
           "2019": "FALSE"
         }
       },
+      "1350-4533": {
+        "publisher": {
+          "2025": "Elsevier BV"
+        }
+      },
       "1351-5101": {
         "doaj": {
           "2018": "FALSE",
@@ -762,7 +774,8 @@
           "2018": "Wiley-Blackwell",
           "2020": "Wiley-Blackwell",
           "2021": "Wiley-Blackwell",
-          "2023": "Wiley-Blackwell"
+          "2023": "Wiley-Blackwell",
+          "2025": "Wiley-Blackwell"
         }
       },
       "1396-0296": {
@@ -947,7 +960,8 @@
       "1560-4292": {
         "publisher": {
           "2021": "Springer Nature",
-          "2023": "Springer Nature"
+          "2023": "Springer Nature",
+          "2025": "Springer Nature"
         }
       },
       "1570-8268": {
@@ -1178,7 +1192,8 @@
           "2022": "FALSE"
         },
         "publisher": {
-          "2022": "Wiley-Blackwell"
+          "2022": "Wiley-Blackwell",
+          "2025": "Wiley-Blackwell"
         }
       },
       "1940-3372": {
@@ -1279,7 +1294,8 @@
           "2022": "FALSE"
         },
         "publisher": {
-          "2022": "Wiley-Blackwell"
+          "2022": "Wiley-Blackwell",
+          "2025": "Wiley-Blackwell"
         }
       },
       "2049-8470": {
@@ -1317,7 +1333,8 @@
           "2022": "FALSE"
         },
         "publisher": {
-          "2022": "Wiley-Blackwell"
+          "2022": "Wiley-Blackwell",
+          "2025": "Wiley-Blackwell"
         }
       },
       "2059-5891": {
@@ -1409,7 +1426,13 @@
       },
       "2210-2612": {
         "publisher": {
-          "2021": "Elsevier BV"
+          "2021": "Elsevier BV",
+          "2025": "Elsevier BV"
+        }
+      },
+      "2212-6287": {
+        "publisher": {
+          "2025": "Elsevier BV"
         }
       },
       "2324-9269": {
@@ -1988,6 +2011,7 @@
     "J. Mater. Chem. A": "Journal of Materials Chemistry A",
     "J. Mater. Chem. B": "Journal of Materials Chemistry B",
     "J. Mater. Chem. C": "Journal of Materials Chemistry C",
+    "JACEP Open": "Journal of the American College of Emergency Physicians Open",
     "JNCI: Journal of the National Cancer Institute": "JNCI Journal of the National Cancer Institute",
     "JOURNAL OF CLINICAL AND DIAGNOSTIC RESEARCH": "Journal of Clinical and Diagnostic Research",
     "JOURNAL OF FORENSIC SCIENCE & CRIMINOLOGY": "Journal of Forensic Science & Criminology",
@@ -2035,6 +2059,7 @@
     "Journal of Management and Governance": "Journal of Management & Governance",
     "Journal of Mass Communication & Journalism": "Journal of Mass Communication and Journalism",
     "Journal of Medical Mycology": "Journal de Mycologie Médicale",
+    "Journal of Micro and Bio Robotics": "Journal of Micro-Bio Robotics",
     "Journal of Microbiology &amp; Biology Education": "Journal of Microbiology & Biology Education",
     "Journal of Neurology, Neurosurgery &amp; Psychiatry": "Journal of Neurology, Neurosurgery & Psychiatry",
     "Journal of Neuropathology &amp; Experimental Neurology": "Journal of Neuropathology & Experimental Neurology",
@@ -2050,6 +2075,7 @@
     "Journal of Public Policy &amp; Marketing": "Journal of Public Policy & Marketing",
     "Journal of Religion, Spirituality &amp; Aging": "Journal of Religion, Spirituality & Aging",
     "Journal of Small Business &amp; Entrepreneurship": "Journal of Small Business & Entrepreneurship",
+    "Journal of Stomatology Oral and Maxillofacial Surgery": "Journal of Stomatology, Oral and Maxillofacial Surgery",
     "Journal of Transport &amp; Health": "Journal of Transport & Health",
     "Journal of Trauma &amp; Dissociation": "Journal of Trauma & Dissociation",
     "Journal of Travel &amp; Tourism Marketing": "Journal of Travel & Tourism Marketing",
@@ -2057,6 +2083,7 @@
     "Journal of Vacuum Science & Technology B": "Journal of Vacuum Science & Technology B: Microelectronics and Nanometer Structures",
     "Journal of Vacuum Science & Technology B, Nanotechnology and Microelectronics: Materials, Processing, Measurement, and Phenomena": "Journal of Vacuum Science & Technology B: Microelectronics and Nanometer Structures",
     "Journal of Vacuum Science &amp; Technology A": "Journal of Vacuum Science & Technology A: Vacuum, Surfaces, and Films",
+    "Journal of Vascular Surgery Cases, Innovations and Techniques": "Journal of Vascular Surgery Cases and Innovative Techniques",
     "Journal of Vibration Engineering &amp; Technologies": "Journal of Vibration Engineering & Technologies",
     "Journal of Vocational Education &amp; Training": "Journal of Vocational Education & Training",
     "Journal of Water Sanitation and Hygiene for Development": "Journal of Water, Sanitation and Hygiene for Development",
@@ -2112,6 +2139,7 @@
     "Molecular Therapy - Methods &amp; Clinical Development": "Molecular Therapy - Methods & Clinical Development",
     "Molecular Therapy Methods & Clinical Development": "Molecular Therapy - Methods & Clinical Development",
     "Molecular Therapy Nucleic Acids": "Molecular Therapy - Nucleic Acids",
+    "Molecular Therapy Oncology": "Molecular Therapy: Oncology",
     "Molecular Therapy Oncolytics": "Molecular Therapy - Oncolytics",
     "Muscle &amp; Nerve": "Muscle & Nerve",
     "Music &amp; Science": "Music & Science",
@@ -2287,6 +2315,7 @@
     "The Journal of Neuroscience": "Journal of Neuroscience",
     "The Journal of Nutrition": "Journal of Nutrition",
     "The Journal of World Energy Law &amp; Business": "The Journal of World Energy Law & Business",
+    "The Journal of nutrition, health and aging": "The journal of nutrition, health & aging",
     "The Journals of Gerontology, Series B: Psychological Sciences and Social Sciences": "The Journals of Gerontology Series B: Psychological Sciences and Social Sciences",
     "The Journals of Gerontology: Series A": "The Journals of Gerontology Series A: Biological Sciences and Medical Sciences",
     "The Journals of Gerontology: Series B": "The Journals of Gerontology Series B: Psychological Sciences and Social Sciences",
@@ -2300,6 +2329,7 @@
     "Transactions of the Royal Society of Tropical Medicine and Hygiene": "Transactions of The Royal Society of Tropical Medicine and Hygiene",
     "Translational Vision Science &amp; Technology": "Translational Vision Science & Technology",
     "Transplantation": "Transplantation Journal",
+    "Trauma & Case Reports": "Trauma Case Reports",
     "Trauma, Violence, &amp; Abuse": "Trauma, Violence, & Abuse",
     "Trends in Ecology &amp; Evolution": "Trends in Ecology & Evolution",
     "Trends in Food Science &amp; Technology": "Trends in Food Science & Technology",
