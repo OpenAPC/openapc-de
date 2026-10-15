@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 266,838 articles, published at 582 institutions under 315 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 266,839 articles, published at 582 institutions under 315 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -269,10 +269,10 @@ This dataset contains information on 266,838 articles, published at 582 institut
 |AIP Publishing (CzechELib) 2023-2025                                                                                                             |       16|
 |Sage (KEMOE) 2016-2018                                                                                                                           |       16|
 |Walter de Gruyter (CSIC) 2023-2025                                                                                                               |       16|
+|Brill (FUB) 2024-2025                                                                                                                            |       14|
 |Emerald (ZBW) 2023-2025                                                                                                                          |       14|
 |Wolters Kluwer Health (CRUI-CARE) 2025-2027                                                                                                      |       14|
 |Association for Computing Machinery (IReL) 2020-2022                                                                                             |       13|
-|Brill (FUB) 2024-2025                                                                                                                            |       13|
 |Microbiology Society (CSIC) 2021-2023                                                                                                            |       13|
 |OUP (Uni Potsdam) 2024-2026                                                                                                                      |       12|
 |The Royal Society (CSIC) 2022-2022                                                                                                               |       12|
@@ -444,8 +444,8 @@ This dataset contains information on 266,838 articles, published at 582 institut
 |TU Braunschweig                                                                       |      754|
 |Augsburg U                                                                            |      741|
 |Maynooth University                                                                   |      740|
+|FU Berlin                                                                             |      729|
 |University of British Columbia                                                        |      729|
-|FU Berlin                                                                             |      728|
 |Vienna University of Economics and Business (WU)                                      |      686|
 |King's College London                                                                 |      652|
 |Hannover U und TIB                                                                    |      646|
