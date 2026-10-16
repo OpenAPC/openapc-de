@@ -496,7 +496,8 @@
           "2020": "FALSE",
           "2021": "FALSE",
           "2022": "FALSE",
-          "2023": "FALSE"
+          "2023": "FALSE",
+          "2024": "FALSE"
         },
         "is_hybrid": {
           "2016": "FALSE",
@@ -506,7 +507,8 @@
       "0942-0940": {
         "doaj": {
           "2022": "FALSE",
-          "2023": "FALSE"
+          "2023": "FALSE",
+          "2024": "FALSE"
         },
         "is_hybrid": {
           "2025": "FALSE"
@@ -650,6 +652,7 @@
           "2021": "Wiley-Blackwell",
           "2022": "Wiley-Blackwell",
           "2023": "Wiley-Blackwell",
+          "2024": "Wiley-Blackwell",
           "2025": "Wiley-Blackwell"
         }
       },
@@ -814,7 +817,8 @@
         "doaj": {
           "2021": "FALSE",
           "2022": "FALSE",
-          "2023": "FALSE"
+          "2023": "FALSE",
+          "2024": "FALSE"
         },
         "is_hybrid": {
           "2025": "FALSE"
@@ -1334,6 +1338,7 @@
         },
         "publisher": {
           "2022": "Wiley-Blackwell",
+          "2024": "Wiley-Blackwell",
           "2025": "Wiley-Blackwell"
         }
       },
