@@ -252,6 +252,11 @@
           "2025": "Cambridge University Press (CUP)"
         }
       },
+      "0027-8424": {
+        "publisher": {
+          "2025": "Proceedings of the National Academy of Sciences"
+        }
+      },
       "0031-1820": {
         "doaj": {
           "2020": "FALSE",
@@ -2066,6 +2071,7 @@
     "Journal of Medical Mycology": "Journal de Mycologie Médicale",
     "Journal of Micro and Bio Robotics": "Journal of Micro-Bio Robotics",
     "Journal of Microbiology &amp; Biology Education": "Journal of Microbiology & Biology Education",
+    "Journal of Nervous & Mental Disease": "The Journal of Nervous and Mental Disease",
     "Journal of Neurology, Neurosurgery &amp; Psychiatry": "Journal of Neurology, Neurosurgery & Psychiatry",
     "Journal of Neuropathology &amp; Experimental Neurology": "Journal of Neuropathology & Experimental Neurology",
     "Journal of Nonprofit &amp; Public Sector Marketing": "Journal of Nonprofit & Public Sector Marketing",
