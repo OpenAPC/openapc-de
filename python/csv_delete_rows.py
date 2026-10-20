@@ -79,9 +79,9 @@ def main():
     
     if args.value is not None:
         if args.ignore_case:
-            values.append(args.value.lower())
+            values.add(args.value.lower())
         else:
-            values.append(args.value)
+            values.add(args.value)
         if args.file:
             oat.print_y("Value argument given in addition to file " +
                         "argument, adding value to file imports...")
