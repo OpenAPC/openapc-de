@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 267,214 articles, published at 582 institutions under 315 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 267,215 articles, published at 582 institutions under 315 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -304,6 +304,7 @@ This dataset contains information on 267,214 articles, published at 582 institut
 |Emerald (CRUI-CARE) 2025                                                                                                                         |        5|
 |John Benjamins (Uni Mainz) 2023-2024                                                                                                             |        5|
 |The Company of Biologists (IReL) 2023-2025                                                                                                       |        5|
+|ACS (German Academic Consortium administered by Bayerische Staatsbibliothek (participants from Bavaria, Baden-Württemberg and Saxony)) 2025-2025 |        4|
 |Association for Computing Machinery (CRUI-CARE) 2022-2025                                                                                        |        4|
 |IEEE (Technische Universität Berlin) 2024-2026                                                                                                   |        4|
 |IReL CUP Agreement                                                                                                                               |        4|
@@ -311,7 +312,6 @@ This dataset contains information on 267,214 articles, published at 582 institut
 |Portland Press (CSIC) 2021-2022                                                                                                                  |        4|
 |Rockefeller University Press (ZB MED) 2024-2026                                                                                                  |        4|
 |The Electrochemical Society (IReL) 2021-2021                                                                                                     |        4|
-|ACS (German Academic Consortium administered by Bayerische Staatsbibliothek (participants from Bavaria, Baden-Württemberg and Saxony)) 2025-2025 |        3|
 |Association for Computing Machinery (CzechELib) 2023-2025                                                                                        |        3|
 |BMJ Publishing (CRUI-CARE) 2023-2024                                                                                                             |        3|
 |BMJ Publishing (CRUI-CARE) 2025                                                                                                                  |        3|
@@ -426,7 +426,7 @@ This dataset contains information on 267,214 articles, published at 582 institut
 |Hannover U                                                                            |      944|
 |University of Cambridge                                                               |      912|
 |DLR                                                                                   |      910|
-|Hohenheim U                                                                           |      884|
+|Hohenheim U                                                                           |      885|
 |University of Oxford                                                                  |      883|
 |Uppsala University                                                                    |      869|
 |Salzburg U                                                                            |      866|
