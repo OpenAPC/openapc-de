@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 267,215 articles, published at 582 institutions under 315 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 267,238 articles, published at 583 institutions under 315 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -103,8 +103,8 @@ This dataset contains information on 267,215 articles, published at 582 institut
 |IOP Publishing (CSAL) 2022-2024                                                                                                                  |      550|
 |Taylor & Francis (CSAL) 2024-2027                                                                                                                |      550|
 |American Chemical Society (CSAL) 2023-2025                                                                                                       |      538|
+|American Chemical Society (CRUE-CSIC Alliance) 2021-2024                                                                                         |      535|
 |Cambridge University Press (CSAL) 2021-2023                                                                                                      |      528|
-|American Chemical Society (CRUE-CSIC Alliance) 2021-2024                                                                                         |      512|
 |Sage (CSAL) 2021-2022                                                                                                                            |      508|
 |ACS (KEMOE) 2024-2026                                                                                                                            |      483|
 |Sage (FinELib consortium) 2025-2026                                                                                                              |      477|
@@ -760,6 +760,7 @@ This dataset contains information on 267,215 articles, published at 582 institut
 |Pädagogische Hochschule Bern                                                          |       24|
 |St. Francis Xavier University                                                         |       24|
 |St.Gallen University of Teacher Education                                             |       23|
+|Universitat de Barcelona                                                              |       23|
 |University of Education Schwaebisch Gmuend                                            |       23|
 |Dalarna University                                                                    |       22|
 |Hochschule Aalen                                                                      |       22|
