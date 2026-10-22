@@ -10,6 +10,8 @@ import sys
 
 import openapc_toolkit as oat
 
+from sortedcontainers import SortedList
+
 ARG_HELP_STRINGS = {
     "csv_file": "The file to delete lines from",
     "index": "The index of the column to test for the delete condition",
@@ -60,7 +62,7 @@ def main():
         parser.error("Either a single value (-v option) or a file of " +
                      "multiple values (-f option) must be given.")
     
-    values = []
+    values = SortedList()
     if args.file:
         if not os.path.isfile(args.file):
             print("Error: '" + args.file + "' is no valid file!")
@@ -70,16 +72,16 @@ def main():
                 if len(line) > 0:
                     value = line.strip("\r\n")
                     if args.ignore_case:
-                        values.append(value.lower())
+                        values.add(value.lower())
                     else:
-                        values.append(value)
+                        values.add(value)
         oat.print_g(str(len(values)) + " values read from file")
     
     if args.value is not None:
         if args.ignore_case:
-            values.append(args.value.lower())
+            values.add(args.value.lower())
         else:
-            values.append(args.value)
+            values.add(args.value)
         if args.file:
             oat.print_y("Value argument given in addition to file " +
                         "argument, adding value to file imports...")

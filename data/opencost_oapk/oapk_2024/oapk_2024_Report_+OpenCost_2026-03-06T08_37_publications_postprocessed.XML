@@ -390054,6 +390054,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>wiley2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_wiley2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -390182,6 +390189,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -390342,6 +390356,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -390438,6 +390459,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>els2023deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_els2023deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -390534,6 +390562,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -390630,6 +390665,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -390694,6 +390736,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -390790,6 +390839,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -390950,6 +391006,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>wiley2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_wiley2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -391238,6 +391301,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>els2023deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_els2023deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -391398,6 +391468,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -391430,6 +391507,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -391462,6 +391546,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -391494,6 +391585,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>els2023deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_els2023deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -391526,6 +391624,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -391590,6 +391695,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -391718,6 +391830,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -391750,6 +391869,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>els2023deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_els2023deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -391942,6 +392068,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>wiley2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_wiley2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -391974,6 +392107,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -392070,6 +392210,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -392134,6 +392281,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -392166,6 +392320,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -392390,6 +392551,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -392454,6 +392622,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -392518,6 +392693,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>wiley2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_wiley2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -392550,6 +392732,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>wiley2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_wiley2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -392710,6 +392899,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>els2023deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_els2023deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -392742,6 +392938,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>els2023deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_els2023deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -392870,6 +393073,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -392966,6 +393176,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>els2023deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_els2023deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -392998,6 +393215,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -393030,6 +393254,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>els2023deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_els2023deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -393094,6 +393325,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -393126,6 +393364,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>wiley2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_wiley2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -393158,6 +393403,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>els2023deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_els2023deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -393222,6 +393474,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>els2023deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_els2023deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -393286,6 +393545,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -393382,6 +393648,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -393414,6 +393687,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -393670,6 +393950,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -393958,6 +394245,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -393990,6 +394284,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>wiley2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_wiley2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -394118,6 +394419,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>els2023deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_els2023deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -394150,6 +394458,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -394214,6 +394529,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -394310,6 +394632,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -394374,6 +394703,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -394726,6 +395062,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>wiley2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_wiley2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -394790,6 +395133,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -394982,6 +395332,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -395014,6 +395371,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>els2023deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_els2023deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -395174,6 +395538,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -395238,6 +395609,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -395270,6 +395648,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>wiley2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_wiley2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -395302,6 +395687,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>wiley2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_wiley2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -395398,6 +395790,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -395590,6 +395989,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -395654,6 +396060,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>wiley2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_wiley2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -395814,6 +396227,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>wiley2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_wiley2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -395878,6 +396298,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -395910,6 +396337,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -396070,6 +396504,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -396614,6 +397055,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -396870,6 +397318,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -396934,6 +397389,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -397126,6 +397588,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -397350,6 +397819,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
@@ -397446,6 +397922,13 @@
           </opencost:amount_paid>
         </opencost:amounts_paid>
       </opencost:invoice>
+      <opencost:part_of_contract>
+        <opencost:primary_identifier>
+          <opencost:value>sn2024deal</opencost:value>
+          <opencost:type>ESAC</opencost:type>
+        </opencost:primary_identifier>
+        <opencost:group_id>01eezs655_sn2024deal_2024</opencost:group_id>
+      </opencost:part_of_contract>
     </opencost:cost_data>
   </opencost:publication>
   <opencost:publication>
