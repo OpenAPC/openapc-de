@@ -280,6 +280,11 @@
           "2022": "FALSE"
         }
       },
+      "0066-4804": {
+        "is_hybrid": {
+          "2025": "FALSE"
+        }
+      },
       "0075-4102": {
         "is_hybrid": {
           "2025": "FALSE"
@@ -1215,6 +1220,11 @@
           "2022": "FALSE"
         }
       },
+      "1947-5535": {
+        "publisher": {
+          "2025": "Mary Ann Liebert Inc"
+        }
+      },
       "1998-0124": {
         "doaj": {
           "2018": "FALSE",
@@ -1549,6 +1559,11 @@
       "2628-5452": {
         "is_hybrid": {
           "2022": "FALSE"
+        }
+      },
+      "2641-3337": {
+        "publisher": {
+          "2025": "MIT Press - Journals"
         }
       },
       "2642-3561": {
@@ -1954,6 +1969,7 @@
     "Forestry": "Forestry: An International Journal of Forest Research",
     "G3 Genes|Genomes|Genetics": "G3: Genes|Genomes|Genetics",
     "G3&amp;#58; Genes|Genomes|Genetics": "G3: Genes|Genomes|Genetics",
+    "G3: Genes, Genomes, Genetics": "G3: Genes|Genomes|Genetics",
     "GENETICS": "Genetics",
     "GM Crops &amp; Food": "GM Crops & Food",
     "Gait &amp; Posture": "Gait & Posture",
@@ -2163,6 +2179,7 @@
     "Naturwissenschaften": "The Science of Nature",
     "Neurogastroenterology &amp; Motility": "Neurogastroenterology & Motility",
     "Neurology - Neuroimmunology Neuroinflammation": "Neurology: Neuroimmunology & Neuroinflammation",
+    "Neurology Neuroimmunology & Neuroinflammation": "Neurology: Neuroimmunology & Neuroinflammation",
     "Neuroscience &amp; Biobehavioral Reviews": "Neuroscience & Biobehavioral Reviews",
     "New J. Chem.": "New Journal of Chemistry",
     "New Media &amp; Society": "New Media & Society",
