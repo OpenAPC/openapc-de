@@ -280,6 +280,11 @@
           "2022": "FALSE"
         }
       },
+      "0066-4804": {
+        "is_hybrid": {
+          "2025": "FALSE"
+        }
+      },
       "0075-4102": {
         "is_hybrid": {
           "2025": "FALSE"
@@ -596,6 +601,11 @@
       "0972-978X": {
         "publisher": {
           "2025": "Elsevier BV"
+        }
+      },
+      "1007-9327": {
+        "is_hybrid": {
+          "2025": "FALSE"
         }
       },
       "1015-6305": {
@@ -1215,6 +1225,16 @@
           "2022": "FALSE"
         }
       },
+      "1947-5535": {
+        "publisher": {
+          "2025": "Mary Ann Liebert Inc"
+        }
+      },
+      "1997-5902": {
+        "publisher": {
+          "2025": "African Journals Online (AJOL)"
+        }
+      },
       "1998-0124": {
         "doaj": {
           "2018": "FALSE",
@@ -1355,6 +1375,11 @@
       "2150-8925": {
         "is_hybrid": {
           "2022": "FALSE"
+        }
+      },
+      "2159-3337": {
+        "publisher": {
+          "2025": "Mary Ann Liebert Inc"
         }
       },
       "2161-2234": {
@@ -1507,6 +1532,11 @@
           "2022": "FALSE"
         }
       },
+      "2472-1751": {
+        "publisher": {
+          "2025": "MIT Press - Journals"
+        }
+      },
       "2475-1421": {
         "is_hybrid": {
           "2022": "FALSE",
@@ -1549,6 +1579,11 @@
       "2628-5452": {
         "is_hybrid": {
           "2022": "FALSE"
+        }
+      },
+      "2641-3337": {
+        "publisher": {
+          "2025": "MIT Press - Journals"
         }
       },
       "2642-3561": {
@@ -1617,6 +1652,11 @@
       "2699-9412": {
         "is_hybrid": {
           "2022": "FALSE"
+        }
+      },
+      "2766-7820": {
+        "publisher": {
+          "2025": "Literature Publishers"
         }
       }
     },
@@ -1954,6 +1994,7 @@
     "Forestry": "Forestry: An International Journal of Forest Research",
     "G3 Genes|Genomes|Genetics": "G3: Genes|Genomes|Genetics",
     "G3&amp;#58; Genes|Genomes|Genetics": "G3: Genes|Genomes|Genetics",
+    "G3: Genes, Genomes, Genetics": "G3: Genes|Genomes|Genetics",
     "GENETICS": "Genetics",
     "GM Crops &amp; Food": "GM Crops & Food",
     "Gait &amp; Posture": "Gait & Posture",
@@ -2015,6 +2056,7 @@
     "International Journal of Sports Science &amp; Coaching": "International Journal of Sports Science & Coaching",
     "International Journal of Sustainable Development &amp; World Ecology": "International Journal of Sustainable Development & World Ecology",
     "International journal of methods in psychiatric research": "International Journal of Methods in Psychiatric Research",
+    "Investigative Ophthalmology & Visual Science": "Investigative Opthalmology & Visual Science",
     "Investigative Opthalmology &amp; Visual Science": "Investigative Opthalmology & Visual Science",
     "Ironmaking & Steelmaking: Processes, Products and Applications": "Ironmaking & Steelmaking",
     "J. Anal. At. Spectrom.": "Journal of Analytical Atomic Spectrometry",
@@ -2045,6 +2087,7 @@
     "Journal of Child &amp; Adolescent Trauma": "Journal of Child & Adolescent Trauma",
     "Journal of Child and Adolescent Behavior": "Journal of Child and Adolescent Behaviour",
     "Journal of Clinical &amp; Translational Endocrinology": "Journal of Clinical & Translational Endocrinology",
+    "Journal of Clinical Images and Medical Case Reports": "Clinical Images and Case Reports Journal",
     "Journal of Community &amp; Applied Social Psychology": "Journal of Community & Applied Social Psychology",
     "Journal of Convention &amp; Event Tourism": "Journal of Convention & Event Tourism",
     "Journal of Development Studies": "The Journal of Development Studies",
@@ -2080,6 +2123,7 @@
     "Journal of Orthopaedic Research®": "Journal of Orthopaedic Research",
     "Journal of Otolaryngology - Head &amp; Neck Surgery": "Journal of Otolaryngology - Head & Neck Surgery",
     "Journal of Otolaryngology - Head and Neck Surgery": "Journal of Otolaryngology - Head & Neck Surgery",
+    "Journal of Parkinson’s Disease": "Journal of Parkinson's Disease",
     "Journal of Plastic, Reconstructive &amp; Aesthetic Surgery": "Journal of Plastic, Reconstructive & Aesthetic Surgery",
     "Journal of Psychiatry and Neuroscience": "Journal of Psychiatry & Neuroscience",
     "Journal of Public Budgeting, Accounting &amp; Financial Management": "Journal of Public Budgeting, Accounting & Financial Management",
@@ -2087,6 +2131,7 @@
     "Journal of Religion, Spirituality &amp; Aging": "Journal of Religion, Spirituality & Aging",
     "Journal of Small Business &amp; Entrepreneurship": "Journal of Small Business & Entrepreneurship",
     "Journal of Stomatology Oral and Maxillofacial Surgery": "Journal of Stomatology, Oral and Maxillofacial Surgery",
+    "Journal of Strength & Conditioning Research": "Journal of Strength and Conditioning Research",
     "Journal of Transport &amp; Health": "Journal of Transport & Health",
     "Journal of Trauma &amp; Dissociation": "Journal of Trauma & Dissociation",
     "Journal of Travel &amp; Tourism Marketing": "Journal of Travel & Tourism Marketing",
@@ -2163,6 +2208,7 @@
     "Naturwissenschaften": "The Science of Nature",
     "Neurogastroenterology &amp; Motility": "Neurogastroenterology & Motility",
     "Neurology - Neuroimmunology Neuroinflammation": "Neurology: Neuroimmunology & Neuroinflammation",
+    "Neurology Neuroimmunology & Neuroinflammation": "Neurology: Neuroimmunology & Neuroinflammation",
     "Neuroscience &amp; Biobehavioral Reviews": "Neuroscience & Biobehavioral Reviews",
     "New J. Chem.": "New Journal of Chemistry",
     "New Media &amp; Society": "New Media & Society",
