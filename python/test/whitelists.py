@@ -1384,6 +1384,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0932-0113", # Parasitology Research, Gold OA since 2024
     "2193-5343", # Arabian Journal of Mathematics, Hybrid OA since 2025
     "1869-5469", # Social Network Analysis and Mining, Gold OA since 2025
+    "0019-9567", # Infection and Immunity, S2O since 2025
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
