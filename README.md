@@ -16,7 +16,7 @@ At the moment OpenAPC provides the following cost data:
 
 | Entity                      | Count                                     | Aggregated Sum (€)               | Contributing Institutions                                         |
 |-----------------------------|-------------------------------------------|----------------------------------|-------------------------------------------------------------------|
-| Articles (APCs)             |294,619                  | 616,943,808    | 489                   |
+| Articles (APCs)             |295,287                  | 618,733,567    | 490                   |
 | Monographs (BPCs)           |2,773                           | 18,346,882             | 121                            |
 | OA Agreements/Contracts     |1,623                 | 215,072,399   | 143                  |
 
@@ -579,6 +579,7 @@ The following institutions have contributed to OpenAPC so far:
 - IRSTEA - Institut de Recherche en Sciences et Technologies pour l'Environnement et l'Agriculture
 - ISARA - Institut Supérieur d'Agriculture et d'Agroalimentaire Rhône-Alpes
 - Institut Pasteur
+- [Institut national de l'environnement industriel et des risques](https://www.ineris.fr)
 - LNE - Laboratoire National de Métrologie et d'Essais
 - La Rochelle Université
 - Le Mans Université
@@ -1027,13 +1028,13 @@ The following institutions have contributed to OpenAPC so far:
 
 
 
-The APC data set contains information on 269,127 Open Access journal articles for which publication fees were paid on an article basis. These articles were published in fully Open Access and hybrid journals, and the corresponding fees were supported financially by 487 research-performing institutions and research funders.
+The APC data set contains information on 269,795 Open Access journal articles for which publication fees were paid on an article basis. These articles were published in fully Open Access and hybrid journals, and the corresponding fees were supported financially by 488 research-performing institutions and research funders.
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 557,815,887. The average payment was € 2,073 and the median was € 1,915.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 559,605,646. The average payment was € 2,074 and the median was € 1,916.
 
-200,604 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 379,955,288, including value-added tax; the average payment was € 1,894 (median =  € 1,751, SD = € 931).
+201,181 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 381,401,721, including value-added tax; the average payment was € 1,896 (median =  € 1,751, SD = € 933).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 68,523 articles in the data set were published in hybrid journals. Total expenditure amounts to 177,860,599 €; the average fee was € 2,596 (median =  € 2,534, SD = € 1,186).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 68,614 articles in the data set were published in hybrid journals. Total expenditure amounts to 178,203,925 €; the average fee was € 2,597 (median =  € 2,535, SD = € 1,189).
 
 Articles published under OA publishing agreements, including cases where APCs are paid on an article basis within such agreements, are not included in the APC data set but are recorded in the TA data set.
 
@@ -1067,9 +1068,9 @@ Articles published under OA publishing agreements, including cases where APCs ar
 |2020   |      20,276|   1,706|     1,668|   0.2 -  8,906|           4,583|       2,497|         2,534|    16.6 -  7,416|
 |2021   |      25,362|   1,799|     1,753|  27.0 -  8,341|           3,890|       2,568|         2,520|    30.2 - 11,400|
 |2022   |      27,038|   2,066|     1,989|  12.4 - 11,175|           3,188|       2,909|         2,730|     2.1 - 22,210|
-|2023   |      23,928|   2,275|     2,200|  35.0 -  9,893|           3,850|       3,024|         2,860|   106.4 - 11,895|
-|2024   |      18,896|   2,433|     2,382|  10.3 -  9,758|           2,953|       3,135|         3,014|    28.4 - 13,044|
-|2025   |       5,774|   2,576|     2,400|  20.0 -  8,854|             928|       3,206|         2,977|    95.0 - 13,166|
+|2023   |      23,928|   2,275|     2,200|  35.0 -  9,893|           3,849|       3,024|         2,860|   106.4 - 11,895|
+|2024   |      18,895|   2,433|     2,381|  10.3 -  9,758|           2,950|       3,136|         3,014|    28.4 - 13,044|
+|2025   |       6,352|   2,570|     2,401|  20.0 -  8,854|           1,023|       3,252|         2,998|    95.0 - 13,166|
 |2026   |         472|   2,446|     2,338|  66.0 -  7,503|              55|       3,062|         3,230|   595.0 -  5,142|
 
 
@@ -1175,8 +1176,8 @@ Metadata representing publication titles or publisher names is obtained from Cro
 |Identifier                 | Coverage (articles)                                               | Coverage (Books)                                            |
 |:--------------------------|:------------------------------------------------------------------|-------------------------------------------------------------|
 |DOI                        |  99.78%       |88.71%   |
-|PubMed ID                  |  69.78%      | NA                                                          |
-|PubMed Central ID          |  64.23%     | NA                                                          |
+|PubMed ID                  |  69.79%      | NA                                                          |
+|PubMed Central ID          |  64.24%     | NA                                                          |
 
 
 
