@@ -176,7 +176,9 @@
           "2020": "FALSE"
         },
         "is_hybrid": {
-          "2022": "FALSE"
+          "2022": "FALSE",
+          "2023": "FALSE",
+          "2024": "FALSE"
         }
       },
       "0004-069X": {
@@ -230,6 +232,11 @@
           "2019": "Springer Nature"
         }
       },
+      "0021-9258": {
+        "doaj": {
+          "2020": "FALSE"
+        }
+      },
       "0021-9320": {
         "doaj": {
           "2021": "FALSE",
@@ -237,9 +244,22 @@
           "2023": "FALSE"
         }
       },
+      "0022-0302": {
+        "doaj": {
+          "2020": "FALSE",
+          "2021": "FALSE"
+        }
+      },
       "0022-0418": {
         "is_hybrid": {
           "2022": "TRUE"
+        }
+      },
+      "0022-538X": {
+        "doaj": {
+          "2019": "FALSE",
+          "2020": "FALSE",
+          "2024": "FALSE"
         }
       },
       "0023-6438": {
@@ -254,6 +274,12 @@
       },
       "0027-8424": {
         "publisher": {
+          "2019": "Proceedings of the National Academy of Sciences",
+          "2020": "Proceedings of the National Academy of Sciences",
+          "2021": "Proceedings of the National Academy of Sciences",
+          "2022": "Proceedings of the National Academy of Sciences",
+          "2023": "Proceedings of the National Academy of Sciences",
+          "2024": "Proceedings of the National Academy of Sciences",
           "2025": "Proceedings of the National Academy of Sciences"
         }
       },
@@ -261,6 +287,11 @@
         "doaj": {
           "2020": "FALSE",
           "2021": "FALSE"
+        }
+      },
+      "0035-8711": {
+        "doaj": {
+          "2022": "FALSE"
         }
       },
       "0043-1397": {
@@ -299,6 +330,11 @@
           "2022": "FALSE"
         }
       },
+      "0095-1137": {
+        "doaj": {
+          "2020": "FALSE"
+        }
+      },
       "0142-0615": {
         "doaj": {
           "2021": "FALSE",
@@ -308,6 +344,11 @@
       "0143-814X": {
         "doaj": {
           "2020": "FALSE"
+        }
+      },
+      "0144-8463": {
+        "is_hybrid": {
+          "2019": "FALSE"
         }
       },
       "0167-2681": {
@@ -336,6 +377,9 @@
           "2021": "FALSE",
           "2022": "FALSE",
           "2023": "FALSE"
+        },
+        "is_hybrid": {
+          "2024": "FALSE"
         }
       },
       "0261-4189": {
@@ -430,9 +474,19 @@
           "2018": "FALSE"
         }
       },
+      "0732-183X": {
+        "is_hybrid": {
+          "2024": "TRUE"
+        }
+      },
       "0896-4327": {
         "is_hybrid": {
           "2018": "FALSE"
+        }
+      },
+      "0903-1936": {
+        "is_hybrid": {
+          "2024": "TRUE"
         }
       },
       "0906-7590": {
@@ -544,6 +598,12 @@
           "2025": "TRUE"
         }
       },
+      "0956-540X": {
+        "doaj": {
+          "2020": "FALSE",
+          "2023": "FALSE"
+        }
+      },
       "0956-7925": {
         "doaj": {
           "2020": "FALSE",
@@ -579,6 +639,11 @@
           "2020": "FALSE",
           "2021": "FALSE",
           "2022": "FALSE"
+        }
+      },
+      "0960-1643": {
+        "is_hybrid": {
+          "2024": "TRUE"
         }
       },
       "0960-2585": {
@@ -625,6 +690,11 @@
         "doaj": {
           "2021": "FALSE",
           "2022": "FALSE"
+        }
+      },
+      "1050-7256": {
+        "publisher": {
+          "2023": "Mary Ann Liebert Inc"
         }
       },
       "1056-8190": {
@@ -678,6 +748,16 @@
           "2025": "Wiley-Blackwell"
         }
       },
+      "1098-612X": {
+        "doaj": {
+          "2022": "FALSE"
+        }
+      },
+      "1101-1262": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
       "1124-4909": {
         "doaj": {
           "2017": "FALSE",
@@ -704,6 +784,15 @@
           "2017": "FALSE",
           "2018": "FALSE",
           "2019": "FALSE"
+        }
+      },
+      "1305-8215": {
+        "is_hybrid": {
+          "2025": "FALSE"
+        },
+        "publisher": {
+          "2022": "Modestum Limited",
+          "2025": "Modestum Limited"
         }
       },
       "1350-4533": {
@@ -766,6 +855,11 @@
           "2022": "FALSE"
         }
       },
+      "1367-4803": {
+        "doaj": {
+          "2019": "FALSE"
+        }
+      },
       "1368-5031": {
         "doaj": {
           "2019": "FALSE",
@@ -815,6 +909,12 @@
       },
       "1420-9071": {
         "is_hybrid": {
+          "2025": "FALSE"
+        }
+      },
+      "1422-0067": {
+        "is_hybrid": {
+          "2024": "FALSE",
           "2025": "FALSE"
         }
       },
@@ -958,16 +1058,46 @@
           "2022": "FALSE"
         }
       },
+      "1526-3800": {
+        "publisher": {
+          "2025": "MIT Press - Journals"
+        }
+      },
+      "1526-5161": {
+        "is_hybrid": {
+          "2024": "TRUE"
+        }
+      },
       "1527-6465": {
         "publisher": {
           "2018": "Wiley-Blackwell",
           "2020": "Wiley-Blackwell"
         }
       },
+      "1529-7535": {
+        "is_hybrid": {
+          "2024": "TRUE"
+        }
+      },
+      "1535-9476": {
+        "doaj": {
+          "2020": "FALSE"
+        }
+      },
       "1545-2255": {
         "doaj": {
           "2019": "FALSE",
           "2020": "FALSE"
+        }
+      },
+      "1546-0096": {
+        "is_hybrid": {
+          "2024": "FALSE"
+        }
+      },
+      "1547-3287": {
+        "publisher": {
+          "2022": "Mary Ann Liebert Inc"
         }
       },
       "1560-2745": {
@@ -981,6 +1111,11 @@
           "2021": "Springer Nature",
           "2023": "Springer Nature",
           "2025": "Springer Nature"
+        }
+      },
+      "1569-8432": {
+        "doaj": {
+          "2019": "FALSE"
         }
       },
       "1570-8268": {
@@ -1029,10 +1164,27 @@
           "2022": "FALSE"
         }
       },
+      "1607-7946": {
+        "is_hybrid": {
+          "2025": "FALSE"
+        }
+      },
       "1618-0240": {
         "doaj": {
           "2018": "FALSE",
           "2019": "FALSE"
+        }
+      },
+      "1650-1977": {
+        "publisher": {
+          "2020": "Acta Dermato-Venereologica"
+        }
+      },
+      "1660-4601": {
+        "is_hybrid": {
+          "2023": "FALSE",
+          "2024": "FALSE",
+          "2025": "FALSE"
         }
       },
       "1661-8726": {
@@ -1047,6 +1199,21 @@
           "2018": "Springer Nature"
         }
       },
+      "1664-0640": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1664-2295": {
+        "is_hybrid": {
+          "2024": "FALSE"
+        }
+      },
+      "1674-800X": {
+        "publisher": {
+          "2023": "Oxford University Press (OUP)"
+        }
+      },
       "1680-4333": {
         "doaj": {
           "2021": "FALSE",
@@ -1059,9 +1226,26 @@
           "2025": "Springer Nature"
         }
       },
+      "1680-7324": {
+        "is_hybrid": {
+          "2020": "FALSE",
+          "2024": "FALSE",
+          "2025": "FALSE"
+        }
+      },
+      "1684-9981": {
+        "is_hybrid": {
+          "2025": "FALSE"
+        }
+      },
       "1740-8695": {
         "doaj": {
           "2019": "FALSE"
+        }
+      },
+      "1741-7015": {
+        "is_hybrid": {
+          "2021": "FALSE"
         }
       },
       "1742-4801": {
@@ -1081,6 +1265,11 @@
       "1744-4292": {
         "is_hybrid": {
           "2022": "FALSE"
+        }
+      },
+      "1746-0751": {
+        "publisher": {
+          "2022": "Future Medicine Ltd"
         }
       },
       "1750-8592": {
@@ -1109,6 +1298,11 @@
       "1751-8687": {
         "is_hybrid": {
           "2022": "FALSE"
+        }
+      },
+      "1752-1416": {
+        "doaj": {
+          "2019": "FALSE"
         }
       },
       "1752-6981": {
@@ -1143,6 +1337,17 @@
           "2019": "Wiley-Blackwell"
         }
       },
+      "1812-0792": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1814-9332": {
+        "is_hybrid": {
+          "2019": "FALSE",
+          "2024": "FALSE"
+        }
+      },
       "1833-3672": {
         "is_hybrid": {
           "2025": "TRUE"
@@ -1156,6 +1361,11 @@
       "1867-299X": {
         "doaj": {
           "2023": "FALSE"
+        }
+      },
+      "1867-8548": {
+        "is_hybrid": {
+          "2025": "FALSE"
         }
       },
       "1869-4179": {
@@ -1179,6 +1389,11 @@
           "2017": "FALSE",
           "2018": "FALSE",
           "2022": "FALSE"
+        }
+      },
+      "1875-0281": {
+        "is_hybrid": {
+          "2024": "FALSE"
         }
       },
       "1878-5352": {
@@ -1206,12 +1421,33 @@
           "2022": "FALSE"
         }
       },
+      "1931-7913": {
+        "is_hybrid": {
+          "2023": "FALSE"
+        }
+      },
+      "1937-3368": {
+        "publisher": {
+          "2022": "Mary Ann Liebert Inc"
+        }
+      },
+      "1937-3384": {
+        "publisher": {
+          "2021": "Mary Ann Liebert Inc",
+          "2023": "Mary Ann Liebert Inc"
+        }
+      },
       "1939-1676": {
         "is_hybrid": {
           "2022": "FALSE"
         },
         "publisher": {
+          "2019": "Wiley-Blackwell",
+          "2020": "Wiley-Blackwell",
+          "2021": "Wiley-Blackwell",
           "2022": "Wiley-Blackwell",
+          "2023": "Wiley-Blackwell",
+          "2024": "Wiley-Blackwell",
           "2025": "Wiley-Blackwell"
         }
       },
@@ -1225,9 +1461,25 @@
           "2022": "FALSE"
         }
       },
+      "1945-4589": {
+        "is_hybrid": {
+          "2020": "FALSE"
+        }
+      },
       "1947-5535": {
         "publisher": {
           "2025": "Mary Ann Liebert Inc"
+        }
+      },
+      "1991-9603": {
+        "is_hybrid": {
+          "2025": "FALSE"
+        }
+      },
+      "1994-0424": {
+        "is_hybrid": {
+          "2024": "FALSE",
+          "2025": "FALSE"
         }
       },
       "1997-5902": {
@@ -1245,6 +1497,11 @@
           "2020": "Springer Nature"
         }
       },
+      "2000-8066": {
+        "is_hybrid": {
+          "2021": "FALSE"
+        }
+      },
       "2001-1326": {
         "is_hybrid": {
           "2022": "FALSE"
@@ -1252,7 +1509,18 @@
       },
       "2001-3078": {
         "is_hybrid": {
-          "2022": "FALSE"
+          "2022": "FALSE",
+          "2024": "FALSE"
+        }
+      },
+      "2001-6689": {
+        "publisher": {
+          "2020": "Informa UK Limited"
+        }
+      },
+      "2041-1723": {
+        "is_hybrid": {
+          "2024": "FALSE"
         }
       },
       "2041-210X": {
@@ -1276,6 +1544,12 @@
       "2044-1398": {
         "is_hybrid": {
           "2022": "TRUE"
+        }
+      },
+      "2044-6055": {
+        "is_hybrid": {
+          "2020": "FALSE",
+          "2024": "FALSE"
         }
       },
       "2045-3817": {
@@ -1304,6 +1578,11 @@
           "2022": "FALSE"
         }
       },
+      "2046-1402": {
+        "is_hybrid": {
+          "2021": "FALSE"
+        }
+      },
       "2047-3087": {
         "publisher": {
           "2022": "Wiley-Blackwell"
@@ -1323,7 +1602,11 @@
           "2022": "FALSE"
         },
         "publisher": {
+          "2020": "Wiley-Blackwell",
+          "2021": "Wiley-Blackwell",
           "2022": "Wiley-Blackwell",
+          "2023": "Wiley-Blackwell",
+          "2024": "Wiley-Blackwell",
           "2025": "Wiley-Blackwell"
         }
       },
@@ -1332,9 +1615,20 @@
           "2023": "FALSE"
         }
       },
+      "2050-084X": {
+        "is_hybrid": {
+          "2024": "FALSE"
+        }
+      },
       "2050-0904": {
         "is_hybrid": {
           "2022": "FALSE"
+        }
+      },
+      "2050-6406": {
+        "is_hybrid": {
+          "2022": "FALSE",
+          "2023": "FALSE"
         }
       },
       "2052-2630": {
@@ -1362,7 +1656,10 @@
           "2022": "FALSE"
         },
         "publisher": {
+          "2020": "Wiley-Blackwell",
+          "2021": "Wiley-Blackwell",
           "2022": "Wiley-Blackwell",
+          "2023": "Wiley-Blackwell",
           "2024": "Wiley-Blackwell",
           "2025": "Wiley-Blackwell"
         }
@@ -1372,9 +1669,41 @@
           "2022": "TRUE"
         }
       },
+      "2071-1050": {
+        "is_hybrid": {
+          "2025": "FALSE"
+        }
+      },
+      "2072-6643": {
+        "is_hybrid": {
+          "2024": "FALSE",
+          "2025": "FALSE"
+        }
+      },
+      "2072-6694": {
+        "is_hybrid": {
+          "2025": "FALSE"
+        }
+      },
+      "2073-4441": {
+        "is_hybrid": {
+          "2024": "FALSE",
+          "2025": "FALSE"
+        }
+      },
+      "2075-4426": {
+        "is_hybrid": {
+          "2025": "FALSE"
+        }
+      },
       "2150-8925": {
         "is_hybrid": {
           "2022": "FALSE"
+        }
+      },
+      "2156-7085": {
+        "is_hybrid": {
+          "2019": "FALSE"
         }
       },
       "2159-3337": {
@@ -1386,6 +1715,21 @@
         "publisher": {
           "2019": "Wiley-Blackwell",
           "2020": "Wiley-Blackwell"
+        }
+      },
+      "2161-783X": {
+        "publisher": {
+          "2024": "Mary Ann Liebert Inc"
+        }
+      },
+      "2167-6461": {
+        "publisher": {
+          "2023": "Mary Ann Liebert Inc"
+        }
+      },
+      "2190-4987": {
+        "is_hybrid": {
+          "2024": "FALSE"
         }
       },
       "2190-5991": {
@@ -1438,6 +1782,11 @@
           "2022": "FALSE"
         }
       },
+      "2197-4314": {
+        "is_hybrid": {
+          "2021": "FALSE"
+        }
+      },
       "2198-3844": {
         "is_hybrid": {
           "2022": "FALSE"
@@ -1465,9 +1814,29 @@
           "2025": "Elsevier BV"
         }
       },
+      "2212-277X": {
+        "is_hybrid": {
+          "2024": "FALSE"
+        }
+      },
       "2212-6287": {
         "publisher": {
           "2025": "Elsevier BV"
+        }
+      },
+      "2254-9625": {
+        "is_hybrid": {
+          "2021": "FALSE"
+        }
+      },
+      "2296-2565": {
+        "is_hybrid": {
+          "2020": "FALSE"
+        }
+      },
+      "2304-8158": {
+        "is_hybrid": {
+          "2021": "FALSE"
         }
       },
       "2324-9269": {
@@ -1478,6 +1847,11 @@
       "2328-9503": {
         "is_hybrid": {
           "2022": "FALSE"
+        }
+      },
+      "2332-7812": {
+        "is_hybrid": {
+          "2024": "FALSE"
         }
       },
       "2352-4928": {
@@ -1512,6 +1886,11 @@
           "2022": "FALSE"
         }
       },
+      "2379-5042": {
+        "is_hybrid": {
+          "2021": "FALSE"
+        }
+      },
       "2396-9873": {
         "publisher": {
           "2023": "SAGE Publications"
@@ -1520,6 +1899,31 @@
       "2399-2050": {
         "is_hybrid": {
           "2022": "FALSE"
+        }
+      },
+      "2405-8440": {
+        "is_hybrid": {
+          "2024": "FALSE"
+        }
+      },
+      "2452-302X": {
+        "is_hybrid": {
+          "2024": "FALSE"
+        }
+      },
+      "2468-0249": {
+        "is_hybrid": {
+          "2024": "FALSE"
+        }
+      },
+      "2468-3574": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2470-8542": {
+        "publisher": {
+          "2020": "IGI Global"
         }
       },
       "2470-9239": {
@@ -1537,10 +1941,21 @@
           "2025": "MIT Press - Journals"
         }
       },
+      "2473-9529": {
+        "is_hybrid": {
+          "2021": "FALSE",
+          "2023": "FALSE"
+        }
+      },
       "2475-1421": {
         "is_hybrid": {
           "2022": "FALSE",
           "2025": "FALSE"
+        }
+      },
+      "2504-284X": {
+        "is_hybrid": {
+          "2024": "FALSE"
         }
       },
       "2516-8401": {
@@ -1548,11 +1963,21 @@
           "2022": "FALSE"
         }
       },
+      "2520-8748": {
+        "is_hybrid": {
+          "2023": "FALSE"
+        }
+      },
       "2523-3963": {
         "doaj": {
           "2018": "FALSE",
           "2019": "FALSE",
           "2020": "FALSE"
+        }
+      },
+      "2573-3370": {
+        "publisher": {
+          "2020": "Mary Ann Liebert Inc"
         }
       },
       "2573-8488": {
@@ -1566,6 +1991,11 @@
           "2025": "FALSE"
         }
       },
+      "2576-098X": {
+        "is_hybrid": {
+          "2024": "FALSE"
+        }
+      },
       "2577-6576": {
         "doaj": {
           "2019": "FALSE"
@@ -1576,13 +2006,25 @@
           "2022": "FALSE"
         }
       },
+      "2625-2325": {
+        "is_hybrid": {
+          "2020": "FALSE",
+          "2021": "FALSE"
+        }
+      },
       "2628-5452": {
         "is_hybrid": {
           "2022": "FALSE"
         }
       },
+      "2628-9725": {
+        "is_hybrid": {
+          "2025": "FALSE"
+        }
+      },
       "2641-3337": {
         "publisher": {
+          "2022": "MIT Press - Journals",
           "2025": "MIT Press - Journals"
         }
       },
@@ -1594,6 +2036,26 @@
       "2666-061X": {
         "publisher": {
           "2022": "Elsevier BV"
+        }
+      },
+      "2666-0849": {
+        "is_hybrid": {
+          "2020": "FALSE"
+        }
+      },
+      "2666-7568": {
+        "is_hybrid": {
+          "2024": "FALSE"
+        }
+      },
+      "2673-6101": {
+        "is_hybrid": {
+          "2024": "FALSE"
+        }
+      },
+      "2674-0826": {
+        "is_hybrid": {
+          "2021": "FALSE"
         }
       },
       "2688-6146": {
@@ -1639,6 +2101,11 @@
           "2022": "FALSE"
         }
       },
+      "2698-4016": {
+        "is_hybrid": {
+          "2025": "FALSE"
+        }
+      },
       "2698-5977": {
         "is_hybrid": {
           "2022": "FALSE"
@@ -1654,13 +2121,37 @@
           "2022": "FALSE"
         }
       },
+      "2753-4294": {
+        "is_hybrid": {
+          "2024": "FALSE"
+        }
+      },
+      "2766-3604": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
       "2766-7820": {
         "publisher": {
           "2025": "Literature Publishers"
         }
+      },
+      "2813-2440": {
+        "is_hybrid": {
+          "2024": "FALSE"
+        }
       }
     },
-    "issn_electronic": {},
+    "issn_electronic": {
+      "2349-0381": {
+        "is_hybrid": {
+          "2024": "FALSE"
+        },
+        "publisher": {
+          "2024": "ARC Publications Pvt Ltd."
+        }
+      }
+    },
     "issn_l": {},
     "issn_print": {}
   },
@@ -1978,6 +2469,7 @@
     "European Journal of Public Health": "The European Journal of Public Health",
     "Europhysics Letters": "EPL (Europhysics Letters)",
     "Evaluation &amp; the Health Professions": "Evaluation & the Health Professions",
+    "Evidence & Policy": "Evidence & Policy: A Journal of Research, Debate and Practice",
     "Evidence &amp; Policy: A Journal of Research, Debate and Practice": "Evidence & Policy: A Journal of Research, Debate and Practice",
     "Evolution &amp; Development": "Evolution & Development",
     "Experimental &amp; Molecular Medicine": "Experimental & Molecular Medicine",
@@ -2006,6 +2498,7 @@
     "Genes &amp; Nutrition": "Genes & Nutrition",
     "Geological Society of America Bulletin": "GSA Bulletin",
     "Geophysical &amp; Astrophysical Fluid Dynamics": "Geophysical & Astrophysical Fluid Dynamics",
+    "Geophysics": "GEOPHYSICS",
     "Geospatial health": "Geospatial Health",
     "Geriatric Orthopaedic Surgery &amp; Rehabilitation": "Geriatric Orthopaedic Surgery & Rehabilitation",
     "Geriatrics &amp; Gerontology International": "Geriatrics & Gerontology International",
@@ -2253,6 +2746,7 @@
     "Pediatric Infectious Disease Journal": "The Pediatric Infectious Disease Journal",
     "Pharmacology &amp; Therapeutics": "Pharmacology & Therapeutics",
     "Pharmacology Research &amp; Perspectives": "Pharmacology Research & Perspectives",
+    "Philosophical Transactions of the Royal Society B": "Philosophical Transactions of the Royal Society B: Biological Sciences",
     "Philosophy &amp; Social Criticism": "Philosophy & Social Criticism",
     "Philosophy &amp; Technology": "Philosophy & Technology",
     "Photochem. Photobiol. Sci.": "Photochemical & Photobiological Sciences",
@@ -2340,6 +2834,7 @@
     "Statistics &amp; Probability Letters": "Statistics & Probability Letters",
     "Stem Cell Research &amp; Therapy": "Stem Cell Research & Therapy",
     "Stem Cells": "STEM CELLS",
+    "Stem Cells Translational Medicine": "STEM CELLS Translational Medicine",
     "Stochastics and  Partial Differential Equations: Analysis and Computations": "Stochastics and Partial Differential Equations: Analysis and Computations",
     "Structural Health Monitoring: An International Journal": "Structural Health Monitoring",
     "Studies in History and Philosophy of Science": "Studies in History and Philosophy of Science Part A",
@@ -2381,6 +2876,7 @@
     "The journal of nutrition, health &amp; aging": "The journal of nutrition, health & aging",
     "Theory, Culture &amp; Society": "Theory, Culture & Society",
     "Therapeutic Innovation &amp; Regulatory Science": "Therapeutic Innovation & Regulatory Science",
+    "Thyroid®": "Thyroid",
     "Tijdschrift voor Economische en Sociale Geografie": "Tijdschrift voor economische en sociale geografie",
     "Timing &amp; Time Perception": "Timing & Time Perception",
     "Transactions of the Royal Society of Tropical Medicine and Hygiene": "Transactions of The Royal Society of Tropical Medicine and Hygiene",
