@@ -770,6 +770,12 @@ JOURNAL_OWNER_CHANGED = {
 	"1757-7802": ["Wiley-Blackwell", "Elsevier BV"], # Regional Science Policy & Practice
 	"2036-7457": ["PAGEPress Publications", "Wiley-Blackwell"], # Mental Illness 
 	"2036-7465": ["PAGEPress Publications", "Wiley-Blackwell"], # Mental Illness (electronic)
+	"1741-0541": ["Future Medicine Ltd", "Informa UK Limited"], # Personalized Medicine 
+	"1744-828X": ["Future Medicine Ltd", "Informa UK Limited"], # Personalized Medicine (electronic)
+	"1755-2540": ["Wageningen Academic Publishers", "Walter de Gruyter GmbH"], # Comparative Exercise Physiology 
+	"1755-2559": ["Wageningen Academic Publishers", "Walter de Gruyter GmbH"], # Comparative Exercise Physiology (electronic)
+	"0091-6765": ["Environmental Health Perspectives", "American Chemical Society (ACS)"], # Environmental Health Perspectives 
+	"1552-9924": ["Environmental Health Perspectives", "American Chemical Society (ACS)"], # Environmental Health Perspectives (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
