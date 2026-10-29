@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 267,238 articles, published at 583 institutions under 315 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 267,264 articles, published at 583 institutions under 315 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -194,6 +194,7 @@ This dataset contains information on 267,238 articles, published at 583 institut
 |Thieme (KEMOE) 2024-2026                                                                                                                         |       75|
 |Oxford University Press (CzechELib) 2023-2025                                                                                                    |       73|
 |Association for Computing Machinery (CSAL) 2022-2025                                                                                             |       71|
+|Optica (TIB) 2023-2026                                                                                                                           |       71|
 |BMJ (BSB) 2023-2024                                                                                                                              |       67|
 |Association for Computing Machinery (FinELib) 2022-2024                                                                                          |       66|
 |IOP Publishing (CSIC) 2023-2025                                                                                                                  |       66|
@@ -227,7 +228,6 @@ This dataset contains information on 267,238 articles, published at 583 institut
 |ACM (hebis) 2021-2028                                                                                                                            |       45|
 |Cambridge University Press (CSIC) 2020-2022                                                                                                      |       45|
 |Emerald (CRUI-CARE) 2020-2024                                                                                                                    |       45|
-|Optica (TIB) 2023-2026                                                                                                                           |       45|
 |Cambridge University Press (CSIC) 2023-2025                                                                                                      |       44|
 |Association for Computing Machinery (KEMOE) 2025-2029                                                                                            |       43|
 |Cambridge University Press (CzechELib) 2023-2025                                                                                                 |       43|
@@ -424,8 +424,8 @@ This dataset contains information on 267,238 articles, published at 583 institut
 |Marburg U                                                                             |      987|
 |Kiel U                                                                                |      983|
 |Hannover U                                                                            |      944|
+|DLR                                                                                   |      936|
 |University of Cambridge                                                               |      912|
-|DLR                                                                                   |      910|
 |Hohenheim U                                                                           |      885|
 |University of Oxford                                                                  |      883|
 |Uppsala University                                                                    |      869|
