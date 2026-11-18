@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 267,269 articles, published at 583 institutions under 315 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 267,276 articles, published at 583 institutions under 315 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -26,11 +26,11 @@ This dataset contains information on 267,269 articles, published at 583 institut
 |:------------------------------------------------------------------------------------------------------------------------------------------------|--------:|
 |Springer Nature (DEAL) 2020-2023                                                                                                                 |    31287|
 |Wiley (DEAL) 2019-2023                                                                                                                           |    20847|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |    13354|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |    13359|
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     9437|
-|Wiley (DEAL) 2024-2028                                                                                                                           |     7130|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     9438|
+|Wiley (DEAL) 2024-2028                                                                                                                           |     7131|
 |Elsevier (CSAL) 2024-2028                                                                                                                        |     5905|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
@@ -624,13 +624,13 @@ This dataset contains information on 267,269 articles, published at 583 institut
 |Université de Sherbrooke                                                              |       91|
 |Sigmund Freud Privatuniversität Wien                                                  |       90|
 |Finnish Institute of Occupational Health                                              |       88|
+|GESIS                                                                                 |       87|
 |Royal Holloway                                                                        |       87|
 |Bauhaus-Universität Weimar                                                            |       86|
 |City University London                                                                |       86|
 |University of Windsor                                                                 |       84|
 |Karlstad University                                                                   |       82|
 |Sheffield Hallam University                                                           |       82|
-|GESIS                                                                                 |       80|
 |University West                                                                       |       80|
 |Université du Québec à Montréal                                                       |       80|
 |University of Portsmouth                                                              |       78|
