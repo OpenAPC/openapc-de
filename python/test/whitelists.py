@@ -92,8 +92,8 @@ JOURNAL_OWNER_CHANGED = {
     "1097-3958": ["Springer Nature", "Wiley-Blackwell"], # Journal of Surfactants and Detergents
     "1558-9293": ["Springer Nature", "Wiley-Blackwell"], # Journal of Surfactants and Detergents (electronic)
     "1526-9914": ["Multimed Inc.", "Wiley-Blackwell"], # Journal of Applied Clinical Medical Physics
-    "1559-2448": ["International Food and Agribusiness Management Association", "Wageningen Academic Publishers"], # International Food and Agribusiness Management Review
-    "1096-7508": ["International Food and Agribusiness Management Association", "Wageningen Academic Publishers"], # International Food and Agribusiness Management Review (linking)
+    "1559-2448": ["International Food and Agribusiness Management Association", "Wageningen Academic Publishers", "Walter de Gruyter GmbH"], # International Food and Agribusiness Management Review
+    "1096-7508": ["International Food and Agribusiness Management Association", "Wageningen Academic Publishers", "Walter de Gruyter GmbH"], # International Food and Agribusiness Management Review (linking)
     "1528-3658": ["The Feinstein Institute for Medical Research (North Shore LIJ Research Institute)", "Springer Nature"], # Molecular Medicine 
     "1076-1551": ["The Feinstein Institute for Medical Research (North Shore LIJ Research Institute)", "Springer Nature"], # Molecular Medicine (linking)
     "2049-1115": ["HAU, Journal of Ethnographic Theory", "University of Chicago Press"], # HAU: Journal of Ethnographic Theory
@@ -776,6 +776,10 @@ JOURNAL_OWNER_CHANGED = {
 	"1755-2559": ["Wageningen Academic Publishers", "Walter de Gruyter GmbH"], # Comparative Exercise Physiology (electronic)
 	"0091-6765": ["Environmental Health Perspectives", "American Chemical Society (ACS)"], # Environmental Health Perspectives 
 	"1552-9924": ["Environmental Health Perspectives", "American Chemical Society (ACS)"], # Environmental Health Perspectives (electronic)
+	"1104-6899": ["Now Publishers", "Emerald"], # Journal of Forest Economics 
+	"1618-1530": ["Now Publishers", "Emerald"], # Journal of Forest Economics (electronic)
+	"1611-4426": ["International Society for Horticultural Science (ISHS)", "CABI Publishing"], # European Journal of Horticultural Science 
+	"1611-4434": ["International Society for Horticultural Science (ISHS)", "CABI Publishing"], # European Journal of Horticultural Science (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1391,6 +1395,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2193-5343", # Arabian Journal of Mathematics, Hybrid OA since 2025
     "1869-5469", # Social Network Analysis and Mining, Gold OA since 2025
     "0019-9567", # Infection and Immunity, S2O since 2025
+    "1477-8920", # Journal of Water and Health, Gold OA since 2021
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
