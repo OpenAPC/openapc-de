@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 267,264 articles, published at 583 institutions under 315 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 267,265 articles, published at 583 institutions under 315 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -30,7 +30,7 @@ This dataset contains information on 267,264 articles, published at 583 institut
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
 |Elsevier (DEAL) 2023-2028                                                                                                                        |     9437|
-|Wiley (DEAL) 2024-2028                                                                                                                           |     7129|
+|Wiley (DEAL) 2024-2028                                                                                                                           |     7130|
 |Elsevier (CSAL) 2024-2028                                                                                                                        |     5905|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
@@ -353,7 +353,7 @@ This dataset contains information on 267,264 articles, published at 583 institut
 |ETH Zurich                                                                            |     6479|
 |University of Helsinki                                                                |     6455|
 |French institutions                                                                   |     5753|
-|TU Muenchen                                                                           |     5040|
+|TU Muenchen                                                                           |     5041|
 |Medical University of Vienna                                                          |     4927|
 |FWF - Austrian Science Fund                                                           |     4797|
 |University of Vienna                                                                  |     4623|
