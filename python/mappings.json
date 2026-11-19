@@ -1781,6 +1781,14 @@
           "2020": "FALSE"
         }
       },
+      "1947-3451": {
+        "is_hybrid": {
+          "2025": "FALSE"
+        },
+        "publisher": {
+          "2025": "IGI Global"
+        }
+      },
       "1947-5535": {
         "publisher": {
           "2025": "Mary Ann Liebert Inc"
@@ -2039,6 +2047,11 @@
       "2075-4426": {
         "is_hybrid": {
           "2025": "FALSE"
+        }
+      },
+      "2077-1517": {
+        "publisher": {
+          "2025": "Österreichische Akademie der Wissenschaften"
         }
       },
       "2150-8925": {
