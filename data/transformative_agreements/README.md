@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 267,276 articles, published at 583 institutions under 315 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 267,277 articles, published at 583 institutions under 315 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -285,11 +285,11 @@ This dataset contains information on 267,276 articles, published at 583 institut
 |aip2026ie                                                                                                                                        |       10|
 |Cambridge University Press (German Academic Consortium, 106 participants, administered by Bayerische Staatsbibliothek) 2025-2027                 |        9|
 |John Benjamins (HU Berlin) 2022-2024                                                                                                             |        9|
+|The Royal Society (TIB) 2024-2024                                                                                                                |        9|
 |ACS (University of Jyväskylä) 2025-2026                                                                                                          |        8|
 |IReL ECS Agreement                                                                                                                               |        8|
 |OUP (Uni Bayreuth) 2024-2026                                                                                                                     |        8|
 |Portland Press (CSIC) 2023-2024                                                                                                                  |        8|
-|The Royal Society (TIB) 2024-2024                                                                                                                |        8|
 |Thieme 2 (ZB MED) 2021-2025                                                                                                                      |        8|
 |SPIE (TIB) 2024-2026                                                                                                                             |        7|
 |Walter de Gruyter (KEMOE) 2022-2024                                                                                                              |        7|
@@ -412,7 +412,7 @@ This dataset contains information on 267,276 articles, published at 583 institut
 |Lappeenranta-Lahti University of Technology LUT                                       |     1175|
 |University of Toronto                                                                 |     1150|
 |Dublin City University                                                                |     1149|
-|HU Berlin                                                                             |     1108|
+|HU Berlin                                                                             |     1109|
 |Fraunhofer-Gesellschaft                                                               |     1100|
 |Greifswald U                                                                          |     1091|
 |Karolinska Institutet                                                                 |     1061|
