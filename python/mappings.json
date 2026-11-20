@@ -773,7 +773,8 @@
       },
       "1050-7256": {
         "publisher": {
-          "2023": "Mary Ann Liebert Inc"
+          "2023": "Mary Ann Liebert Inc",
+          "2025": "Mary Ann Liebert Inc"
         }
       },
       "1053-8119": {
@@ -891,9 +892,13 @@
         }
       },
       "1303-2968": {
+        "is_hybrid": {
+          "2025": "FALSE"
+        },
         "publisher": {
           "2022": "University of Uludag",
-          "2023": "University of Uludag"
+          "2023": "University of Uludag",
+          "2025": "University of Uludag"
         }
       },
       "1305-8215": {
@@ -2059,6 +2064,11 @@
           "2022": "FALSE"
         }
       },
+      "2152-7806": {
+        "is_hybrid": {
+          "2025": "FALSE"
+        }
+      },
       "2155-6849": {
         "is_hybrid": {
           "2025": "FALSE"
@@ -2260,7 +2270,8 @@
       },
       "2327-9125": {
         "is_hybrid": {
-          "2021": "FALSE"
+          "2021": "FALSE",
+          "2025": "FALSE"
         }
       },
       "2328-9503": {
@@ -2425,6 +2436,16 @@
           "2020": "FALSE"
         }
       },
+      "2524-8987": {
+        "publisher": {
+          "2025": "Springer Nature"
+        }
+      },
+      "2572-5017": {
+        "is_hybrid": {
+          "2025": "FALSE"
+        }
+      },
       "2573-3370": {
         "publisher": {
           "2020": "Mary Ann Liebert Inc"
@@ -2515,7 +2536,8 @@
       "2641-4368": {
         "publisher": {
           "2022": "MIT Press - Journals",
-          "2024": "MIT Press - Journals"
+          "2024": "MIT Press - Journals",
+          "2025": "MIT Press - Journals"
         }
       },
       "2642-3561": {
@@ -2660,6 +2682,11 @@
       "2766-7820": {
         "publisher": {
           "2025": "Literature Publishers"
+        }
+      },
+      "2769-7525": {
+        "is_hybrid": {
+          "2025": "FALSE"
         }
       },
       "2813-2440": {
@@ -3066,6 +3093,7 @@
     "IET Microwaves, Antennas &amp; Propagation": "IET Microwaves, Antennas & Propagation",
     "IET Radar, Sonar &amp; Navigation": "IET Radar, Sonar & Navigation",
     "IJC Heart &amp; Vasculature": "IJC Heart & Vasculature",
+    "IJTLD Open": "IJTLD OPEN",
     "INTERNATIONAL JOURNAL OF SYSTEMATIC AND EVOLUTIONARY MICROBIOLOGY": "International Journal of Systematic and Evolutionary Microbiology",
     "ISME Journal": "The ISME Journal",
     "Immunity &amp; Ageing": "Immunity & Ageing",
@@ -3318,6 +3346,7 @@
     "Polym. Chem.": "Polymer Chemistry",
     "Primary Health Care Research &amp; Development": "Primary Health Care Research & Development",
     "Proceedings in Applied Mathematics and Mechanics": "PAMM",
+    "Proceedings of IAHS": "Proceedings of the International Association of Hydrological Sciences",
     "Proceedings of the Institution of Civil Engineers - Geotechnical Engineering": "Proceedings of the ICE - Geotechnical Engineering",
     "Proceedings of the Royal Society A: Mathematical, Physical and Engineering Science": "Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences",
     "Production Planning &amp; Control": "Production Planning & Control",

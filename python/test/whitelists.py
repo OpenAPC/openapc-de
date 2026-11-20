@@ -388,6 +388,7 @@ JOURNAL_OWNER_CHANGED = {
     "1059-7700": ["Springer Nature", "Wiley-Blackwell"], # Journal of Genetic Counseling 
     "1573-3599": ["Springer Nature", "Wiley-Blackwell"], # Journal of Genetic Counseling (electronic)
     "2152-7806": ["Medknow", "Scientific Scholar"], # Surgical Neurology International
+    "2229-5097": ["Medknow", "Scientific Scholar"], # Surgical Neurology International (print)
     "1365-2672": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Applied Microbiology 
 	"1364-5072": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Applied Microbiology (linking)
 	"1040-4651": ["American Society of Plant Biologists (ASPB)", "Oxford University Press (OUP)"], # The Plant Cell 
@@ -1396,6 +1397,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1869-5469", # Social Network Analysis and Mining, Gold OA since 2025
     "0019-9567", # Infection and Immunity, S2O since 2025
     "1477-8920", # Journal of Water and Health, Gold OA since 2021
+    "0021-9193", # Journal of Bacteriology, S2O since 2025
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
