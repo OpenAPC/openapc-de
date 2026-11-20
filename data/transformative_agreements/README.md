@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 267,277 articles, published at 583 institutions under 315 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 267,276 articles, published at 583 institutions under 315 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -26,7 +26,7 @@ This dataset contains information on 267,277 articles, published at 583 institut
 |:------------------------------------------------------------------------------------------------------------------------------------------------|--------:|
 |Springer Nature (DEAL) 2020-2023                                                                                                                 |    31287|
 |Wiley (DEAL) 2019-2023                                                                                                                           |    20847|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |    13359|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |    13358|
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
 |Elsevier (DEAL) 2023-2028                                                                                                                        |     9438|
@@ -432,7 +432,7 @@ This dataset contains information on 267,277 articles, published at 583 institut
 |Salzburg U                                                                            |      866|
 |Åbo Akademi University                                                                |      864|
 |University of Fribourg                                                                |      853|
-|Regensburg U                                                                          |      838|
+|Regensburg U                                                                          |      837|
 |University of Gothenburg                                                              |      820|
 |Charles University                                                                    |      819|
 |PSI - Paul Scherrer Institute                                                         |      805|
