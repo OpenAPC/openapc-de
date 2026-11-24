@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 267,282 articles, published at 583 institutions under 315 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 267,501 articles, published at 583 institutions under 315 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -26,11 +26,11 @@ This dataset contains information on 267,282 articles, published at 583 institut
 |:------------------------------------------------------------------------------------------------------------------------------------------------|--------:|
 |Springer Nature (DEAL) 2020-2023                                                                                                                 |    31287|
 |Wiley (DEAL) 2019-2023                                                                                                                           |    20847|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |    13358|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |    13425|
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     9444|
-|Wiley (DEAL) 2024-2028                                                                                                                           |     7131|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     9540|
+|Wiley (DEAL) 2024-2028                                                                                                                           |     7187|
 |Elsevier (CSAL) 2024-2028                                                                                                                        |     5905|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
@@ -413,6 +413,7 @@ This dataset contains information on 267,282 articles, published at 583 institut
 |University of Toronto                                                                 |     1150|
 |Dublin City University                                                                |     1149|
 |HU Berlin                                                                             |     1109|
+|Hohenheim U                                                                           |     1104|
 |Fraunhofer-Gesellschaft                                                               |     1100|
 |Greifswald U                                                                          |     1091|
 |Karolinska Institutet                                                                 |     1061|
@@ -426,7 +427,6 @@ This dataset contains information on 267,282 articles, published at 583 institut
 |Hannover U                                                                            |      944|
 |DLR                                                                                   |      936|
 |University of Cambridge                                                               |      912|
-|Hohenheim U                                                                           |      885|
 |University of Oxford                                                                  |      883|
 |Uppsala University                                                                    |      869|
 |Salzburg U                                                                            |      866|
