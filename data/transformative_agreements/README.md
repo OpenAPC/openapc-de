@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 267,276 articles, published at 583 institutions under 315 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 267,282 articles, published at 583 institutions under 315 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -29,7 +29,7 @@ This dataset contains information on 267,276 articles, published at 583 institut
 |Springer Nature (DEAL) 2024-2028                                                                                                                 |    13358|
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     9438|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     9444|
 |Wiley (DEAL) 2024-2028                                                                                                                           |     7131|
 |Elsevier (CSAL) 2024-2028                                                                                                                        |     5905|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
@@ -646,6 +646,7 @@ This dataset contains information on 267,276 articles, published at 583 institut
 |Bournemouth University                                                                |       71|
 |South East Technological University                                                   |       71|
 |Munster Technological University                                                      |       70|
+|Aachen FH                                                                             |       69|
 |Universität Erfurt                                                                    |       68|
 |Mid Sweden University                                                                 |       67|
 |University of Stirling                                                                |       66|
@@ -653,7 +654,6 @@ This dataset contains information on 267,276 articles, published at 583 institut
 |Wilfrid Laurier University                                                            |       65|
 |Leibniz-IZW                                                                           |       64|
 |Manchester Metropolitan University                                                    |       64|
-|Aachen FH                                                                             |       63|
 |Institute for Advanced Studies Vienna                                                 |       62|
 |Hertie School                                                                         |       61|
 |Technological University of the Shannon: Midlands Midwest                             |       61|
