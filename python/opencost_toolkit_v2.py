@@ -382,10 +382,10 @@ def process_opencost_oai_records(processing_instructions=None, validate_only=Fal
                             if key == "euro":
                                 if not oat.has_value(publication["euro"]):
                                     publication["euro"] = "NA"
-                                #else:
-                                #    euro_float = oat._auto_atof(publication["euro"])
-                                #    if euro_float is not None and euro_float == 0.0:
-                                #    publication["euro"] = "NA"
+                                else:
+                                    euro_float = oat._auto_atof(publication["euro"])
+                                    if euro_float is not None and euro_float == 0.0:
+                                        publication["euro"] = "NA"
                 extracted_publications += publications
 
     if validate_only:
