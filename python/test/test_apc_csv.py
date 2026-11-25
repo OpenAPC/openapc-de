@@ -337,7 +337,7 @@ def check_apc_field_content(row_object):
     if row_object.origin == "ta":
         if not oat.has_value(row['agreement']):
             fail(line_str + 'the column "agreement" must not be empty')
-    if not row_object.origin == "ta":
+    if not (row_object.origin == "ta" and row['euro'] == 'NA'):
         try:
             euro = float(row['euro'])
             if euro <= 0:
