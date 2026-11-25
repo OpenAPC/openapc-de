@@ -781,6 +781,7 @@ JOURNAL_OWNER_CHANGED = {
 	"1618-1530": ["Now Publishers", "Emerald"], # Journal of Forest Economics (electronic)
 	"1611-4426": ["International Society for Horticultural Science (ISHS)", "CABI Publishing"], # European Journal of Horticultural Science 
 	"1611-4434": ["International Society for Horticultural Science (ISHS)", "CABI Publishing"], # European Journal of Horticultural Science (electronic)
+	"2379-6227": ["MIT Press - Journals", "Ubiquity Press, Ltd."], # Computational Psychiatry 
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
