@@ -337,7 +337,7 @@ def check_apc_field_content(row_object):
     if row_object.origin == "ta":
         if not oat.has_value(row['agreement']):
             fail(line_str + 'the column "agreement" must not be empty')
-    if not row_object.origin == "ta":
+    if not (row_object.origin == "ta" and row['euro'] == 'NA'):
         try:
             euro = float(row['euro'])
             if euro <= 0:
@@ -393,6 +393,12 @@ def check_bpc_field_content(row_object):
         fail(line_str + 'value in row "backlist_oa" must either be TRUE or FALSE')
     if row['doab'] not in ["TRUE", "FALSE"]:
         fail(line_str + 'value in row "doab" must either be TRUE or FALSE')
+    try:
+        euro = float(row['euro'])
+        if euro <= 0:
+            fail(line_str + 'value in row "euro" (' + row['euro'] + ') must be larger than 0')
+    except ValueError:
+        fail(line_str + 'value in row "euro" (' + row['euro'] + ') is no valid number')
 
 def check_contract_field_content(row_object):
     __tracebackhide__ = True
