@@ -1491,6 +1491,8 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "02hpadn98_sn2024deal_2025", # Bielefeld U
     "02hpadn98_els2023deal_2024", # Bielefeld U
     "02hpadn98_els2023deal_2025", # Bielefeld U
+    "00rcxh774_els2023deal_2025", # Koeln U
+    "00rcxh774_rup2024zbmed_2025", # Koeln U
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
