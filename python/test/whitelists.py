@@ -1399,6 +1399,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0019-9567", # Infection and Immunity, S2O since 2025
     "1477-8920", # Journal of Water and Health, Gold OA since 2021
     "0021-9193", # Journal of Bacteriology, S2O since 2025
+    "0933-7407", # Mycoses, Gold OA since Vol. 68, Iss. 10 (2025) 
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
