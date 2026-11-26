@@ -781,6 +781,7 @@ JOURNAL_OWNER_CHANGED = {
 	"1618-1530": ["Now Publishers", "Emerald"], # Journal of Forest Economics (electronic)
 	"1611-4426": ["International Society for Horticultural Science (ISHS)", "CABI Publishing"], # European Journal of Horticultural Science 
 	"1611-4434": ["International Society for Horticultural Science (ISHS)", "CABI Publishing"], # European Journal of Horticultural Science (electronic)
+	"2379-6227": ["MIT Press - Journals", "Ubiquity Press, Ltd."], # Computational Psychiatry 
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1398,6 +1399,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0019-9567", # Infection and Immunity, S2O since 2025
     "1477-8920", # Journal of Water and Health, Gold OA since 2021
     "0021-9193", # Journal of Bacteriology, S2O since 2025
+    "0933-7407", # Mycoses, Gold OA since Vol. 68, Iss. 10 (2025) 
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
@@ -1489,6 +1491,8 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "02hpadn98_sn2024deal_2025", # Bielefeld U
     "02hpadn98_els2023deal_2024", # Bielefeld U
     "02hpadn98_els2023deal_2025", # Bielefeld U
+    "00rcxh774_els2023deal_2025", # Koeln U
+    "00rcxh774_rup2024zbmed_2025", # Koeln U
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
